@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TataMotors" time="100.616" tests="1" failures="1" errors="0">
+   <testsuite name="TataMotors" tests="1" failures="1" errors="0" time="100.616" skipped="0" timestamp="01-03-2024T17:06:33" hostname="Sushil.Gaikwad - DS025.step.com" id="Test Suites/TataMotors">
+      <properties>
+         <property name="deviceName" value="samsung SM-A032F (Android 13)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\sushil.gaikwad\\Downloads\\tatamotarsdemo 1\\tatamotarsdemo\\Reports\\20240301_170628\\TataMotors\\20240301_170628"/>
+         <property name="logFiles" value="C:\\Users\\sushil.gaikwad\\Downloads\\tatamotarsdemo 1\\tatamotarsdemo\\Reports\\20240301_170628\\TataMotors\\20240301_170628\\appium.log, C:\\Users\\sushil.gaikwad\\Downloads\\tatamotarsdemo 1\\tatamotarsdemo\\Reports\\20240301_170628\\TataMotors\\20240301_170628\\appium_error.log, C:\\Users\\sushil.gaikwad\\Downloads\\tatamotarsdemo 1\\tatamotarsdemo\\Reports\\20240301_170628\\TataMotors\\20240301_170628\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\sushil.gaikwad\\Downloads\\tatamotarsdemo 1\\tatamotarsdemo\\Reports\\20240301_170628\\TataMotors\\20240301_170628\\1709293072206.png, C:\\Users\\sushil.gaikwad\\Downloads\\tatamotarsdemo 1\\tatamotarsdemo\\Reports\\20240301_170628\\TataMotors\\20240301_170628\\1709293090699.png, C:\\Users\\sushil.gaikwad\\Downloads\\tatamotarsdemo 1\\tatamotarsdemo\\Reports\\20240301_170628\\TataMotors\\20240301_170628\\1709293093460.png"/>
+         <property name="hostName" value="Sushil.Gaikwad - DS025.step.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="SM-A032F"/>
+         <property name="hostAddress" value="192.168.0.126"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="R9ZT10H9Y2L"/>
+         <property name="deviceName" value="samsung SM-A032F (Android 13)"/>
+         <property name="deviceOSVersion" value="13"/>
+      </properties>
+      <testcase name="Test Cases/TC/TC_09 - Non Lost Functionality" time="99.931" classname="Test Cases/TC/TC_09 - Non Lost Functionality" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC/TC_09 - Non Lost Functionality FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Failed to tap on element 'Object Repository/Lost and Non Lost Functionality/Edit Pencil border'&#xa;	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)&#xa;	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)&#xa;	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:51)&#xa;	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:35)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)&#xa;	at TC_09 - Non Lost Functionality.run(TC_09 - Non Lost Functionality:70)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1709292988345.run(TempTestSuite1709292988345.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: org.openqa.selenium.StaleElementReferenceException: Cached elements 'By.xpath: //hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.ImageView[1]' do not exist in DOM anymore&#xa;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html&#xa;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'&#xa;System info: host: 'DS025', ip: '192.168.0.126', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'&#xa;Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver&#xa;Capabilities {app: C:\Users\sushil.gaikwad\Dow..., appPackage: com.tatamotors.egurusmart, autoGrantPermissions: true, automationName: uiautomator2, databaseEnabled: false, desired: {app: C:\Users\sushil.gaikwad\Dow..., autoGrantPermissions: true, automationName: uiautomator2, deviceId: R9ZT10H9Y2L, deviceName: samsung SM-A032F (Android 13), fullReset: true, newCommandTimeout: 1800, noReset: false, platformName: android, platformVersion: 13, systemPort: 52026, udid: R9ZT10H9Y2L}, deviceApiLevel: 33, deviceId: R9ZT10H9Y2L, deviceManufacturer: samsung, deviceModel: SM-A032F, deviceName: R9ZT10H9Y2L, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: R9ZT10H9Y2L, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: false, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 48, systemPort: 52026, takesScreenshot: true, udid: R9ZT10H9Y2L, viewportRect: {height: 1411, left: 0, top: 48, width: 720}, warnings: {}, webStorageEnabled: false}&#xa;Session ID: 981cf65b-f19b-47e8-b9af-c44316e23c7e&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xa;	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xa;	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xa;	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)&#xa;	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)&#xa;	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)&#xa;	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)&#xa;	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)&#xa;	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)&#xa;	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.getLocation(RemoteWebElement.java:337)&#xa;	at org.openqa.selenium.WebElement$getLocation.call(Unknown Source)&#xa;	at com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword.findElement(MobileAbstractKeyword.groovy:86)&#xa;	at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:43)&#xa;	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)&#xa;	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:19)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[01-03-2024T17:06:34 - [TEST_CASE][FAILED] - Test Cases/TC/TC_09 - Non Lost Functionality: Test Cases/TC/TC_09 - Non Lost Functionality FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to tap on element 'Object Repository/Lost and Non Lost Functionality/Edit Pencil border'
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:35)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at TC_09 - Non Lost Functionality.run(TC_09 - Non Lost Functionality:70)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709292988345.run(TempTestSuite1709292988345.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.StaleElementReferenceException: Cached elements 'By.xpath: //hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.ImageView[1]' do not exist in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DS025', ip: '192.168.0.126', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: C:\Users\sushil.gaikwad\Dow..., appPackage: com.tatamotors.egurusmart, autoGrantPermissions: true, automationName: uiautomator2, databaseEnabled: false, desired: {app: C:\Users\sushil.gaikwad\Dow..., autoGrantPermissions: true, automationName: uiautomator2, deviceId: R9ZT10H9Y2L, deviceName: samsung SM-A032F (Android 13), fullReset: true, newCommandTimeout: 1800, noReset: false, platformName: android, platformVersion: 13, systemPort: 52026, udid: R9ZT10H9Y2L}, deviceApiLevel: 33, deviceId: R9ZT10H9Y2L, deviceManufacturer: samsung, deviceModel: SM-A032F, deviceName: R9ZT10H9Y2L, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: R9ZT10H9Y2L, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: false, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 48, systemPort: 52026, takesScreenshot: true, udid: R9ZT10H9Y2L, viewportRect: {height: 1411, left: 0, top: 48, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 981cf65b-f19b-47e8-b9af-c44316e23c7e
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.getLocation(RemoteWebElement.java:337)
+	at org.openqa.selenium.WebElement$getLocation.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword.findElement(MobileAbstractKeyword.groovy:86)
+	at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:19)
+	... 20 more
+
+
+01-03-2024T17:06:36 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CommenWorkflows/Login"), ["Str_URL":"C:\Users\sushil.gaikwad\Downloads\tatamotarsdemo 1\tatamotarsdemo\Application\app-release 2.apk", "Str_Username":"DUSER145", ... ], STOP_ON_FAILURE): Call Test Case 'Test Cases/CommenWorkflows/Login' successfully
+
+01-03-2024T17:06:37 - [TEST_CASE][PASSED] - Test Cases/CommenWorkflows/Login: Test Cases/CommenWorkflows/Login
+
+01-03-2024T17:06:37 - [TEST_STEP][PASSED] - startApplication(Str_URL, true): Started app at: 'C:\Users\sushil.gaikwad\Downloads\tatamotarsdemo 1\tatamotarsdemo\Application\app-release 2.apk'
+
+01-03-2024T17:06:38 - [MESSAGE][INFO] - User set preference: ['deviceId', 'R9ZT10H9Y2L']
+
+01-03-2024T17:06:38 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+01-03-2024T17:06:42 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+01-03-2024T17:06:42 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\sushil.gaikwad\AppData\Roaming\npm\node_modules\appium\build\lib\main.js
+
+01-03-2024T17:06:42 - [MESSAGE][INFO] - appium outlog: C:\Users\sushil.gaikwad\Downloads\tatamotarsdemo 1\tatamotarsdemo\Reports\20240301_170628\TataMotors\20240301_170628\appium.log
+
+01-03-2024T17:06:42 - [MESSAGE][INFO] - appium errlog: C:\Users\sushil.gaikwad\Downloads\tatamotarsdemo 1\tatamotarsdemo\Reports\20240301_170628\TataMotors\20240301_170628\appium_error.log
+
+01-03-2024T17:06:45 - [MESSAGE][INFO] - Appium server started on port 52,027
+
+01-03-2024T17:07:12 - [MESSAGE][PASSED] - Started app at: 'C:\Users\sushil.gaikwad\Downloads\tatamotarsdemo 1\tatamotarsdemo\Application\app-release 2.apk'
+
+01-03-2024T17:07:12 - [TEST_STEP][PASSED] - Bool_Username = waitForElementPresent(findTestObject("LockScreen/UsernaneText"), 30): Element 'Object Repository/LockScreen/UsernaneText' is present
+
+01-03-2024T17:07:13 - [MESSAGE][PASSED] - Element 'Object Repository/LockScreen/UsernaneText' is present
+
+01-03-2024T17:07:13 - [TEST_STEP][PASSED] - if (Bool_Username == true): Tapped on element 'Object Repository/LockScreen/NewPin/OkButton'
+
+01-03-2024T17:07:13 - [TEST_STEP][PASSED] - setText(findTestObject("LockScreen/Username"), Str_Username, 0): Text 'DUSER145' has been set to element 'Object Repository/LockScreen/Username'
+
+01-03-2024T17:07:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T17:07:18 - [MESSAGE][PASSED] - Text 'DUSER145' has been set to element 'Object Repository/LockScreen/Username'
+
+01-03-2024T17:07:18 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+01-03-2024T17:07:20 - [MESSAGE][PASSED] - Keyboard is hidden
+
+01-03-2024T17:07:20 - [TEST_STEP][PASSED] - setText(findTestObject("LockScreen/Password"), Str_Password, 0): Text 'Soct#2023' has been set to element 'Object Repository/LockScreen/Password'
+
+01-03-2024T17:07:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T17:07:22 - [MESSAGE][PASSED] - Text 'Soct#2023' has been set to element 'Object Repository/LockScreen/Password'
+
+01-03-2024T17:07:22 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+01-03-2024T17:07:26 - [MESSAGE][PASSED] - Keyboard is hidden
+
+01-03-2024T17:07:26 - [TEST_STEP][PASSED] - tap(findTestObject("LockScreen/LoginButton"), 0): Tapped on element 'Object Repository/LockScreen/LoginButton'
+
+01-03-2024T17:07:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T17:07:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LockScreen/LoginButton'
+
+01-03-2024T17:07:27 - [TEST_STEP][PASSED] - setText(findTestObject("LockScreen/NewPin/NewPin1"), "1", 0): Text '1' has been set to element 'Object Repository/LockScreen/NewPin/NewPin1'
+
+01-03-2024T17:07:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T17:07:30 - [MESSAGE][PASSED] - Text '1' has been set to element 'Object Repository/LockScreen/NewPin/NewPin1'
+
+01-03-2024T17:07:30 - [TEST_STEP][PASSED] - setText(findTestObject("LockScreen/NewPin/NewPin2"), "2", 0): Text '2' has been set to element 'Object Repository/LockScreen/NewPin/NewPin2'
+
+01-03-2024T17:07:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T17:07:31 - [MESSAGE][PASSED] - Text '2' has been set to element 'Object Repository/LockScreen/NewPin/NewPin2'
+
+01-03-2024T17:07:31 - [TEST_STEP][PASSED] - setText(findTestObject("LockScreen/NewPin/NewPin3"), "3", 0): Text '3' has been set to element 'Object Repository/LockScreen/NewPin/NewPin3'
+
+01-03-2024T17:07:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T17:07:33 - [MESSAGE][PASSED] - Text '3' has been set to element 'Object Repository/LockScreen/NewPin/NewPin3'
+
+01-03-2024T17:07:33 - [TEST_STEP][PASSED] - setText(findTestObject("LockScreen/NewPin/NewPin4"), "4", 0): Text '4' has been set to element 'Object Repository/LockScreen/NewPin/NewPin4'
+
+01-03-2024T17:07:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T17:07:34 - [MESSAGE][PASSED] - Text '4' has been set to element 'Object Repository/LockScreen/NewPin/NewPin4'
+
+01-03-2024T17:07:34 - [TEST_STEP][PASSED] - setText(findTestObject("LockScreen/NewPin/ConfirmPin1"), "1", 0): Text '1' has been set to element 'Object Repository/LockScreen/NewPin/ConfirmPin1'
+
+01-03-2024T17:07:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T17:07:36 - [MESSAGE][PASSED] - Text '1' has been set to element 'Object Repository/LockScreen/NewPin/ConfirmPin1'
+
+01-03-2024T17:07:36 - [TEST_STEP][PASSED] - setText(findTestObject("LockScreen/NewPin/ConfirmPin2"), "2", 0): Text '2' has been set to element 'Object Repository/LockScreen/NewPin/ConfirmPin2'
+
+01-03-2024T17:07:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T17:07:38 - [MESSAGE][PASSED] - Text '2' has been set to element 'Object Repository/LockScreen/NewPin/ConfirmPin2'
+
+01-03-2024T17:07:38 - [TEST_STEP][PASSED] - setText(findTestObject("LockScreen/NewPin/ConfirmPin3"), "3", 0): Text '3' has been set to element 'Object Repository/LockScreen/NewPin/ConfirmPin3'
+
+01-03-2024T17:07:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T17:07:39 - [MESSAGE][PASSED] - Text '3' has been set to element 'Object Repository/LockScreen/NewPin/ConfirmPin3'
+
+01-03-2024T17:07:39 - [TEST_STEP][PASSED] - setText(findTestObject("LockScreen/NewPin/ConfirmPin4"), "4", 0): Text '4' has been set to element 'Object Repository/LockScreen/NewPin/ConfirmPin4'
+
+01-03-2024T17:07:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T17:07:41 - [MESSAGE][PASSED] - Text '4' has been set to element 'Object Repository/LockScreen/NewPin/ConfirmPin4'
+
+01-03-2024T17:07:41 - [TEST_STEP][PASSED] - Bool_Offline = waitForElementPresent(findTestObject("LockScreen/NewPin/Offline Master Sync"), 30): Element 'Object Repository/LockScreen/NewPin/Offline Master Sync' is present
+
+01-03-2024T17:07:42 - [MESSAGE][PASSED] - Element 'Object Repository/LockScreen/NewPin/Offline Master Sync' is present
+
+01-03-2024T17:07:42 - [TEST_STEP][PASSED] - if (Bool_Offline == true): Tapped on element 'Object Repository/LockScreen/NewPin/OkButton'
+
+01-03-2024T17:07:42 - [TEST_STEP][PASSED] - tap(findTestObject("LockScreen/NewPin/OkButton"), 0): Tapped on element 'Object Repository/LockScreen/NewPin/OkButton'
+
+01-03-2024T17:07:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T17:07:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LockScreen/NewPin/OkButton'
+
+01-03-2024T17:07:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommenWorkflows/Login' successfully
+
+01-03-2024T17:07:43 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("TataMotars/HomeButton"), 30): Element 'Object Repository/TataMotars/HomeButton' is exist
+
+01-03-2024T17:07:44 - [MESSAGE][PASSED] - Element 'Object Repository/TataMotars/HomeButton' is exist
+
+01-03-2024T17:07:44 - [TEST_STEP][PASSED] - tap(findTestObject("Lost and Non Lost Functionality/C0"), 0): Tapped on element 'Object Repository/Lost and Non Lost Functionality/C0'
+
+01-03-2024T17:07:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T17:07:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Lost and Non Lost Functionality/C0'
+
+01-03-2024T17:07:45 - [TEST_STEP][PASSED] - bool_Summary = verifyElementExist(findTestObject("Lost and Non Lost Functionality/C0 Summary Text"), 0): Element 'Object Repository/Lost and Non Lost Functionality/C0 Summary Text' is exist
+
+01-03-2024T17:07:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T17:07:50 - [MESSAGE][PASSED] - Element 'Object Repository/Lost and Non Lost Functionality/C0 Summary Text' is exist
+
+01-03-2024T17:07:50 - [TEST_STEP][PASSED] - bool_Target = verifyElementExist(findTestObject("Lost and Non Lost Functionality/Target text"), 0): Element 'Object Repository/Lost and Non Lost Functionality/Target text' is exist
+
+01-03-2024T17:07:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T17:07:51 - [MESSAGE][PASSED] - Element 'Object Repository/Lost and Non Lost Functionality/Target text' is exist
+
+01-03-2024T17:07:51 - [TEST_STEP][PASSED] - bool_MTD = verifyElementExist(findTestObject("Lost and Non Lost Functionality/MTD text"), 0): Element 'Object Repository/Lost and Non Lost Functionality/MTD text' is exist
+
+01-03-2024T17:07:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T17:07:51 - [MESSAGE][PASSED] - Element 'Object Repository/Lost and Non Lost Functionality/MTD text' is exist
+
+01-03-2024T17:07:51 - [TEST_STEP][PASSED] - bool_ThisWeek = verifyElementExist(findTestObject("Lost and Non Lost Functionality/This Week text"), 0): Element 'Object Repository/Lost and Non Lost Functionality/This Week text' is exist
+
+01-03-2024T17:07:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T17:07:51 - [MESSAGE][PASSED] - Element 'Object Repository/Lost and Non Lost Functionality/This Week text' is exist
+
+01-03-2024T17:07:51 - [TEST_STEP][PASSED] - bool_Yesterday = verifyElementExist(findTestObject("Lost and Non Lost Functionality/Yesterday text"), 0): Element 'Object Repository/Lost and Non Lost Functionality/Yesterday text' is exist
+
+01-03-2024T17:07:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T17:07:52 - [MESSAGE][PASSED] - Element 'Object Repository/Lost and Non Lost Functionality/Yesterday text' is exist
+
+01-03-2024T17:07:52 - [TEST_STEP][PASSED] - bool_Yesterday && bool_ThisWeek && bool_MTD && bool_Target && bool_Summary == true: null
+
+01-03-2024T17:07:52 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+01-03-2024T17:07:54 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\sushil.gaikwad\\Downloads\\tatamotarsdemo 1\\tatamotarsdemo\\Reports\\20240301_170628\\TataMotors\\20240301_170628\\1709293072206.png]]
+
+01-03-2024T17:07:54 - [TEST_STEP][PASSED] - Bool_Offline = waitForElementPresent(findTestObject("LockScreen/NewPin/Offline Master Sync"), 10): Object Object Repository/LockScreen/NewPin/Offline Master Sync not found
+
+01-03-2024T17:08:04 - [MESSAGE][WARNING] - Object Object Repository/LockScreen/NewPin/Offline Master Sync not found
+
+01-03-2024T17:08:04 - [TEST_STEP][PASSED] - if (Bool_Offline == true): null
+
+01-03-2024T17:08:04 - [TEST_STEP][PASSED] - tap(findTestObject("Lost and Non Lost Functionality/C0 Three Dots"), 5): Tapped on element 'Object Repository/Lost and Non Lost Functionality/C0 Three Dots'
+
+01-03-2024T17:08:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Lost and Non Lost Functionality/C0 Three Dots'
+
+01-03-2024T17:08:06 - [TEST_STEP][PASSED] - Bool_Offline = waitForElementPresent(findTestObject("Lost and Non Lost Functionality/Opportunity Details"), 10): Element 'Object Repository/Lost and Non Lost Functionality/Opportunity Details' is present
+
+01-03-2024T17:08:06 - [MESSAGE][PASSED] - Element 'Object Repository/Lost and Non Lost Functionality/Opportunity Details' is present
+
+01-03-2024T17:08:06 - [TEST_STEP][PASSED] - tap(findTestObject("Lost and Non Lost Functionality/Opportunity Details"), 0): Tapped on element 'Object Repository/Lost and Non Lost Functionality/Opportunity Details'
+
+01-03-2024T17:08:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T17:08:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Lost and Non Lost Functionality/Opportunity Details'
+
+01-03-2024T17:08:07 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Lost and Non Lost Functionality/Schedule a follow up"), 5): Element 'Object Repository/Lost and Non Lost Functionality/Schedule a follow up' is present
+
+01-03-2024T17:08:09 - [MESSAGE][PASSED] - Element 'Object Repository/Lost and Non Lost Functionality/Schedule a follow up' is present
+
+01-03-2024T17:08:09 - [TEST_STEP][PASSED] - bool_CreateC1 = verifyElementExist(findTestObject("Lost and Non Lost Functionality/CREATE C1"), 0): Element 'Object Repository/Lost and Non Lost Functionality/CREATE C1' is exist
+
+01-03-2024T17:08:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T17:08:10 - [MESSAGE][PASSED] - Element 'Object Repository/Lost and Non Lost Functionality/CREATE C1' is exist
+
+01-03-2024T17:08:10 - [TEST_STEP][PASSED] - bool_Details = verifyElementExist(findTestObject("Lost and Non Lost Functionality/DETAILS"), 0): Element 'Object Repository/Lost and Non Lost Functionality/DETAILS' is exist
+
+01-03-2024T17:08:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T17:08:10 - [MESSAGE][PASSED] - Element 'Object Repository/Lost and Non Lost Functionality/DETAILS' is exist
+
+01-03-2024T17:08:10 - [TEST_STEP][PASSED] - bool_ScheduleAFollowUp = verifyElementExist(findTestObject("Lost and Non Lost Functionality/Schedule a follow up"), 0): Element 'Object Repository/Lost and Non Lost Functionality/Schedule a follow up' is exist
+
+01-03-2024T17:08:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T17:08:10 - [MESSAGE][PASSED] - Element 'Object Repository/Lost and Non Lost Functionality/Schedule a follow up' is exist
+
+01-03-2024T17:08:10 - [TEST_STEP][PASSED] - bool_ScheduleAFollowUp && bool_Details && bool_CreateC1 == true: null
+
+01-03-2024T17:08:10 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+01-03-2024T17:08:12 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\sushil.gaikwad\\Downloads\\tatamotarsdemo 1\\tatamotarsdemo\\Reports\\20240301_170628\\TataMotors\\20240301_170628\\1709293090699.png]]
+
+01-03-2024T17:08:12 - [TEST_STEP][FAILED] - tap(findTestObject("Lost and Non Lost Functionality/Edit Pencil border"), 0): Failed to tap on element 'Object Repository/Lost and Non Lost Functionality/Edit Pencil border' (Root cause: com.kms.katalon.core.exception.StepFailedException: Failed to tap on element 'Object Repository/Lost and Non Lost Functionality/Edit Pencil border'
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:35)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at TC_09 - Non Lost Functionality.run(TC_09 - Non Lost Functionality:70)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709292988345.run(TempTestSuite1709292988345.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.StaleElementReferenceException: Cached elements 'By.xpath: //hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.ImageView[1]' do not exist in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DS025', ip: '192.168.0.126', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: C:\Users\sushil.gaikwad\Dow..., appPackage: com.tatamotors.egurusmart, autoGrantPermissions: true, automationName: uiautomator2, databaseEnabled: false, desired: {app: C:\Users\sushil.gaikwad\Dow..., autoGrantPermissions: true, automationName: uiautomator2, deviceId: R9ZT10H9Y2L, deviceName: samsung SM-A032F (Android 13), fullReset: true, newCommandTimeout: 1800, noReset: false, platformName: android, platformVersion: 13, systemPort: 52026, udid: R9ZT10H9Y2L}, deviceApiLevel: 33, deviceId: R9ZT10H9Y2L, deviceManufacturer: samsung, deviceModel: SM-A032F, deviceName: R9ZT10H9Y2L, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: R9ZT10H9Y2L, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: false, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 48, systemPort: 52026, takesScreenshot: true, udid: R9ZT10H9Y2L, viewportRect: {height: 1411, left: 0, top: 48, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 981cf65b-f19b-47e8-b9af-c44316e23c7e
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.getLocation(RemoteWebElement.java:337)
+	at org.openqa.selenium.WebElement$getLocation.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword.findElement(MobileAbstractKeyword.groovy:86)
+	at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:19)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:35)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at Script1705659259793.run(Script1705659259793.groovy:70)
+	... 15 more
+)
+
+01-03-2024T17:08:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T17:08:14 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Lost and Non Lost Functionality/Edit Pencil border' (Root cause: com.kms.katalon.core.exception.StepFailedException: Failed to tap on element 'Object Repository/Lost and Non Lost Functionality/Edit Pencil border'
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:35)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at TC_09 - Non Lost Functionality.run(TC_09 - Non Lost Functionality:70)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709292988345.run(TempTestSuite1709292988345.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.StaleElementReferenceException: Cached elements 'By.xpath: //hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.ImageView[1]' do not exist in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DS025', ip: '192.168.0.126', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: C:\Users\sushil.gaikwad\Dow..., appPackage: com.tatamotors.egurusmart, autoGrantPermissions: true, automationName: uiautomator2, databaseEnabled: false, desired: {app: C:\Users\sushil.gaikwad\Dow..., autoGrantPermissions: true, automationName: uiautomator2, deviceId: R9ZT10H9Y2L, deviceName: samsung SM-A032F (Android 13), fullReset: true, newCommandTimeout: 1800, noReset: false, platformName: android, platformVersion: 13, systemPort: 52026, udid: R9ZT10H9Y2L}, deviceApiLevel: 33, deviceId: R9ZT10H9Y2L, deviceManufacturer: samsung, deviceModel: SM-A032F, deviceName: R9ZT10H9Y2L, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: R9ZT10H9Y2L, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: false, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 48, systemPort: 52026, takesScreenshot: true, udid: R9ZT10H9Y2L, viewportRect: {height: 1411, left: 0, top: 48, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 981cf65b-f19b-47e8-b9af-c44316e23c7e
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.getLocation(RemoteWebElement.java:337)
+	at org.openqa.selenium.WebElement$getLocation.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword.findElement(MobileAbstractKeyword.groovy:86)
+	at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:19)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:35)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at Script1705659259793.run(Script1705659259793.groovy:70)
+	... 15 more
+)
+[[ATTACHMENT|C:\\Users\\sushil.gaikwad\\Downloads\\tatamotarsdemo 1\\tatamotarsdemo\\Reports\\20240301_170628\\TataMotors\\20240301_170628\\1709293093460.png]]]]></system-out>
+         <system-err><![CDATA[01-03-2024T17:06:34 - [TEST_CASE][FAILED] - Test Cases/TC/TC_09 - Non Lost Functionality: Test Cases/TC/TC_09 - Non Lost Functionality FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to tap on element 'Object Repository/Lost and Non Lost Functionality/Edit Pencil border'
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:35)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at TC_09 - Non Lost Functionality.run(TC_09 - Non Lost Functionality:70)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709292988345.run(TempTestSuite1709292988345.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.StaleElementReferenceException: Cached elements 'By.xpath: //hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.ImageView[1]' do not exist in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DS025', ip: '192.168.0.126', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: C:\Users\sushil.gaikwad\Dow..., appPackage: com.tatamotors.egurusmart, autoGrantPermissions: true, automationName: uiautomator2, databaseEnabled: false, desired: {app: C:\Users\sushil.gaikwad\Dow..., autoGrantPermissions: true, automationName: uiautomator2, deviceId: R9ZT10H9Y2L, deviceName: samsung SM-A032F (Android 13), fullReset: true, newCommandTimeout: 1800, noReset: false, platformName: android, platformVersion: 13, systemPort: 52026, udid: R9ZT10H9Y2L}, deviceApiLevel: 33, deviceId: R9ZT10H9Y2L, deviceManufacturer: samsung, deviceModel: SM-A032F, deviceName: R9ZT10H9Y2L, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: R9ZT10H9Y2L, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: false, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 48, systemPort: 52026, takesScreenshot: true, udid: R9ZT10H9Y2L, viewportRect: {height: 1411, left: 0, top: 48, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 981cf65b-f19b-47e8-b9af-c44316e23c7e
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.getLocation(RemoteWebElement.java:337)
+	at org.openqa.selenium.WebElement$getLocation.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword.findElement(MobileAbstractKeyword.groovy:86)
+	at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:19)
+	... 20 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[01-03-2024T17:06:33 - [TEST_SUITE][FAILED] - TataMotors: Test Cases/TC/TC_09 - Non Lost Functionality FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to tap on element 'Object Repository/Lost and Non Lost Functionality/Edit Pencil border'
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:35)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at TC_09 - Non Lost Functionality.run(TC_09 - Non Lost Functionality:70)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709292988345.run(TempTestSuite1709292988345.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.StaleElementReferenceException: Cached elements 'By.xpath: //hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.ImageView[1]' do not exist in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DS025', ip: '192.168.0.126', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: C:\Users\sushil.gaikwad\Dow..., appPackage: com.tatamotors.egurusmart, autoGrantPermissions: true, automationName: uiautomator2, databaseEnabled: false, desired: {app: C:\Users\sushil.gaikwad\Dow..., autoGrantPermissions: true, automationName: uiautomator2, deviceId: R9ZT10H9Y2L, deviceName: samsung SM-A032F (Android 13), fullReset: true, newCommandTimeout: 1800, noReset: false, platformName: android, platformVersion: 13, systemPort: 52026, udid: R9ZT10H9Y2L}, deviceApiLevel: 33, deviceId: R9ZT10H9Y2L, deviceManufacturer: samsung, deviceModel: SM-A032F, deviceName: R9ZT10H9Y2L, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: R9ZT10H9Y2L, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: false, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 48, systemPort: 52026, takesScreenshot: true, udid: R9ZT10H9Y2L, viewportRect: {height: 1411, left: 0, top: 48, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 981cf65b-f19b-47e8-b9af-c44316e23c7e
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.getLocation(RemoteWebElement.java:337)
+	at org.openqa.selenium.WebElement$getLocation.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword.findElement(MobileAbstractKeyword.groovy:86)
+	at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:19)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[01-03-2024T17:06:33 - [TEST_SUITE][FAILED] - TataMotors: Test Cases/TC/TC_09 - Non Lost Functionality FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to tap on element 'Object Repository/Lost and Non Lost Functionality/Edit Pencil border'
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:35)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at TC_09 - Non Lost Functionality.run(TC_09 - Non Lost Functionality:70)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709292988345.run(TempTestSuite1709292988345.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.StaleElementReferenceException: Cached elements 'By.xpath: //hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.ImageView[1]' do not exist in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DS025', ip: '192.168.0.126', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: C:\Users\sushil.gaikwad\Dow..., appPackage: com.tatamotors.egurusmart, autoGrantPermissions: true, automationName: uiautomator2, databaseEnabled: false, desired: {app: C:\Users\sushil.gaikwad\Dow..., autoGrantPermissions: true, automationName: uiautomator2, deviceId: R9ZT10H9Y2L, deviceName: samsung SM-A032F (Android 13), fullReset: true, newCommandTimeout: 1800, noReset: false, platformName: android, platformVersion: 13, systemPort: 52026, udid: R9ZT10H9Y2L}, deviceApiLevel: 33, deviceId: R9ZT10H9Y2L, deviceManufacturer: samsung, deviceModel: SM-A032F, deviceName: R9ZT10H9Y2L, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: R9ZT10H9Y2L, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: false, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 48, systemPort: 52026, takesScreenshot: true, udid: R9ZT10H9Y2L, viewportRect: {height: 1411, left: 0, top: 48, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 981cf65b-f19b-47e8-b9af-c44316e23c7e
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.getLocation(RemoteWebElement.java:337)
+	at org.openqa.selenium.WebElement$getLocation.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword.findElement(MobileAbstractKeyword.groovy:86)
+	at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:19)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

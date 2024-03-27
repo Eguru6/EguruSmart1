@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TataMotors,,,,01-03-2024 17:06:33,01-03-2024 17:08:14,1m - 40.616s,FAILED
+,,,,,,,
+Test Cases/TC/TC_09 - Non Lost Functionality,,,,01-03-2024 17:06:34,01-03-2024 17:08:14,1m - 39.931s,FAILED
+"callTestCase(findTestCase(""CommenWorkflows/Login""), [""Str_URL"":""C:\Users\sushil.gaikwad\Downloads\tatamotarsdemo 1\tatamotarsdemo\Application\app-release 2.apk"", ""Str_Username"":""DUSER145"", ... ], STOP_ON_FAILURE)",,,,01-03-2024 17:06:36,01-03-2024 17:07:43,1m - 7.266s,PASSED
+"verifyElementExist(findTestObject(""TataMotars/HomeButton""), 30)",,,,01-03-2024 17:07:43,01-03-2024 17:07:44,0.270s,PASSED
+"tap(findTestObject(""Lost and Non Lost Functionality/C0""), 0)",,,,01-03-2024 17:07:44,01-03-2024 17:07:45,1.283s,PASSED
+"bool_Summary = verifyElementExist(findTestObject(""Lost and Non Lost Functionality/C0 Summary Text""), 0)",,,,01-03-2024 17:07:45,01-03-2024 17:07:50,5.207s,PASSED
+"bool_Target = verifyElementExist(findTestObject(""Lost and Non Lost Functionality/Target text""), 0)",,,,01-03-2024 17:07:50,01-03-2024 17:07:51,0.386s,PASSED
+"bool_MTD = verifyElementExist(findTestObject(""Lost and Non Lost Functionality/MTD text""), 0)",,,,01-03-2024 17:07:51,01-03-2024 17:07:51,0.357s,PASSED
+"bool_ThisWeek = verifyElementExist(findTestObject(""Lost and Non Lost Functionality/This Week text""), 0)",,,,01-03-2024 17:07:51,01-03-2024 17:07:51,0.392s,PASSED
+"bool_Yesterday = verifyElementExist(findTestObject(""Lost and Non Lost Functionality/Yesterday text""), 0)",,,,01-03-2024 17:07:51,01-03-2024 17:07:52,0.372s,PASSED
+bool_Yesterday && bool_ThisWeek && bool_MTD && bool_Target && bool_Summary == true,,,,01-03-2024 17:07:52,01-03-2024 17:07:52,0.004s,PASSED
+takeScreenshot(),,"STEP-01 : Click on C0
+
+Expected_Result : The user successfully landed on the C0 summary page with below option-:
+1. C0 Summary
+2. Target
+3. MTD
+4. This Week
+5. Yesterday",,01-03-2024 17:07:52,01-03-2024 17:07:54,1.966s,PASSED
+"Bool_Offline = waitForElementPresent(findTestObject(""LockScreen/NewPin/Offline Master Sync""), 10)",,,,01-03-2024 17:07:54,01-03-2024 17:08:04,10.243s,PASSED
+if (Bool_Offline == true),,,,01-03-2024 17:08:04,01-03-2024 17:08:04,0.011s,PASSED
+"tap(findTestObject(""Lost and Non Lost Functionality/C0 Three Dots""), 5)",,,,01-03-2024 17:08:04,01-03-2024 17:08:06,2.262s,PASSED
+"Bool_Offline = waitForElementPresent(findTestObject(""Lost and Non Lost Functionality/Opportunity Details""), 10)",,,,01-03-2024 17:08:06,01-03-2024 17:08:06,0.268s,PASSED
+"tap(findTestObject(""Lost and Non Lost Functionality/Opportunity Details""), 0)",,,,01-03-2024 17:08:06,01-03-2024 17:08:07,0.851s,PASSED
+"waitForElementPresent(findTestObject(""Lost and Non Lost Functionality/Schedule a follow up""), 5)",,,,01-03-2024 17:08:07,01-03-2024 17:08:09,2.119s,PASSED
+"bool_CreateC1 = verifyElementExist(findTestObject(""Lost and Non Lost Functionality/CREATE C1""), 0)",,,,01-03-2024 17:08:09,01-03-2024 17:08:10,0.250s,PASSED
+"bool_Details = verifyElementExist(findTestObject(""Lost and Non Lost Functionality/DETAILS""), 0)",,,,01-03-2024 17:08:10,01-03-2024 17:08:10,0.281s,PASSED
+"bool_ScheduleAFollowUp = verifyElementExist(findTestObject(""Lost and Non Lost Functionality/Schedule a follow up""), 0)",,,,01-03-2024 17:08:10,01-03-2024 17:08:10,0.262s,PASSED
+bool_ScheduleAFollowUp && bool_Details && bool_CreateC1 == true,,,,01-03-2024 17:08:10,01-03-2024 17:08:10,0.003s,PASSED
+takeScreenshot(),,"STEP-02 : Click on three dots of any opty card and select Opportunity detail option
+
+Expected_Result : The user successfully landed on the opty detail page with below option-:
+1. Create C1
+2. Details
+3. Schedule a follow up",,01-03-2024 17:08:10,01-03-2024 17:08:12,1.347s,PASSED
+"tap(findTestObject(""Lost and Non Lost Functionality/Edit Pencil border""), 0)",,,,01-03-2024 17:08:12,01-03-2024 17:08:14,2.455s,FAILED

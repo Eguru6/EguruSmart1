@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>New Test Case</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cc629f02-6edf-4bd9-aa79-c4057734edd5</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cb027cfd-8393-4410-b9d0-885abe383091</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>cb027cfd-8393-4410-b9d0-885abe383091</id>
+      <masked>false</masked>
+      <name>int_RandomNo</name>
+   </variable>
+</TestCaseEntity>

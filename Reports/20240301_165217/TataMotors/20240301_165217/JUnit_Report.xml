@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TataMotors" time="157.194" tests="1" failures="1" errors="0">
+   <testsuite name="TataMotors" tests="1" failures="1" errors="0" time="157.194" skipped="0" timestamp="01-03-2024T16:52:23" hostname="Sushil.Gaikwad - DS025.step.com" id="Test Suites/TataMotors">
+      <properties>
+         <property name="deviceName" value="samsung SM-A032F (Android 13)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\sushil.gaikwad\\Downloads\\tatamotarsdemo 1\\tatamotarsdemo\\Reports\\20240301_165217\\TataMotors\\20240301_165217"/>
+         <property name="logFiles" value="C:\\Users\\sushil.gaikwad\\Downloads\\tatamotarsdemo 1\\tatamotarsdemo\\Reports\\20240301_165217\\TataMotors\\20240301_165217\\appium.log, C:\\Users\\sushil.gaikwad\\Downloads\\tatamotarsdemo 1\\tatamotarsdemo\\Reports\\20240301_165217\\TataMotors\\20240301_165217\\appium_error.log, C:\\Users\\sushil.gaikwad\\Downloads\\tatamotarsdemo 1\\tatamotarsdemo\\Reports\\20240301_165217\\TataMotors\\20240301_165217\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\sushil.gaikwad\\Downloads\\tatamotarsdemo 1\\tatamotarsdemo\\Reports\\20240301_165217\\TataMotors\\20240301_165217\\1709292221074.png, C:\\Users\\sushil.gaikwad\\Downloads\\tatamotarsdemo 1\\tatamotarsdemo\\Reports\\20240301_165217\\TataMotors\\20240301_165217\\1709292233960.png, C:\\Users\\sushil.gaikwad\\Downloads\\tatamotarsdemo 1\\tatamotarsdemo\\Reports\\20240301_165217\\TataMotors\\20240301_165217\\1709292246721.png, C:\\Users\\sushil.gaikwad\\Downloads\\tatamotarsdemo 1\\tatamotarsdemo\\Reports\\20240301_165217\\TataMotors\\20240301_165217\\1709292298521.png, C:\\Users\\sushil.gaikwad\\Downloads\\tatamotarsdemo 1\\tatamotarsdemo\\Reports\\20240301_165217\\TataMotors\\20240301_165217\\1709292299550.png"/>
+         <property name="hostName" value="Sushil.Gaikwad - DS025.step.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="SM-A032F"/>
+         <property name="hostAddress" value="192.168.0.126"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="R9ZT10H9Y2L"/>
+         <property name="deviceName" value="samsung SM-A032F (Android 13)"/>
+         <property name="deviceOSVersion" value="13"/>
+      </properties>
+      <testcase name="Test Cases/TC/TC_08 - Lost Functionality" time="156.909" classname="Test Cases/TC/TC_08 - Lost Functionality" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC/TC_08 - Lost Functionality FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Failed to check for element 'Object Repository/Lost and Non Lost Functionality/LostCasesText' exist&#xa;	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)&#xa;	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)&#xa;	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:51)&#xa;	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:35)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:1755)&#xa;	at TC_08 - Lost Functionality.run(TC_08 - Lost Functionality:116)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1709292137876.run(TempTestSuite1709292137876.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Lost and Non Lost Functionality/LostCasesText' not found&#xa;	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)&#xa;	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:48)&#xa;	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)&#xa;	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:19)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[01-03-2024T16:52:23 - [TEST_CASE][FAILED] - Test Cases/TC/TC_08 - Lost Functionality: Test Cases/TC/TC_08 - Lost Functionality FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to check for element 'Object Repository/Lost and Non Lost Functionality/LostCasesText' exist
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:35)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:1755)
+	at TC_08 - Lost Functionality.run(TC_08 - Lost Functionality:116)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709292137876.run(TempTestSuite1709292137876.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Lost and Non Lost Functionality/LostCasesText' not found
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:48)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:19)
+	... 20 more
+
+
+01-03-2024T16:52:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CommenWorkflows/Login"), ["Str_URL":"C:\Users\sushil.gaikwad\Downloads\tatamotarsdemo 1\tatamotarsdemo\Application\app-release 2.apk", "Str_Username":"DUSER145", ... ], STOP_ON_FAILURE): Call Test Case 'Test Cases/CommenWorkflows/Login' successfully
+
+01-03-2024T16:52:24 - [TEST_CASE][PASSED] - Test Cases/CommenWorkflows/Login: Test Cases/CommenWorkflows/Login
+
+01-03-2024T16:52:25 - [TEST_STEP][PASSED] - startApplication(Str_URL, true): Started app at: 'C:\Users\sushil.gaikwad\Downloads\tatamotarsdemo 1\tatamotarsdemo\Application\app-release 2.apk'
+
+01-03-2024T16:52:25 - [MESSAGE][INFO] - User set preference: ['deviceId', 'R9ZT10H9Y2L']
+
+01-03-2024T16:52:26 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+01-03-2024T16:52:30 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+01-03-2024T16:52:30 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\sushil.gaikwad\AppData\Roaming\npm\node_modules\appium\build\lib\main.js
+
+01-03-2024T16:52:30 - [MESSAGE][INFO] - appium outlog: C:\Users\sushil.gaikwad\Downloads\tatamotarsdemo 1\tatamotarsdemo\Reports\20240301_165217\TataMotors\20240301_165217\appium.log
+
+01-03-2024T16:52:30 - [MESSAGE][INFO] - appium errlog: C:\Users\sushil.gaikwad\Downloads\tatamotarsdemo 1\tatamotarsdemo\Reports\20240301_165217\TataMotors\20240301_165217\appium_error.log
+
+01-03-2024T16:52:32 - [MESSAGE][INFO] - Appium server started on port 51,117
+
+01-03-2024T16:53:00 - [MESSAGE][PASSED] - Started app at: 'C:\Users\sushil.gaikwad\Downloads\tatamotarsdemo 1\tatamotarsdemo\Application\app-release 2.apk'
+
+01-03-2024T16:53:00 - [TEST_STEP][PASSED] - Bool_Username = waitForElementPresent(findTestObject("LockScreen/UsernaneText"), 30): Element 'Object Repository/LockScreen/UsernaneText' is present
+
+01-03-2024T16:53:00 - [MESSAGE][PASSED] - Element 'Object Repository/LockScreen/UsernaneText' is present
+
+01-03-2024T16:53:00 - [TEST_STEP][PASSED] - if (Bool_Username == true): Tapped on element 'Object Repository/LockScreen/NewPin/OkButton'
+
+01-03-2024T16:53:00 - [TEST_STEP][PASSED] - setText(findTestObject("LockScreen/Username"), Str_Username, 0): Text 'DUSER145' has been set to element 'Object Repository/LockScreen/Username'
+
+01-03-2024T16:53:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T16:53:06 - [MESSAGE][PASSED] - Text 'DUSER145' has been set to element 'Object Repository/LockScreen/Username'
+
+01-03-2024T16:53:06 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+01-03-2024T16:53:08 - [MESSAGE][PASSED] - Keyboard is hidden
+
+01-03-2024T16:53:08 - [TEST_STEP][PASSED] - setText(findTestObject("LockScreen/Password"), Str_Password, 0): Text 'Soct#2023' has been set to element 'Object Repository/LockScreen/Password'
+
+01-03-2024T16:53:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T16:53:09 - [MESSAGE][PASSED] - Text 'Soct#2023' has been set to element 'Object Repository/LockScreen/Password'
+
+01-03-2024T16:53:09 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+01-03-2024T16:53:13 - [MESSAGE][PASSED] - Keyboard is hidden
+
+01-03-2024T16:53:13 - [TEST_STEP][PASSED] - tap(findTestObject("LockScreen/LoginButton"), 0): Tapped on element 'Object Repository/LockScreen/LoginButton'
+
+01-03-2024T16:53:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T16:53:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LockScreen/LoginButton'
+
+01-03-2024T16:53:14 - [TEST_STEP][PASSED] - setText(findTestObject("LockScreen/NewPin/NewPin1"), "1", 0): Text '1' has been set to element 'Object Repository/LockScreen/NewPin/NewPin1'
+
+01-03-2024T16:53:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T16:53:17 - [MESSAGE][PASSED] - Text '1' has been set to element 'Object Repository/LockScreen/NewPin/NewPin1'
+
+01-03-2024T16:53:17 - [TEST_STEP][PASSED] - setText(findTestObject("LockScreen/NewPin/NewPin2"), "2", 0): Text '2' has been set to element 'Object Repository/LockScreen/NewPin/NewPin2'
+
+01-03-2024T16:53:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T16:53:18 - [MESSAGE][PASSED] - Text '2' has been set to element 'Object Repository/LockScreen/NewPin/NewPin2'
+
+01-03-2024T16:53:18 - [TEST_STEP][PASSED] - setText(findTestObject("LockScreen/NewPin/NewPin3"), "3", 0): Text '3' has been set to element 'Object Repository/LockScreen/NewPin/NewPin3'
+
+01-03-2024T16:53:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T16:53:20 - [MESSAGE][PASSED] - Text '3' has been set to element 'Object Repository/LockScreen/NewPin/NewPin3'
+
+01-03-2024T16:53:20 - [TEST_STEP][PASSED] - setText(findTestObject("LockScreen/NewPin/NewPin4"), "4", 0): Text '4' has been set to element 'Object Repository/LockScreen/NewPin/NewPin4'
+
+01-03-2024T16:53:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T16:53:21 - [MESSAGE][PASSED] - Text '4' has been set to element 'Object Repository/LockScreen/NewPin/NewPin4'
+
+01-03-2024T16:53:21 - [TEST_STEP][PASSED] - setText(findTestObject("LockScreen/NewPin/ConfirmPin1"), "1", 0): Text '1' has been set to element 'Object Repository/LockScreen/NewPin/ConfirmPin1'
+
+01-03-2024T16:53:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T16:53:23 - [MESSAGE][PASSED] - Text '1' has been set to element 'Object Repository/LockScreen/NewPin/ConfirmPin1'
+
+01-03-2024T16:53:23 - [TEST_STEP][PASSED] - setText(findTestObject("LockScreen/NewPin/ConfirmPin2"), "2", 0): Text '2' has been set to element 'Object Repository/LockScreen/NewPin/ConfirmPin2'
+
+01-03-2024T16:53:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T16:53:25 - [MESSAGE][PASSED] - Text '2' has been set to element 'Object Repository/LockScreen/NewPin/ConfirmPin2'
+
+01-03-2024T16:53:25 - [TEST_STEP][PASSED] - setText(findTestObject("LockScreen/NewPin/ConfirmPin3"), "3", 0): Text '3' has been set to element 'Object Repository/LockScreen/NewPin/ConfirmPin3'
+
+01-03-2024T16:53:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T16:53:26 - [MESSAGE][PASSED] - Text '3' has been set to element 'Object Repository/LockScreen/NewPin/ConfirmPin3'
+
+01-03-2024T16:53:26 - [TEST_STEP][PASSED] - setText(findTestObject("LockScreen/NewPin/ConfirmPin4"), "4", 0): Text '4' has been set to element 'Object Repository/LockScreen/NewPin/ConfirmPin4'
+
+01-03-2024T16:53:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T16:53:28 - [MESSAGE][PASSED] - Text '4' has been set to element 'Object Repository/LockScreen/NewPin/ConfirmPin4'
+
+01-03-2024T16:53:28 - [TEST_STEP][PASSED] - Bool_Offline = waitForElementPresent(findTestObject("LockScreen/NewPin/Offline Master Sync"), 30): Element 'Object Repository/LockScreen/NewPin/Offline Master Sync' is present
+
+01-03-2024T16:53:29 - [MESSAGE][PASSED] - Element 'Object Repository/LockScreen/NewPin/Offline Master Sync' is present
+
+01-03-2024T16:53:29 - [TEST_STEP][PASSED] - if (Bool_Offline == true): Tapped on element 'Object Repository/LockScreen/NewPin/OkButton'
+
+01-03-2024T16:53:29 - [TEST_STEP][PASSED] - tap(findTestObject("LockScreen/NewPin/OkButton"), 0): Tapped on element 'Object Repository/LockScreen/NewPin/OkButton'
+
+01-03-2024T16:53:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T16:53:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LockScreen/NewPin/OkButton'
+
+01-03-2024T16:53:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommenWorkflows/Login' successfully
+
+01-03-2024T16:53:31 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("TataMotars/HomeButton"), 10): Element 'Object Repository/TataMotars/HomeButton' is exist
+
+01-03-2024T16:53:31 - [MESSAGE][PASSED] - Element 'Object Repository/TataMotars/HomeButton' is exist
+
+01-03-2024T16:53:31 - [TEST_STEP][PASSED] - tap(findTestObject("Lost and Non Lost Functionality/C0"), 0): Tapped on element 'Object Repository/Lost and Non Lost Functionality/C0'
+
+01-03-2024T16:53:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T16:53:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Lost and Non Lost Functionality/C0'
+
+01-03-2024T16:53:33 - [TEST_STEP][PASSED] - bool_Summary = verifyElementExist(findTestObject("Lost and Non Lost Functionality/C0 Summary Text"), 30): Element 'Object Repository/Lost and Non Lost Functionality/C0 Summary Text' is exist
+
+01-03-2024T16:53:39 - [MESSAGE][PASSED] - Element 'Object Repository/Lost and Non Lost Functionality/C0 Summary Text' is exist
+
+01-03-2024T16:53:39 - [TEST_STEP][PASSED] - bool_Target = verifyElementExist(findTestObject("Lost and Non Lost Functionality/Target text"), 30): Element 'Object Repository/Lost and Non Lost Functionality/Target text' is exist
+
+01-03-2024T16:53:39 - [MESSAGE][PASSED] - Element 'Object Repository/Lost and Non Lost Functionality/Target text' is exist
+
+01-03-2024T16:53:39 - [TEST_STEP][PASSED] - bool_MTD = verifyElementExist(findTestObject("Lost and Non Lost Functionality/MTD text"), 0): Element 'Object Repository/Lost and Non Lost Functionality/MTD text' is exist
+
+01-03-2024T16:53:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T16:53:40 - [MESSAGE][PASSED] - Element 'Object Repository/Lost and Non Lost Functionality/MTD text' is exist
+
+01-03-2024T16:53:40 - [TEST_STEP][PASSED] - bool_ThisWeek = verifyElementExist(findTestObject("Lost and Non Lost Functionality/This Week text"), 0): Element 'Object Repository/Lost and Non Lost Functionality/This Week text' is exist
+
+01-03-2024T16:53:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T16:53:40 - [MESSAGE][PASSED] - Element 'Object Repository/Lost and Non Lost Functionality/This Week text' is exist
+
+01-03-2024T16:53:40 - [TEST_STEP][PASSED] - bool_Yesterday = verifyElementExist(findTestObject("Lost and Non Lost Functionality/Yesterday text"), 0): Element 'Object Repository/Lost and Non Lost Functionality/Yesterday text' is exist
+
+01-03-2024T16:53:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T16:53:41 - [MESSAGE][PASSED] - Element 'Object Repository/Lost and Non Lost Functionality/Yesterday text' is exist
+
+01-03-2024T16:53:41 - [TEST_STEP][PASSED] - bool_Yesterday && bool_ThisWeek && bool_MTD && bool_Target && bool_Summary == true: null
+
+01-03-2024T16:53:41 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+01-03-2024T16:53:42 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\sushil.gaikwad\\Downloads\\tatamotarsdemo 1\\tatamotarsdemo\\Reports\\20240301_165217\\TataMotors\\20240301_165217\\1709292221074.png]]
+
+01-03-2024T16:53:42 - [TEST_STEP][PASSED] - Bool_Offline = waitForElementPresent(findTestObject("LockScreen/NewPin/Offline Master Sync"), 5): Object Object Repository/LockScreen/NewPin/Offline Master Sync not found
+
+01-03-2024T16:53:47 - [MESSAGE][WARNING] - Object Object Repository/LockScreen/NewPin/Offline Master Sync not found
+
+01-03-2024T16:53:47 - [TEST_STEP][PASSED] - if (Bool_Offline == true): null
+
+01-03-2024T16:53:48 - [TEST_STEP][PASSED] - tap(findTestObject("Lost and Non Lost Functionality/C0 Three Dots"), 0): Tapped on element 'Object Repository/Lost and Non Lost Functionality/C0 Three Dots'
+
+01-03-2024T16:53:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T16:53:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Lost and Non Lost Functionality/C0 Three Dots'
+
+01-03-2024T16:53:49 - [TEST_STEP][PASSED] - Bool_Offline = waitForElementPresent(findTestObject("Lost and Non Lost Functionality/Opportunity Details"), 10): Element 'Object Repository/Lost and Non Lost Functionality/Opportunity Details' is present
+
+01-03-2024T16:53:50 - [MESSAGE][PASSED] - Element 'Object Repository/Lost and Non Lost Functionality/Opportunity Details' is present
+
+01-03-2024T16:53:50 - [TEST_STEP][PASSED] - tap(findTestObject("Lost and Non Lost Functionality/Opportunity Details"), 0): Tapped on element 'Object Repository/Lost and Non Lost Functionality/Opportunity Details'
+
+01-03-2024T16:53:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T16:53:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Lost and Non Lost Functionality/Opportunity Details'
+
+01-03-2024T16:53:51 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Lost and Non Lost Functionality/Schedule a follow up"), 5): Element 'Object Repository/Lost and Non Lost Functionality/Schedule a follow up' is present
+
+01-03-2024T16:53:53 - [MESSAGE][PASSED] - Element 'Object Repository/Lost and Non Lost Functionality/Schedule a follow up' is present
+
+01-03-2024T16:53:53 - [TEST_STEP][PASSED] - bool_CreateC1 = verifyElementExist(findTestObject("Lost and Non Lost Functionality/CREATE C1"), 0): Element 'Object Repository/Lost and Non Lost Functionality/CREATE C1' is exist
+
+01-03-2024T16:53:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T16:53:53 - [MESSAGE][PASSED] - Element 'Object Repository/Lost and Non Lost Functionality/CREATE C1' is exist
+
+01-03-2024T16:53:53 - [TEST_STEP][PASSED] - bool_Details = verifyElementExist(findTestObject("Lost and Non Lost Functionality/DETAILS"), 0): Element 'Object Repository/Lost and Non Lost Functionality/DETAILS' is exist
+
+01-03-2024T16:53:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T16:53:53 - [MESSAGE][PASSED] - Element 'Object Repository/Lost and Non Lost Functionality/DETAILS' is exist
+
+01-03-2024T16:53:53 - [TEST_STEP][PASSED] - bool_ScheduleAFollowUp = verifyElementExist(findTestObject("Lost and Non Lost Functionality/Schedule a follow up"), 0): Element 'Object Repository/Lost and Non Lost Functionality/Schedule a follow up' is exist
+
+01-03-2024T16:53:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T16:53:53 - [MESSAGE][PASSED] - Element 'Object Repository/Lost and Non Lost Functionality/Schedule a follow up' is exist
+
+01-03-2024T16:53:53 - [TEST_STEP][PASSED] - bool_ScheduleAFollowUp && bool_Details && bool_CreateC1 == true: null
+
+01-03-2024T16:53:53 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+01-03-2024T16:53:55 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\sushil.gaikwad\\Downloads\\tatamotarsdemo 1\\tatamotarsdemo\\Reports\\20240301_165217\\TataMotors\\20240301_165217\\1709292233960.png]]
+
+01-03-2024T16:53:55 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+01-03-2024T16:54:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+01-03-2024T16:54:00 - [TEST_STEP][PASSED] - tap(findTestObject("Lost and Non Lost Functionality/Mark as Lost"), 0): Tapped on element 'Object Repository/Lost and Non Lost Functionality/Mark as Lost'
+
+01-03-2024T16:54:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T16:54:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Lost and Non Lost Functionality/Mark as Lost'
+
+01-03-2024T16:54:00 - [TEST_STEP][PASSED] - bool_LTC = verifyElementExist(findTestObject("Lost and Non Lost Functionality/LTC RadioButton"), 0): Element 'Object Repository/Lost and Non Lost Functionality/LTC RadioButton' is exist
+
+01-03-2024T16:54:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T16:54:01 - [MESSAGE][PASSED] - Element 'Object Repository/Lost and Non Lost Functionality/LTC RadioButton' is exist
+
+01-03-2024T16:54:01 - [TEST_STEP][PASSED] - bool_NotLTC = verifyElementExist(findTestObject("Lost and Non Lost Functionality/Non LTC RadioButton"), 0): Element 'Object Repository/Lost and Non Lost Functionality/Non LTC RadioButton' is exist
+
+01-03-2024T16:54:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T16:54:02 - [MESSAGE][PASSED] - Element 'Object Repository/Lost and Non Lost Functionality/Non LTC RadioButton' is exist
+
+01-03-2024T16:54:02 - [TEST_STEP][PASSED] - bool_ReasonForLoss = verifyElementExist(findTestObject("Lost and Non Lost Functionality/Reason for loss Field"), 0): Element 'Object Repository/Lost and Non Lost Functionality/Reason for loss Field' is exist
+
+01-03-2024T16:54:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T16:54:02 - [MESSAGE][PASSED] - Element 'Object Repository/Lost and Non Lost Functionality/Reason for loss Field' is exist
+
+01-03-2024T16:54:02 - [TEST_STEP][PASSED] - bool_MakeLostTo = verifyElementExist(findTestObject("Lost and Non Lost Functionality/Make lost to field"), 0): Element 'Object Repository/Lost and Non Lost Functionality/Make lost to field' is exist
+
+01-03-2024T16:54:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T16:54:04 - [MESSAGE][PASSED] - Element 'Object Repository/Lost and Non Lost Functionality/Make lost to field' is exist
+
+01-03-2024T16:54:04 - [TEST_STEP][PASSED] - bool_ModelToLostTo = verifyElementExist(findTestObject("Lost and Non Lost Functionality/ModelLostTo"), 0): Element 'Object Repository/Lost and Non Lost Functionality/ModelLostTo' is exist
+
+01-03-2024T16:54:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T16:54:05 - [MESSAGE][PASSED] - Element 'Object Repository/Lost and Non Lost Functionality/ModelLostTo' is exist
+
+01-03-2024T16:54:05 - [TEST_STEP][PASSED] - bool_Comment = verifyElementExist(findTestObject("Lost and Non Lost Functionality/Comment"), 0): Element 'Object Repository/Lost and Non Lost Functionality/Comment' is exist
+
+01-03-2024T16:54:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T16:54:06 - [MESSAGE][PASSED] - Element 'Object Repository/Lost and Non Lost Functionality/Comment' is exist
+
+01-03-2024T16:54:06 - [TEST_STEP][PASSED] - bool_LTC && bool_NotLTC && bool_ReasonForLoss && bool_MakeLostTo && bool_ModelToLostTo && bool_Comment == true: null
+
+01-03-2024T16:54:06 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+01-03-2024T16:54:07 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\sushil.gaikwad\\Downloads\\tatamotarsdemo 1\\tatamotarsdemo\\Reports\\20240301_165217\\TataMotors\\20240301_165217\\1709292246721.png]]
+
+01-03-2024T16:54:07 - [TEST_STEP][PASSED] - tap(findTestObject("Lost and Non Lost Functionality/LTC RadioButton"), 0): Tapped on element 'Object Repository/Lost and Non Lost Functionality/LTC RadioButton'
+
+01-03-2024T16:54:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T16:54:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Lost and Non Lost Functionality/LTC RadioButton'
+
+01-03-2024T16:54:08 - [TEST_STEP][PASSED] - setText(findTestObject("Lost and Non Lost Functionality/Reason for loss Field"), str_ReasonForLoss, 0): Text 'LTC-Exchange' has been set to element 'Object Repository/Lost and Non Lost Functionality/Reason for loss Field'
+
+01-03-2024T16:54:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T16:54:10 - [MESSAGE][PASSED] - Text 'LTC-Exchange' has been set to element 'Object Repository/Lost and Non Lost Functionality/Reason for loss Field'
+
+01-03-2024T16:54:10 - [TEST_STEP][PASSED] - tap(findTestObject("MarkAsLost/ResonForLossTextNew"), 0): Tapped on element 'Object Repository/MarkAsLost/ResonForLossTextNew'
+
+01-03-2024T16:54:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T16:54:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MarkAsLost/ResonForLossTextNew'
+
+01-03-2024T16:54:12 - [TEST_STEP][PASSED] - setText(findTestObject("Lost and Non Lost Functionality/Make lost to field"), str_MakeLossTo, 0): Text 'AMW' has been set to element 'Object Repository/Lost and Non Lost Functionality/Make lost to field'
+
+01-03-2024T16:54:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T16:54:14 - [MESSAGE][PASSED] - Text 'AMW' has been set to element 'Object Repository/Lost and Non Lost Functionality/Make lost to field'
+
+01-03-2024T16:54:14 - [TEST_STEP][PASSED] - tap(findTestObject("MarkAsLost/MakeLostToTextNew"), 0): Tapped on element 'Object Repository/MarkAsLost/MakeLostToTextNew'
+
+01-03-2024T16:54:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T16:54:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MarkAsLost/MakeLostToTextNew'
+
+01-03-2024T16:54:16 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+01-03-2024T16:54:17 - [MESSAGE][PASSED] - Keyboard is hidden
+
+01-03-2024T16:54:17 - [TEST_STEP][PASSED] - setText(findTestObject("MarkAsLost/ModelLostToNew"), str_ModelLostTo, 0): Text 'I' has been set to element 'Object Repository/MarkAsLost/ModelLostToNew'
+
+01-03-2024T16:54:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T16:54:19 - [MESSAGE][PASSED] - Text 'I' has been set to element 'Object Repository/MarkAsLost/ModelLostToNew'
+
+01-03-2024T16:54:19 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+01-03-2024T16:54:21 - [MESSAGE][PASSED] - Keyboard is hidden
+
+01-03-2024T16:54:21 - [TEST_STEP][PASSED] - tap(findTestObject("MarkAsLost/NewModelLostDropdown"), 0): Tapped on element 'Object Repository/MarkAsLost/NewModelLostDropdown'
+
+01-03-2024T16:54:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T16:54:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MarkAsLost/NewModelLostDropdown'
+
+01-03-2024T16:54:22 - [TEST_STEP][PASSED] - setText(findTestObject("Lost and Non Lost Functionality/Comment"), str_Comment, 0): Text 'Comment' has been set to element 'Object Repository/Lost and Non Lost Functionality/Comment'
+
+01-03-2024T16:54:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T16:54:25 - [MESSAGE][PASSED] - Text 'Comment' has been set to element 'Object Repository/Lost and Non Lost Functionality/Comment'
+
+01-03-2024T16:54:25 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+01-03-2024T16:54:27 - [MESSAGE][PASSED] - Keyboard is hidden
+
+01-03-2024T16:54:27 - [TEST_STEP][PASSED] - tap(findTestObject("Lost and Non Lost Functionality/Mark as lost (1)"), 0): Tapped on element 'Object Repository/Lost and Non Lost Functionality/Mark as lost (1)'
+
+01-03-2024T16:54:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T16:54:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Lost and Non Lost Functionality/Mark as lost (1)'
+
+01-03-2024T16:54:28 - [TEST_STEP][FAILED] - verifyElementExist(findTestObject("Lost and Non Lost Functionality/LostCasesText"), 0): Failed to check for element 'Object Repository/Lost and Non Lost Functionality/LostCasesText' exist (Root cause: com.kms.katalon.core.exception.StepFailedException: Failed to check for element 'Object Repository/Lost and Non Lost Functionality/LostCasesText' exist
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:35)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:1755)
+	at TC_08 - Lost Functionality.run(TC_08 - Lost Functionality:116)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709292137876.run(TempTestSuite1709292137876.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Lost and Non Lost Functionality/LostCasesText' not found
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:48)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:19)
+	... 20 more
+)
+
+01-03-2024T16:54:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T16:54:59 - [MESSAGE][FAILED] - Element 'Object Repository/Lost and Non Lost Functionality/LostCasesText' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Lost and Non Lost Functionality/LostCasesText' not found
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:48)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:19)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:35)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:1755)
+	at TC_08 - Lost Functionality.run(TC_08 - Lost Functionality:116)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709292137876.run(TempTestSuite1709292137876.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|C:\\Users\\sushil.gaikwad\\Downloads\\tatamotarsdemo 1\\tatamotarsdemo\\Reports\\20240301_165217\\TataMotors\\20240301_165217\\1709292298521.png]]
+
+01-03-2024T16:55:00 - [MESSAGE][FAILED] - Failed to check for element 'Object Repository/Lost and Non Lost Functionality/LostCasesText' exist (Root cause: com.kms.katalon.core.exception.StepFailedException: Failed to check for element 'Object Repository/Lost and Non Lost Functionality/LostCasesText' exist
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:35)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:1755)
+	at TC_08 - Lost Functionality.run(TC_08 - Lost Functionality:116)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709292137876.run(TempTestSuite1709292137876.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Lost and Non Lost Functionality/LostCasesText' not found
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:48)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:19)
+	... 20 more
+)
+[[ATTACHMENT|C:\\Users\\sushil.gaikwad\\Downloads\\tatamotarsdemo 1\\tatamotarsdemo\\Reports\\20240301_165217\\TataMotors\\20240301_165217\\1709292299550.png]]]]></system-out>
+         <system-err><![CDATA[01-03-2024T16:52:23 - [TEST_CASE][FAILED] - Test Cases/TC/TC_08 - Lost Functionality: Test Cases/TC/TC_08 - Lost Functionality FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to check for element 'Object Repository/Lost and Non Lost Functionality/LostCasesText' exist
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:35)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:1755)
+	at TC_08 - Lost Functionality.run(TC_08 - Lost Functionality:116)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709292137876.run(TempTestSuite1709292137876.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Lost and Non Lost Functionality/LostCasesText' not found
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:48)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:19)
+	... 20 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[01-03-2024T16:52:23 - [TEST_SUITE][FAILED] - TataMotors: Test Cases/TC/TC_08 - Lost Functionality FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to check for element 'Object Repository/Lost and Non Lost Functionality/LostCasesText' exist
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:35)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:1755)
+	at TC_08 - Lost Functionality.run(TC_08 - Lost Functionality:116)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709292137876.run(TempTestSuite1709292137876.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Lost and Non Lost Functionality/LostCasesText' not found
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:48)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:19)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[01-03-2024T16:52:23 - [TEST_SUITE][FAILED] - TataMotors: Test Cases/TC/TC_08 - Lost Functionality FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to check for element 'Object Repository/Lost and Non Lost Functionality/LostCasesText' exist
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:35)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:1755)
+	at TC_08 - Lost Functionality.run(TC_08 - Lost Functionality:116)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709292137876.run(TempTestSuite1709292137876.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Lost and Non Lost Functionality/LostCasesText' not found
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:48)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:19)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

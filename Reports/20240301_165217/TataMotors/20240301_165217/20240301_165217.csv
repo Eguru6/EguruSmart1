@@ -1,0 +1,70 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TataMotors,,,,01-03-2024 16:52:23,01-03-2024 16:55:00,2m - 37.194s,FAILED
+,,,,,,,
+Test Cases/TC/TC_08 - Lost Functionality,,,,01-03-2024 16:52:23,01-03-2024 16:55:00,2m - 36.909s,FAILED
+"callTestCase(findTestCase(""CommenWorkflows/Login""), [""Str_URL"":""C:\Users\sushil.gaikwad\Downloads\tatamotarsdemo 1\tatamotarsdemo\Application\app-release 2.apk"", ""Str_Username"":""DUSER145"", ... ], STOP_ON_FAILURE)",,,,01-03-2024 16:52:24,01-03-2024 16:53:31,1m - 6.331s,PASSED
+"verifyElementExist(findTestObject(""TataMotars/HomeButton""), 10)",,,,01-03-2024 16:53:31,01-03-2024 16:53:31,0.273s,PASSED
+"tap(findTestObject(""Lost and Non Lost Functionality/C0""), 0)",,,,01-03-2024 16:53:31,01-03-2024 16:53:33,2.305s,PASSED
+"bool_Summary = verifyElementExist(findTestObject(""Lost and Non Lost Functionality/C0 Summary Text""), 30)",,,,01-03-2024 16:53:33,01-03-2024 16:53:39,5.866s,PASSED
+"bool_Target = verifyElementExist(findTestObject(""Lost and Non Lost Functionality/Target text""), 30)",,,,01-03-2024 16:53:39,01-03-2024 16:53:39,0.382s,PASSED
+"bool_MTD = verifyElementExist(findTestObject(""Lost and Non Lost Functionality/MTD text""), 0)",,,,01-03-2024 16:53:39,01-03-2024 16:53:40,0.376s,PASSED
+"bool_ThisWeek = verifyElementExist(findTestObject(""Lost and Non Lost Functionality/This Week text""), 0)",,,,01-03-2024 16:53:40,01-03-2024 16:53:40,0.408s,PASSED
+"bool_Yesterday = verifyElementExist(findTestObject(""Lost and Non Lost Functionality/Yesterday text""), 0)",,,,01-03-2024 16:53:40,01-03-2024 16:53:41,0.387s,PASSED
+bool_Yesterday && bool_ThisWeek && bool_MTD && bool_Target && bool_Summary == true,,,,01-03-2024 16:53:41,01-03-2024 16:53:41,0.004s,PASSED
+takeScreenshot(),,"STEP-01 : Click on C0
+
+Expected_Result : The user successfully landed on the C0 summary page with below option-:
+1. C0 Summary
+2. Target
+3. MTD
+4. This Week
+5. Yesterday",,01-03-2024 16:53:41,01-03-2024 16:53:42,1.642s,PASSED
+"Bool_Offline = waitForElementPresent(findTestObject(""LockScreen/NewPin/Offline Master Sync""), 5)",,,,01-03-2024 16:53:42,01-03-2024 16:53:47,5.279s,PASSED
+if (Bool_Offline == true),,,,01-03-2024 16:53:47,01-03-2024 16:53:47,0.032s,PASSED
+"tap(findTestObject(""Lost and Non Lost Functionality/C0 Three Dots""), 0)",,,,01-03-2024 16:53:48,01-03-2024 16:53:49,1.936s,PASSED
+"Bool_Offline = waitForElementPresent(findTestObject(""Lost and Non Lost Functionality/Opportunity Details""), 10)",,,,01-03-2024 16:53:49,01-03-2024 16:53:50,0.313s,PASSED
+"tap(findTestObject(""Lost and Non Lost Functionality/Opportunity Details""), 0)",,,,01-03-2024 16:53:50,01-03-2024 16:53:51,1.312s,PASSED
+"waitForElementPresent(findTestObject(""Lost and Non Lost Functionality/Schedule a follow up""), 5)",,,,01-03-2024 16:53:51,01-03-2024 16:53:53,1.451s,PASSED
+"bool_CreateC1 = verifyElementExist(findTestObject(""Lost and Non Lost Functionality/CREATE C1""), 0)",,,,01-03-2024 16:53:53,01-03-2024 16:53:53,0.298s,PASSED
+"bool_Details = verifyElementExist(findTestObject(""Lost and Non Lost Functionality/DETAILS""), 0)",,,,01-03-2024 16:53:53,01-03-2024 16:53:53,0.316s,PASSED
+"bool_ScheduleAFollowUp = verifyElementExist(findTestObject(""Lost and Non Lost Functionality/Schedule a follow up""), 0)",,,,01-03-2024 16:53:53,01-03-2024 16:53:53,0.311s,PASSED
+bool_ScheduleAFollowUp && bool_Details && bool_CreateC1 == true,,,,01-03-2024 16:53:53,01-03-2024 16:53:53,0.009s,PASSED
+takeScreenshot(),,"STEP-02 : Click on three dots of any opty card and select Opportunity detail option
+
+Expected_Result : The user successfully landed on the opty detail page with below option-:
+1. Create C1
+2. Details
+3. Schedule a follow up",,01-03-2024 16:53:53,01-03-2024 16:53:55,1.460s,PASSED
+"delay(5, STOP_ON_FAILURE)",,Edit,,01-03-2024 16:53:55,01-03-2024 16:54:00,5.025s,PASSED
+"tap(findTestObject(""Lost and Non Lost Functionality/Mark as Lost""), 0)",,,,01-03-2024 16:54:00,01-03-2024 16:54:00,0.379s,PASSED
+"bool_LTC = verifyElementExist(findTestObject(""Lost and Non Lost Functionality/LTC RadioButton""), 0)",,,,01-03-2024 16:54:00,01-03-2024 16:54:01,1.094s,PASSED
+"bool_NotLTC = verifyElementExist(findTestObject(""Lost and Non Lost Functionality/Non LTC RadioButton""), 0)",,,,01-03-2024 16:54:01,01-03-2024 16:54:02,0.280s,PASSED
+"bool_ReasonForLoss = verifyElementExist(findTestObject(""Lost and Non Lost Functionality/Reason for loss Field""), 0)",,,,01-03-2024 16:54:02,01-03-2024 16:54:02,0.798s,PASSED
+"bool_MakeLostTo = verifyElementExist(findTestObject(""Lost and Non Lost Functionality/Make lost to field""), 0)",,,,01-03-2024 16:54:02,01-03-2024 16:54:04,1.156s,PASSED
+"bool_ModelToLostTo = verifyElementExist(findTestObject(""Lost and Non Lost Functionality/ModelLostTo""), 0)",,,,01-03-2024 16:54:04,01-03-2024 16:54:05,0.871s,PASSED
+"bool_Comment = verifyElementExist(findTestObject(""Lost and Non Lost Functionality/Comment""), 0)",,,,01-03-2024 16:54:05,01-03-2024 16:54:06,1.685s,PASSED
+bool_LTC && bool_NotLTC && bool_ReasonForLoss && bool_MakeLostTo && bool_ModelToLostTo && bool_Comment == true,,,,01-03-2024 16:54:06,01-03-2024 16:54:06,0.006s,PASSED
+takeScreenshot(),,"STEP-03 : Click on Edit icon and select Mark as Lost option 
+
+Expected_Result : The user successfully land on the Mark as Lost option detail page with below field-:
+1. LTC
+2. Non LTC
+3. Reason for loss - dropdown
+4. Mark to lost to - dropdown
+5. Model lost to- dropdown
+6. Comment
+7. Cancel
+8. Mark as Lost",,01-03-2024 16:54:06,01-03-2024 16:54:07,0.990s,PASSED
+"tap(findTestObject(""Lost and Non Lost Functionality/LTC RadioButton""), 0)",,,,01-03-2024 16:54:07,01-03-2024 16:54:08,0.799s,PASSED
+"setText(findTestObject(""Lost and Non Lost Functionality/Reason for loss Field""), str_ReasonForLoss, 0)",,,,01-03-2024 16:54:08,01-03-2024 16:54:10,2.018s,PASSED
+"tap(findTestObject(""MarkAsLost/ResonForLossTextNew""), 0)",,,,01-03-2024 16:54:10,01-03-2024 16:54:12,2.165s,PASSED
+"setText(findTestObject(""Lost and Non Lost Functionality/Make lost to field""), str_MakeLossTo, 0)",,,,01-03-2024 16:54:12,01-03-2024 16:54:14,1.556s,PASSED
+"tap(findTestObject(""MarkAsLost/MakeLostToTextNew""), 0)",,,,01-03-2024 16:54:14,01-03-2024 16:54:16,1.752s,PASSED
+hideKeyboard(),,,,01-03-2024 16:54:16,01-03-2024 16:54:17,1.833s,PASSED
+"setText(findTestObject(""MarkAsLost/ModelLostToNew""), str_ModelLostTo, 0)",,,,01-03-2024 16:54:17,01-03-2024 16:54:19,1.987s,PASSED
+hideKeyboard(),,,,01-03-2024 16:54:19,01-03-2024 16:54:21,1.791s,PASSED
+"tap(findTestObject(""MarkAsLost/NewModelLostDropdown""), 0)",,,,01-03-2024 16:54:21,01-03-2024 16:54:22,0.902s,PASSED
+"setText(findTestObject(""Lost and Non Lost Functionality/Comment""), str_Comment, 0)",,,,01-03-2024 16:54:22,01-03-2024 16:54:25,2.686s,PASSED
+hideKeyboard(),,,,01-03-2024 16:54:25,01-03-2024 16:54:27,2.343s,PASSED
+"tap(findTestObject(""Lost and Non Lost Functionality/Mark as lost (1)""), 0)",,,,01-03-2024 16:54:27,01-03-2024 16:54:28,0.845s,PASSED
+"verifyElementExist(findTestObject(""Lost and Non Lost Functionality/LostCasesText""), 0)",,,,01-03-2024 16:54:28,01-03-2024 16:55:00,32.067s,FAILED

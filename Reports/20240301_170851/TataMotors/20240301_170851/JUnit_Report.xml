@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TataMotors" time="135.888" tests="1" failures="0" errors="0">
+   <testsuite name="TataMotors" tests="1" failures="0" errors="0" time="135.888" skipped="0" timestamp="01-03-2024T17:08:56" hostname="Sushil.Gaikwad - DS025.step.com" id="Test Suites/TataMotors">
+      <properties>
+         <property name="deviceName" value="samsung SM-A032F (Android 13)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\sushil.gaikwad\\Downloads\\tatamotarsdemo 1\\tatamotarsdemo\\Reports\\20240301_170851\\TataMotors\\20240301_170851"/>
+         <property name="logFiles" value="C:\\Users\\sushil.gaikwad\\Downloads\\tatamotarsdemo 1\\tatamotarsdemo\\Reports\\20240301_170851\\TataMotors\\20240301_170851\\appium.log, C:\\Users\\sushil.gaikwad\\Downloads\\tatamotarsdemo 1\\tatamotarsdemo\\Reports\\20240301_170851\\TataMotors\\20240301_170851\\appium_error.log, C:\\Users\\sushil.gaikwad\\Downloads\\tatamotarsdemo 1\\tatamotarsdemo\\Reports\\20240301_170851\\TataMotors\\20240301_170851\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\sushil.gaikwad\\Downloads\\tatamotarsdemo 1\\tatamotarsdemo\\Reports\\20240301_170851\\TataMotors\\20240301_170851\\1709293210173.png, C:\\Users\\sushil.gaikwad\\Downloads\\tatamotarsdemo 1\\tatamotarsdemo\\Reports\\20240301_170851\\TataMotors\\20240301_170851\\1709293228116.png, C:\\Users\\sushil.gaikwad\\Downloads\\tatamotarsdemo 1\\tatamotarsdemo\\Reports\\20240301_170851\\TataMotors\\20240301_170851\\1709293255684.png, C:\\Users\\sushil.gaikwad\\Downloads\\tatamotarsdemo 1\\tatamotarsdemo\\Reports\\20240301_170851\\TataMotors\\20240301_170851\\1709293271750.png"/>
+         <property name="hostName" value="Sushil.Gaikwad - DS025.step.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="SM-A032F"/>
+         <property name="hostAddress" value="192.168.0.126"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="R9ZT10H9Y2L"/>
+         <property name="deviceName" value="samsung SM-A032F (Android 13)"/>
+         <property name="deviceOSVersion" value="13"/>
+      </properties>
+      <testcase name="Test Cases/TC/TC_09 - Non Lost Functionality" time="135.602" classname="Test Cases/TC/TC_09 - Non Lost Functionality" status="PASSED">
+         <system-out><![CDATA[01-03-2024T17:08:57 - [TEST_CASE][PASSED] - Test Cases/TC/TC_09 - Non Lost Functionality: Test Cases/TC/TC_09 - Non Lost Functionality
+
+01-03-2024T17:08:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CommenWorkflows/Login"), ["Str_URL":"C:\Users\sushil.gaikwad\Downloads\tatamotarsdemo 1\tatamotarsdemo\Application\app-release 2.apk", "Str_Username":"DUSER145", ... ], STOP_ON_FAILURE): Call Test Case 'Test Cases/CommenWorkflows/Login' successfully
+
+01-03-2024T17:08:58 - [TEST_CASE][PASSED] - Test Cases/CommenWorkflows/Login: Test Cases/CommenWorkflows/Login
+
+01-03-2024T17:08:59 - [TEST_STEP][PASSED] - startApplication(Str_URL, true): Started app at: 'C:\Users\sushil.gaikwad\Downloads\tatamotarsdemo 1\tatamotarsdemo\Application\app-release 2.apk'
+
+01-03-2024T17:08:59 - [MESSAGE][INFO] - User set preference: ['deviceId', 'R9ZT10H9Y2L']
+
+01-03-2024T17:08:59 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+01-03-2024T17:09:04 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+01-03-2024T17:09:04 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\sushil.gaikwad\AppData\Roaming\npm\node_modules\appium\build\lib\main.js
+
+01-03-2024T17:09:04 - [MESSAGE][INFO] - appium outlog: C:\Users\sushil.gaikwad\Downloads\tatamotarsdemo 1\tatamotarsdemo\Reports\20240301_170851\TataMotors\20240301_170851\appium.log
+
+01-03-2024T17:09:04 - [MESSAGE][INFO] - appium errlog: C:\Users\sushil.gaikwad\Downloads\tatamotarsdemo 1\tatamotarsdemo\Reports\20240301_170851\TataMotors\20240301_170851\appium_error.log
+
+01-03-2024T17:09:06 - [MESSAGE][INFO] - Appium server started on port 52,277
+
+01-03-2024T17:09:30 - [MESSAGE][PASSED] - Started app at: 'C:\Users\sushil.gaikwad\Downloads\tatamotarsdemo 1\tatamotarsdemo\Application\app-release 2.apk'
+
+01-03-2024T17:09:30 - [TEST_STEP][PASSED] - Bool_Username = waitForElementPresent(findTestObject("LockScreen/UsernaneText"), 30): Element 'Object Repository/LockScreen/UsernaneText' is present
+
+01-03-2024T17:09:31 - [MESSAGE][PASSED] - Element 'Object Repository/LockScreen/UsernaneText' is present
+
+01-03-2024T17:09:31 - [TEST_STEP][PASSED] - if (Bool_Username == true): Tapped on element 'Object Repository/LockScreen/NewPin/OkButton'
+
+01-03-2024T17:09:31 - [TEST_STEP][PASSED] - setText(findTestObject("LockScreen/Username"), Str_Username, 0): Text 'DUSER145' has been set to element 'Object Repository/LockScreen/Username'
+
+01-03-2024T17:09:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T17:09:37 - [MESSAGE][PASSED] - Text 'DUSER145' has been set to element 'Object Repository/LockScreen/Username'
+
+01-03-2024T17:09:37 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+01-03-2024T17:09:38 - [MESSAGE][PASSED] - Keyboard is hidden
+
+01-03-2024T17:09:38 - [TEST_STEP][PASSED] - setText(findTestObject("LockScreen/Password"), Str_Password, 0): Text 'Soct#2023' has been set to element 'Object Repository/LockScreen/Password'
+
+01-03-2024T17:09:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T17:09:40 - [MESSAGE][PASSED] - Text 'Soct#2023' has been set to element 'Object Repository/LockScreen/Password'
+
+01-03-2024T17:09:40 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+01-03-2024T17:09:43 - [MESSAGE][PASSED] - Keyboard is hidden
+
+01-03-2024T17:09:43 - [TEST_STEP][PASSED] - tap(findTestObject("LockScreen/LoginButton"), 0): Tapped on element 'Object Repository/LockScreen/LoginButton'
+
+01-03-2024T17:09:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T17:09:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LockScreen/LoginButton'
+
+01-03-2024T17:09:45 - [TEST_STEP][PASSED] - setText(findTestObject("LockScreen/NewPin/NewPin1"), "1", 0): Text '1' has been set to element 'Object Repository/LockScreen/NewPin/NewPin1'
+
+01-03-2024T17:09:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T17:09:47 - [MESSAGE][PASSED] - Text '1' has been set to element 'Object Repository/LockScreen/NewPin/NewPin1'
+
+01-03-2024T17:09:47 - [TEST_STEP][PASSED] - setText(findTestObject("LockScreen/NewPin/NewPin2"), "2", 0): Text '2' has been set to element 'Object Repository/LockScreen/NewPin/NewPin2'
+
+01-03-2024T17:09:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T17:09:49 - [MESSAGE][PASSED] - Text '2' has been set to element 'Object Repository/LockScreen/NewPin/NewPin2'
+
+01-03-2024T17:09:49 - [TEST_STEP][PASSED] - setText(findTestObject("LockScreen/NewPin/NewPin3"), "3", 0): Text '3' has been set to element 'Object Repository/LockScreen/NewPin/NewPin3'
+
+01-03-2024T17:09:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T17:09:50 - [MESSAGE][PASSED] - Text '3' has been set to element 'Object Repository/LockScreen/NewPin/NewPin3'
+
+01-03-2024T17:09:50 - [TEST_STEP][PASSED] - setText(findTestObject("LockScreen/NewPin/NewPin4"), "4", 0): Text '4' has been set to element 'Object Repository/LockScreen/NewPin/NewPin4'
+
+01-03-2024T17:09:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T17:09:51 - [MESSAGE][PASSED] - Text '4' has been set to element 'Object Repository/LockScreen/NewPin/NewPin4'
+
+01-03-2024T17:09:51 - [TEST_STEP][PASSED] - setText(findTestObject("LockScreen/NewPin/ConfirmPin1"), "1", 0): Text '1' has been set to element 'Object Repository/LockScreen/NewPin/ConfirmPin1'
+
+01-03-2024T17:09:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T17:09:54 - [MESSAGE][PASSED] - Text '1' has been set to element 'Object Repository/LockScreen/NewPin/ConfirmPin1'
+
+01-03-2024T17:09:54 - [TEST_STEP][PASSED] - setText(findTestObject("LockScreen/NewPin/ConfirmPin2"), "2", 0): Text '2' has been set to element 'Object Repository/LockScreen/NewPin/ConfirmPin2'
+
+01-03-2024T17:09:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T17:09:55 - [MESSAGE][PASSED] - Text '2' has been set to element 'Object Repository/LockScreen/NewPin/ConfirmPin2'
+
+01-03-2024T17:09:55 - [TEST_STEP][PASSED] - setText(findTestObject("LockScreen/NewPin/ConfirmPin3"), "3", 0): Text '3' has been set to element 'Object Repository/LockScreen/NewPin/ConfirmPin3'
+
+01-03-2024T17:09:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T17:09:56 - [MESSAGE][PASSED] - Text '3' has been set to element 'Object Repository/LockScreen/NewPin/ConfirmPin3'
+
+01-03-2024T17:09:56 - [TEST_STEP][PASSED] - setText(findTestObject("LockScreen/NewPin/ConfirmPin4"), "4", 0): Text '4' has been set to element 'Object Repository/LockScreen/NewPin/ConfirmPin4'
+
+01-03-2024T17:09:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T17:09:58 - [MESSAGE][PASSED] - Text '4' has been set to element 'Object Repository/LockScreen/NewPin/ConfirmPin4'
+
+01-03-2024T17:09:58 - [TEST_STEP][PASSED] - Bool_Offline = waitForElementPresent(findTestObject("LockScreen/NewPin/Offline Master Sync"), 30): Element 'Object Repository/LockScreen/NewPin/Offline Master Sync' is present
+
+01-03-2024T17:09:59 - [MESSAGE][PASSED] - Element 'Object Repository/LockScreen/NewPin/Offline Master Sync' is present
+
+01-03-2024T17:09:59 - [TEST_STEP][PASSED] - if (Bool_Offline == true): Tapped on element 'Object Repository/LockScreen/NewPin/OkButton'
+
+01-03-2024T17:09:59 - [TEST_STEP][PASSED] - tap(findTestObject("LockScreen/NewPin/OkButton"), 0): Tapped on element 'Object Repository/LockScreen/NewPin/OkButton'
+
+01-03-2024T17:09:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T17:10:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LockScreen/NewPin/OkButton'
+
+01-03-2024T17:10:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommenWorkflows/Login' successfully
+
+01-03-2024T17:10:01 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("TataMotars/HomeButton"), 30): Element 'Object Repository/TataMotars/HomeButton' is exist
+
+01-03-2024T17:10:01 - [MESSAGE][PASSED] - Element 'Object Repository/TataMotars/HomeButton' is exist
+
+01-03-2024T17:10:01 - [TEST_STEP][PASSED] - tap(findTestObject("Lost and Non Lost Functionality/C0"), 0): Tapped on element 'Object Repository/Lost and Non Lost Functionality/C0'
+
+01-03-2024T17:10:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T17:10:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Lost and Non Lost Functionality/C0'
+
+01-03-2024T17:10:02 - [TEST_STEP][PASSED] - bool_Summary = verifyElementExist(findTestObject("Lost and Non Lost Functionality/C0 Summary Text"), 0): Element 'Object Repository/Lost and Non Lost Functionality/C0 Summary Text' is exist
+
+01-03-2024T17:10:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T17:10:08 - [MESSAGE][PASSED] - Element 'Object Repository/Lost and Non Lost Functionality/C0 Summary Text' is exist
+
+01-03-2024T17:10:08 - [TEST_STEP][PASSED] - bool_Target = verifyElementExist(findTestObject("Lost and Non Lost Functionality/Target text"), 0): Element 'Object Repository/Lost and Non Lost Functionality/Target text' is exist
+
+01-03-2024T17:10:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T17:10:09 - [MESSAGE][PASSED] - Element 'Object Repository/Lost and Non Lost Functionality/Target text' is exist
+
+01-03-2024T17:10:09 - [TEST_STEP][PASSED] - bool_MTD = verifyElementExist(findTestObject("Lost and Non Lost Functionality/MTD text"), 0): Element 'Object Repository/Lost and Non Lost Functionality/MTD text' is exist
+
+01-03-2024T17:10:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T17:10:09 - [MESSAGE][PASSED] - Element 'Object Repository/Lost and Non Lost Functionality/MTD text' is exist
+
+01-03-2024T17:10:09 - [TEST_STEP][PASSED] - bool_ThisWeek = verifyElementExist(findTestObject("Lost and Non Lost Functionality/This Week text"), 0): Element 'Object Repository/Lost and Non Lost Functionality/This Week text' is exist
+
+01-03-2024T17:10:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T17:10:09 - [MESSAGE][PASSED] - Element 'Object Repository/Lost and Non Lost Functionality/This Week text' is exist
+
+01-03-2024T17:10:09 - [TEST_STEP][PASSED] - bool_Yesterday = verifyElementExist(findTestObject("Lost and Non Lost Functionality/Yesterday text"), 0): Element 'Object Repository/Lost and Non Lost Functionality/Yesterday text' is exist
+
+01-03-2024T17:10:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T17:10:10 - [MESSAGE][PASSED] - Element 'Object Repository/Lost and Non Lost Functionality/Yesterday text' is exist
+
+01-03-2024T17:10:10 - [TEST_STEP][PASSED] - bool_Yesterday && bool_ThisWeek && bool_MTD && bool_Target && bool_Summary == true: null
+
+01-03-2024T17:10:10 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+01-03-2024T17:10:11 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\sushil.gaikwad\\Downloads\\tatamotarsdemo 1\\tatamotarsdemo\\Reports\\20240301_170851\\TataMotors\\20240301_170851\\1709293210173.png]]
+
+01-03-2024T17:10:11 - [TEST_STEP][PASSED] - Bool_Offline = waitForElementPresent(findTestObject("LockScreen/NewPin/Offline Master Sync"), 10): Object Object Repository/LockScreen/NewPin/Offline Master Sync not found
+
+01-03-2024T17:10:21 - [MESSAGE][WARNING] - Object Object Repository/LockScreen/NewPin/Offline Master Sync not found
+
+01-03-2024T17:10:21 - [TEST_STEP][PASSED] - if (Bool_Offline == true): null
+
+01-03-2024T17:10:21 - [TEST_STEP][PASSED] - tap(findTestObject("Lost and Non Lost Functionality/C0 Three Dots"), 5): Tapped on element 'Object Repository/Lost and Non Lost Functionality/C0 Three Dots'
+
+01-03-2024T17:10:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Lost and Non Lost Functionality/C0 Three Dots'
+
+01-03-2024T17:10:23 - [TEST_STEP][PASSED] - Bool_Offline = waitForElementPresent(findTestObject("Lost and Non Lost Functionality/Opportunity Details"), 10): Element 'Object Repository/Lost and Non Lost Functionality/Opportunity Details' is present
+
+01-03-2024T17:10:24 - [MESSAGE][PASSED] - Element 'Object Repository/Lost and Non Lost Functionality/Opportunity Details' is present
+
+01-03-2024T17:10:24 - [TEST_STEP][PASSED] - tap(findTestObject("Lost and Non Lost Functionality/Opportunity Details"), 0): Tapped on element 'Object Repository/Lost and Non Lost Functionality/Opportunity Details'
+
+01-03-2024T17:10:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T17:10:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Lost and Non Lost Functionality/Opportunity Details'
+
+01-03-2024T17:10:25 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Lost and Non Lost Functionality/Schedule a follow up"), 5): Element 'Object Repository/Lost and Non Lost Functionality/Schedule a follow up' is present
+
+01-03-2024T17:10:27 - [MESSAGE][PASSED] - Element 'Object Repository/Lost and Non Lost Functionality/Schedule a follow up' is present
+
+01-03-2024T17:10:27 - [TEST_STEP][PASSED] - bool_CreateC1 = verifyElementExist(findTestObject("Lost and Non Lost Functionality/CREATE C1"), 0): Element 'Object Repository/Lost and Non Lost Functionality/CREATE C1' is exist
+
+01-03-2024T17:10:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T17:10:27 - [MESSAGE][PASSED] - Element 'Object Repository/Lost and Non Lost Functionality/CREATE C1' is exist
+
+01-03-2024T17:10:27 - [TEST_STEP][PASSED] - bool_Details = verifyElementExist(findTestObject("Lost and Non Lost Functionality/DETAILS"), 0): Element 'Object Repository/Lost and Non Lost Functionality/DETAILS' is exist
+
+01-03-2024T17:10:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T17:10:27 - [MESSAGE][PASSED] - Element 'Object Repository/Lost and Non Lost Functionality/DETAILS' is exist
+
+01-03-2024T17:10:27 - [TEST_STEP][PASSED] - bool_ScheduleAFollowUp = verifyElementExist(findTestObject("Lost and Non Lost Functionality/Schedule a follow up"), 0): Element 'Object Repository/Lost and Non Lost Functionality/Schedule a follow up' is exist
+
+01-03-2024T17:10:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T17:10:28 - [MESSAGE][PASSED] - Element 'Object Repository/Lost and Non Lost Functionality/Schedule a follow up' is exist
+
+01-03-2024T17:10:28 - [TEST_STEP][PASSED] - bool_ScheduleAFollowUp && bool_Details && bool_CreateC1 == true: null
+
+01-03-2024T17:10:28 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+01-03-2024T17:10:29 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\sushil.gaikwad\\Downloads\\tatamotarsdemo 1\\tatamotarsdemo\\Reports\\20240301_170851\\TataMotors\\20240301_170851\\1709293228116.png]]
+
+01-03-2024T17:10:29 - [TEST_STEP][PASSED] - tap(findTestObject("Lost and Non Lost Functionality/Edit Pencil border"), 0): Tapped on element 'Object Repository/Lost and Non Lost Functionality/Edit Pencil border'
+
+01-03-2024T17:10:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T17:10:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Lost and Non Lost Functionality/Edit Pencil border'
+
+01-03-2024T17:10:31 - [TEST_STEP][PASSED] - tap(findTestObject("Lost and Non Lost Functionality/Mark as Lost"), 0): Tapped on element 'Object Repository/Lost and Non Lost Functionality/Mark as Lost'
+
+01-03-2024T17:10:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T17:10:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Lost and Non Lost Functionality/Mark as Lost'
+
+01-03-2024T17:10:35 - [TEST_STEP][PASSED] - bool_LTC = verifyElementExist(findTestObject("Lost and Non Lost Functionality/LTC RadioButton"), 0): Element 'Object Repository/Lost and Non Lost Functionality/LTC RadioButton' is exist
+
+01-03-2024T17:10:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T17:10:35 - [MESSAGE][PASSED] - Element 'Object Repository/Lost and Non Lost Functionality/LTC RadioButton' is exist
+
+01-03-2024T17:10:35 - [TEST_STEP][PASSED] - bool_NotLTC = verifyElementExist(findTestObject("Lost and Non Lost Functionality/Non LTC RadioButton"), 0): Element 'Object Repository/Lost and Non Lost Functionality/Non LTC RadioButton' is exist
+
+01-03-2024T17:10:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T17:10:35 - [MESSAGE][PASSED] - Element 'Object Repository/Lost and Non Lost Functionality/Non LTC RadioButton' is exist
+
+01-03-2024T17:10:35 - [TEST_STEP][PASSED] - bool_ReasonForLoss = verifyElementExist(findTestObject("Lost and Non Lost Functionality/Reason for loss Field"), 0): Element 'Object Repository/Lost and Non Lost Functionality/Reason for loss Field' is exist
+
+01-03-2024T17:10:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T17:10:36 - [MESSAGE][PASSED] - Element 'Object Repository/Lost and Non Lost Functionality/Reason for loss Field' is exist
+
+01-03-2024T17:10:36 - [TEST_STEP][PASSED] - bool_MakeLostTo = verifyElementExist(findTestObject("Lost and Non Lost Functionality/Make lost to field"), 0): Element 'Object Repository/Lost and Non Lost Functionality/Make lost to field' is exist
+
+01-03-2024T17:10:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T17:10:37 - [MESSAGE][PASSED] - Element 'Object Repository/Lost and Non Lost Functionality/Make lost to field' is exist
+
+01-03-2024T17:10:37 - [TEST_STEP][PASSED] - bool_ModelToLostTo = verifyElementExist(findTestObject("Lost and Non Lost Functionality/Model lost to"), 0): Element 'Object Repository/Lost and Non Lost Functionality/Model lost to' is exist
+
+01-03-2024T17:10:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T17:10:54 - [MESSAGE][PASSED] - Element 'Object Repository/Lost and Non Lost Functionality/Model lost to' is exist
+
+01-03-2024T17:10:54 - [TEST_STEP][PASSED] - bool_Comment = verifyElementExist(findTestObject("Lost and Non Lost Functionality/Comment"), 0): Element 'Object Repository/Lost and Non Lost Functionality/Comment' is exist
+
+01-03-2024T17:10:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T17:10:55 - [MESSAGE][PASSED] - Element 'Object Repository/Lost and Non Lost Functionality/Comment' is exist
+
+01-03-2024T17:10:55 - [TEST_STEP][PASSED] - bool_LTC && bool_NotLTC && bool_ReasonForLoss && bool_MakeLostTo && bool_ModelToLostTo && bool_Comment == true: null
+
+01-03-2024T17:10:55 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+01-03-2024T17:10:56 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\sushil.gaikwad\\Downloads\\tatamotarsdemo 1\\tatamotarsdemo\\Reports\\20240301_170851\\TataMotors\\20240301_170851\\1709293255684.png]]
+
+01-03-2024T17:10:56 - [TEST_STEP][PASSED] - tap(findTestObject("Lost and Non Lost Functionality/Non LTC RadioButton"), 0): Tapped on element 'Object Repository/Lost and Non Lost Functionality/Non LTC RadioButton'
+
+01-03-2024T17:10:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T17:10:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Lost and Non Lost Functionality/Non LTC RadioButton'
+
+01-03-2024T17:10:57 - [TEST_STEP][PASSED] - setText(findTestObject("Lost and Non Lost Functionality/Reason for loss Field"), str_NonLTCReasonForLoss, 0): Text 'NonLT C-Service/Spares Issues' has been set to element 'Object Repository/Lost and Non Lost Functionality/Reason for loss Field'
+
+01-03-2024T17:10:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T17:10:59 - [MESSAGE][PASSED] - Text 'NonLT C-Service/Spares Issues' has been set to element 'Object Repository/Lost and Non Lost Functionality/Reason for loss Field'
+
+01-03-2024T17:10:59 - [TEST_STEP][PASSED] - tap(findTestObject("Lost and Non Lost Functionality/ReasonForLossDD"), 0): Tapped on element 'Object Repository/Lost and Non Lost Functionality/ReasonForLossDD'
+
+01-03-2024T17:10:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T17:11:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Lost and Non Lost Functionality/ReasonForLossDD'
+
+01-03-2024T17:11:00 - [TEST_STEP][PASSED] - setText(findTestObject("Lost and Non Lost Functionality/Comment"), str_Comment, 0): Text 'To Create lost view in lost case' has been set to element 'Object Repository/Lost and Non Lost Functionality/Comment'
+
+01-03-2024T17:11:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T17:11:03 - [MESSAGE][PASSED] - Text 'To Create lost view in lost case' has been set to element 'Object Repository/Lost and Non Lost Functionality/Comment'
+
+01-03-2024T17:11:03 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+01-03-2024T17:11:05 - [MESSAGE][PASSED] - Keyboard is hidden
+
+01-03-2024T17:11:05 - [TEST_STEP][PASSED] - tap(findTestObject("Lost and Non Lost Functionality/Mark as lost (1)"), 0): Tapped on element 'Object Repository/Lost and Non Lost Functionality/Mark as lost (1)'
+
+01-03-2024T17:11:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T17:11:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Lost and Non Lost Functionality/Mark as lost (1)'
+
+01-03-2024T17:11:06 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Lost and Non Lost Functionality/LostCasesText"), 0): Element 'Object Repository/Lost and Non Lost Functionality/LostCasesText' is exist
+
+01-03-2024T17:11:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T17:11:11 - [MESSAGE][PASSED] - Element 'Object Repository/Lost and Non Lost Functionality/LostCasesText' is exist
+
+01-03-2024T17:11:11 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+01-03-2024T17:11:12 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\sushil.gaikwad\\Downloads\\tatamotarsdemo 1\\tatamotarsdemo\\Reports\\20240301_170851\\TataMotors\\20240301_170851\\1709293271750.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[01-03-2024T17:08:56 - [TEST_SUITE][PASSED] - TataMotors: Test Cases/TC/TC_09 - Non Lost Functionality]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

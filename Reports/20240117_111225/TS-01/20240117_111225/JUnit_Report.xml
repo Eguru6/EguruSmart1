@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS-01" time="177.396" tests="1" failures="0" errors="0">
+   <testsuite name="TS-01" tests="1" failures="0" errors="0" time="177.396" skipped="0" timestamp="17-01-2024T11:12:30" hostname="Sushil.Gaikwad - DS025.step.com" id="Test Suites/TS-01">
+      <properties>
+         <property name="deviceName" value="samsung SM-A032F (Android 13)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\sushil.gaikwad\\Downloads\\tatamotarsdemo 1\\tatamotarsdemo\\Reports\\20240117_111225\\TS-01\\20240117_111225"/>
+         <property name="logFiles" value="C:\\Users\\sushil.gaikwad\\Downloads\\tatamotarsdemo 1\\tatamotarsdemo\\Reports\\20240117_111225\\TS-01\\20240117_111225\\appium.log, C:\\Users\\sushil.gaikwad\\Downloads\\tatamotarsdemo 1\\tatamotarsdemo\\Reports\\20240117_111225\\TS-01\\20240117_111225\\appium_error.log, C:\\Users\\sushil.gaikwad\\Downloads\\tatamotarsdemo 1\\tatamotarsdemo\\Reports\\20240117_111225\\TS-01\\20240117_111225\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Sushil.Gaikwad - DS025.step.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="SM-A032F"/>
+         <property name="hostAddress" value="192.168.0.118"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="R9ZT10H9Y2L"/>
+         <property name="deviceName" value="samsung SM-A032F (Android 13)"/>
+         <property name="deviceOSVersion" value="13"/>
+      </properties>
+      <testcase name="Test Cases/TC/TC_03 -Add Account" time="177.077" classname="Test Cases/TC/TC_03 -Add Account" status="PASSED">
+         <system-out><![CDATA[17-01-2024T11:12:30 - [TEST_CASE][PASSED] - Test Cases/TC/TC_03 -Add Account: Test Cases/TC/TC_03 -Add Account
+
+17-01-2024T11:12:32 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CommenWorkflows/Login"), ["Str_URL":"C:\Users\sushil.gaikwad\Downloads\tatamotarsdemo 1\tatamotarsdemo\Application\app-release 2.apk", "Str_Username":"DUSER145", ... ], STOP_ON_FAILURE): Call Test Case 'Test Cases/CommenWorkflows/Login' successfully
+
+17-01-2024T11:12:32 - [TEST_CASE][PASSED] - Test Cases/CommenWorkflows/Login: Test Cases/CommenWorkflows/Login
+
+17-01-2024T11:12:33 - [TEST_STEP][PASSED] - startApplication(Str_URL, true): Started app at: 'C:\Users\sushil.gaikwad\Downloads\tatamotarsdemo 1\tatamotarsdemo\Application\app-release 2.apk'
+
+17-01-2024T11:12:33 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+17-01-2024T11:12:34 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+17-01-2024T11:12:38 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+17-01-2024T11:12:38 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\sushil.gaikwad\AppData\Roaming\npm\node_modules\appium\build\lib\main.js
+
+17-01-2024T11:12:38 - [MESSAGE][INFO] - appium outlog: C:\Users\sushil.gaikwad\Downloads\tatamotarsdemo 1\tatamotarsdemo\Reports\20240117_111225\TS-01\20240117_111225\appium.log
+
+17-01-2024T11:12:38 - [MESSAGE][INFO] - appium errlog: C:\Users\sushil.gaikwad\Downloads\tatamotarsdemo 1\tatamotarsdemo\Reports\20240117_111225\TS-01\20240117_111225\appium_error.log
+
+17-01-2024T11:12:40 - [MESSAGE][INFO] - Appium server started on port 59,296
+
+17-01-2024T11:13:10 - [MESSAGE][PASSED] - Started app at: 'C:\Users\sushil.gaikwad\Downloads\tatamotarsdemo 1\tatamotarsdemo\Application\app-release 2.apk'
+
+17-01-2024T11:13:10 - [TEST_STEP][PASSED] - Bool_Username = waitForElementPresent(findTestObject("LockScreen/UsernaneText"), 30): Element 'Object Repository/LockScreen/UsernaneText' is present
+
+17-01-2024T11:13:11 - [MESSAGE][PASSED] - Element 'Object Repository/LockScreen/UsernaneText' is present
+
+17-01-2024T11:13:11 - [TEST_STEP][PASSED] - if (Bool_Username == true): null
+
+17-01-2024T11:13:11 - [TEST_STEP][PASSED] - setText(findTestObject("LockScreen/Username"), Str_Username, 0): Text 'DUSER145' has been set to element 'Object Repository/LockScreen/Username'
+
+17-01-2024T11:13:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-01-2024T11:13:16 - [MESSAGE][PASSED] - Text 'DUSER145' has been set to element 'Object Repository/LockScreen/Username'
+
+17-01-2024T11:13:16 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+17-01-2024T11:13:19 - [MESSAGE][PASSED] - Keyboard is hidden
+
+17-01-2024T11:13:19 - [TEST_STEP][PASSED] - setText(findTestObject("LockScreen/Password"), Str_Password, 0): Text 'Soct#2023' has been set to element 'Object Repository/LockScreen/Password'
+
+17-01-2024T11:13:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-01-2024T11:13:21 - [MESSAGE][PASSED] - Text 'Soct#2023' has been set to element 'Object Repository/LockScreen/Password'
+
+17-01-2024T11:13:21 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+17-01-2024T11:13:25 - [MESSAGE][PASSED] - Keyboard is hidden
+
+17-01-2024T11:13:25 - [TEST_STEP][PASSED] - tap(findTestObject("LockScreen/LoginButton"), 0): Tapped on element 'Object Repository/LockScreen/LoginButton'
+
+17-01-2024T11:13:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-01-2024T11:13:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LockScreen/LoginButton'
+
+17-01-2024T11:13:27 - [TEST_STEP][PASSED] - setText(findTestObject("LockScreen/NewPin/NewPin1"), "1", 0): Text '1' has been set to element 'Object Repository/LockScreen/NewPin/NewPin1'
+
+17-01-2024T11:13:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-01-2024T11:13:30 - [MESSAGE][PASSED] - Text '1' has been set to element 'Object Repository/LockScreen/NewPin/NewPin1'
+
+17-01-2024T11:13:30 - [TEST_STEP][PASSED] - setText(findTestObject("LockScreen/NewPin/NewPin2"), "2", 0): Text '2' has been set to element 'Object Repository/LockScreen/NewPin/NewPin2'
+
+17-01-2024T11:13:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-01-2024T11:13:31 - [MESSAGE][PASSED] - Text '2' has been set to element 'Object Repository/LockScreen/NewPin/NewPin2'
+
+17-01-2024T11:13:31 - [TEST_STEP][PASSED] - setText(findTestObject("LockScreen/NewPin/NewPin3"), "3", 0): Text '3' has been set to element 'Object Repository/LockScreen/NewPin/NewPin3'
+
+17-01-2024T11:13:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-01-2024T11:13:33 - [MESSAGE][PASSED] - Text '3' has been set to element 'Object Repository/LockScreen/NewPin/NewPin3'
+
+17-01-2024T11:13:33 - [TEST_STEP][PASSED] - setText(findTestObject("LockScreen/NewPin/NewPin4"), "4", 0): Text '4' has been set to element 'Object Repository/LockScreen/NewPin/NewPin4'
+
+17-01-2024T11:13:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-01-2024T11:13:34 - [MESSAGE][PASSED] - Text '4' has been set to element 'Object Repository/LockScreen/NewPin/NewPin4'
+
+17-01-2024T11:13:34 - [TEST_STEP][PASSED] - setText(findTestObject("LockScreen/NewPin/ConfirmPin1"), "1", 0): Text '1' has been set to element 'Object Repository/LockScreen/NewPin/ConfirmPin1'
+
+17-01-2024T11:13:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-01-2024T11:13:36 - [MESSAGE][PASSED] - Text '1' has been set to element 'Object Repository/LockScreen/NewPin/ConfirmPin1'
+
+17-01-2024T11:13:36 - [TEST_STEP][PASSED] - setText(findTestObject("LockScreen/NewPin/ConfirmPin2"), "2", 0): Text '2' has been set to element 'Object Repository/LockScreen/NewPin/ConfirmPin2'
+
+17-01-2024T11:13:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-01-2024T11:13:38 - [MESSAGE][PASSED] - Text '2' has been set to element 'Object Repository/LockScreen/NewPin/ConfirmPin2'
+
+17-01-2024T11:13:38 - [TEST_STEP][PASSED] - setText(findTestObject("LockScreen/NewPin/ConfirmPin3"), "3", 0): Text '3' has been set to element 'Object Repository/LockScreen/NewPin/ConfirmPin3'
+
+17-01-2024T11:13:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-01-2024T11:13:39 - [MESSAGE][PASSED] - Text '3' has been set to element 'Object Repository/LockScreen/NewPin/ConfirmPin3'
+
+17-01-2024T11:13:39 - [TEST_STEP][PASSED] - setText(findTestObject("LockScreen/NewPin/ConfirmPin4"), "4", 0): Text '4' has been set to element 'Object Repository/LockScreen/NewPin/ConfirmPin4'
+
+17-01-2024T11:13:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-01-2024T11:13:41 - [MESSAGE][PASSED] - Text '4' has been set to element 'Object Repository/LockScreen/NewPin/ConfirmPin4'
+
+17-01-2024T11:13:41 - [TEST_STEP][PASSED] - Bool_Offline = waitForElementPresent(findTestObject("LockScreen/NewPin/Offline Master Sync"), 10): Element 'Object Repository/LockScreen/NewPin/Offline Master Sync' is present
+
+17-01-2024T11:13:42 - [MESSAGE][PASSED] - Element 'Object Repository/LockScreen/NewPin/Offline Master Sync' is present
+
+17-01-2024T11:13:42 - [TEST_STEP][PASSED] - if (Bool_Offline == true): Tapped on element 'Object Repository/LockScreen/NewPin/OkButton'
+
+17-01-2024T11:13:42 - [TEST_STEP][PASSED] - tap(findTestObject("LockScreen/NewPin/OkButton"), 0): Tapped on element 'Object Repository/LockScreen/NewPin/OkButton'
+
+17-01-2024T11:13:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-01-2024T11:13:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LockScreen/NewPin/OkButton'
+
+17-01-2024T11:13:43 - [TEST_STEP][PASSED] - Bool_Offline = waitForElementPresent(findTestObject("LockScreen/NewPin/Offline Master Sync"), 30): Object Object Repository/LockScreen/NewPin/Offline Master Sync not found
+
+17-01-2024T11:14:13 - [MESSAGE][WARNING] - Object Object Repository/LockScreen/NewPin/Offline Master Sync not found
+
+17-01-2024T11:14:13 - [TEST_STEP][PASSED] - if (Bool_Offline == true): null
+
+17-01-2024T11:14:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommenWorkflows/Login' successfully
+
+17-01-2024T11:14:13 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("TataMotars/HomeButton"), 10): Element 'Object Repository/TataMotars/HomeButton' is exist
+
+17-01-2024T11:14:13 - [MESSAGE][PASSED] - Element 'Object Repository/TataMotars/HomeButton' is exist
+
+17-01-2024T11:14:13 - [TEST_STEP][PASSED] - tap(findTestObject("TataMotars/PluseButton"), 0): Tapped on element 'Object Repository/TataMotars/PluseButton'
+
+17-01-2024T11:14:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-01-2024T11:14:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TataMotars/PluseButton'
+
+17-01-2024T11:14:15 - [TEST_STEP][PASSED] - bool_Opportunity = verifyElementExist(findTestObject("TataMotars/Pluse Button/OpportunityButton"), 0): Element 'Object Repository/TataMotars/Pluse Button/OpportunityButton' is exist
+
+17-01-2024T11:14:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-01-2024T11:14:16 - [MESSAGE][PASSED] - Element 'Object Repository/TataMotars/Pluse Button/OpportunityButton' is exist
+
+17-01-2024T11:14:16 - [TEST_STEP][PASSED] - bool_Account = verifyElementExist(findTestObject("TataMotars/Pluse Button/Account"), 0): Element 'Object Repository/TataMotars/Pluse Button/Account' is exist
+
+17-01-2024T11:14:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-01-2024T11:14:16 - [MESSAGE][PASSED] - Element 'Object Repository/TataMotars/Pluse Button/Account' is exist
+
+17-01-2024T11:14:16 - [TEST_STEP][PASSED] - bool_Customer = verifyElementExist(findTestObject("TataMotars/Pluse Button/Customer"), 0): Element 'Object Repository/TataMotars/Pluse Button/Customer' is exist
+
+17-01-2024T11:14:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-01-2024T11:14:16 - [MESSAGE][PASSED] - Element 'Object Repository/TataMotars/Pluse Button/Customer' is exist
+
+17-01-2024T11:14:16 - [TEST_STEP][PASSED] - bool_Influencer = verifyElementExist(findTestObject("TataMotars/Pluse Button/Influencer"), 0): Element 'Object Repository/TataMotars/Pluse Button/Influencer' is exist
+
+17-01-2024T11:14:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-01-2024T11:14:16 - [MESSAGE][PASSED] - Element 'Object Repository/TataMotars/Pluse Button/Influencer' is exist
+
+17-01-2024T11:14:16 - [TEST_STEP][PASSED] - bool_FollowUp = verifyElementExist(findTestObject("TataMotars/Pluse Button/Follow Up"), 0): Element 'Object Repository/TataMotars/Pluse Button/Follow Up' is exist
+
+17-01-2024T11:14:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-01-2024T11:14:17 - [MESSAGE][PASSED] - Element 'Object Repository/TataMotars/Pluse Button/Follow Up' is exist
+
+17-01-2024T11:14:17 - [TEST_STEP][PASSED] - bool_Opportunity && bool_Account && bool_Customer && bool_Influencer && bool_FollowUp == false: null
+
+17-01-2024T11:14:17 - [TEST_STEP][PASSED] - takeScreenshot("", STOP_ON_FAILURE): Screenshot is taken
+
+17-01-2024T11:14:18 - [MESSAGE][WARNING] - 
+
+17-01-2024T11:14:18 - [MESSAGE][PASSED] - Screenshot is taken
+
+17-01-2024T11:14:18 - [TEST_STEP][PASSED] - tap(findTestObject("TataMotars/Pluse Button/Account"), 3): Tapped on element 'Object Repository/TataMotars/Pluse Button/Account'
+
+17-01-2024T11:14:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TataMotars/Pluse Button/Account'
+
+17-01-2024T11:14:19 - [TEST_STEP][PASSED] - bool_Individual = verifyElementExist(findTestObject("Add Account/Individual RadioButton"), 30): Element 'Object Repository/Add Account/Individual RadioButton' is exist
+
+17-01-2024T11:14:19 - [MESSAGE][PASSED] - Element 'Object Repository/Add Account/Individual RadioButton' is exist
+
+17-01-2024T11:14:19 - [TEST_STEP][PASSED] - bool_AccountName = verifyElementExist(findTestObject("Add Account/Account Name"), 30): Element 'Object Repository/Add Account/Account Name' is exist
+
+17-01-2024T11:14:20 - [MESSAGE][PASSED] - Element 'Object Repository/Add Account/Account Name' is exist
+
+17-01-2024T11:14:20 - [TEST_STEP][PASSED] - bool_MainPhoneNumber = verifyElementExist(findTestObject("Add Account/Main Phone Number"), 30): Element 'Object Repository/Add Account/Main Phone Number' is exist
+
+17-01-2024T11:14:21 - [MESSAGE][PASSED] - Element 'Object Repository/Add Account/Main Phone Number' is exist
+
+17-01-2024T11:14:21 - [TEST_STEP][PASSED] - bool_Individual && bool_AccountName && bool_MainPhoneNumber == true: null
+
+17-01-2024T11:14:21 - [TEST_STEP][PASSED] - takeScreenshot("", STOP_ON_FAILURE): Screenshot is taken
+
+17-01-2024T11:14:22 - [MESSAGE][WARNING] - 
+
+17-01-2024T11:14:22 - [MESSAGE][PASSED] - Screenshot is taken
+
+17-01-2024T11:14:22 - [TEST_STEP][PASSED] - Bool_Offline = waitForElementPresent(findTestObject("LockScreen/NewPin/Offline Master Sync"), 30): Element 'Object Repository/LockScreen/NewPin/Offline Master Sync' is present
+
+17-01-2024T11:14:25 - [MESSAGE][PASSED] - Element 'Object Repository/LockScreen/NewPin/Offline Master Sync' is present
+
+17-01-2024T11:14:25 - [TEST_STEP][PASSED] - if (Bool_Offline == true): Tapped on element 'Object Repository/LockScreen/NewPin/OkButton'
+
+17-01-2024T11:14:25 - [TEST_STEP][PASSED] - tap(findTestObject("LockScreen/NewPin/OkButton"), 5): Tapped on element 'Object Repository/LockScreen/NewPin/OkButton'
+
+17-01-2024T11:14:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LockScreen/NewPin/OkButton'
+
+17-01-2024T11:14:26 - [TEST_STEP][PASSED] - checkElement(findTestObject("Add Account/Individual RadioButton"), 0): Element 'Object Repository/Add Account/Individual RadioButton' is checked
+
+17-01-2024T11:14:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-01-2024T11:14:27 - [MESSAGE][PASSED] - Element 'Object Repository/Add Account/Individual RadioButton' is checked
+
+17-01-2024T11:14:27 - [TEST_STEP][PASSED] - setText(findTestObject("Add Account/Account Name"), str_AccountName, 0): Text 'Step Office' has been set to element 'Object Repository/Add Account/Account Name'
+
+17-01-2024T11:14:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-01-2024T11:14:29 - [MESSAGE][PASSED] - Text 'Step Office' has been set to element 'Object Repository/Add Account/Account Name'
+
+17-01-2024T11:14:29 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+17-01-2024T11:14:31 - [MESSAGE][PASSED] - Keyboard is hidden
+
+17-01-2024T11:14:31 - [TEST_STEP][PASSED] - setText(findTestObject("Add Account/Main Phone Number"), str_MainMobileNo, 0): Text '9988667890' has been set to element 'Object Repository/Add Account/Main Phone Number'
+
+17-01-2024T11:14:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-01-2024T11:14:33 - [MESSAGE][PASSED] - Text '9988667890' has been set to element 'Object Repository/Add Account/Main Phone Number'
+
+17-01-2024T11:14:33 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+17-01-2024T11:14:38 - [MESSAGE][PASSED] - Keyboard is hidden
+
+17-01-2024T11:14:38 - [TEST_STEP][PASSED] - tap(findTestObject("Primery Details/Address Details/NextButton"), 0): Tapped on element 'Object Repository/Primery Details/Address Details/NextButton'
+
+17-01-2024T11:14:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-01-2024T11:14:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Primery Details/Address Details/NextButton'
+
+17-01-2024T11:14:38 - [TEST_STEP][PASSED] - bool_Pincode = verifyElementExist(findTestObject("Primery Details/Address Details/Pincode"), 30): Element 'Object Repository/Primery Details/Address Details/Pincode' is exist
+
+17-01-2024T11:14:39 - [MESSAGE][PASSED] - Element 'Object Repository/Primery Details/Address Details/Pincode' is exist
+
+17-01-2024T11:14:39 - [TEST_STEP][PASSED] - takeScreenshot("", STOP_ON_FAILURE): Screenshot is taken
+
+17-01-2024T11:14:40 - [MESSAGE][WARNING] - 
+
+17-01-2024T11:14:40 - [MESSAGE][PASSED] - Screenshot is taken
+
+17-01-2024T11:14:40 - [TEST_STEP][PASSED] - Bool_Offline = waitForElementPresent(findTestObject("LockScreen/NewPin/Offline Master Sync"), 30): Object Object Repository/LockScreen/NewPin/Offline Master Sync not found
+
+17-01-2024T11:15:10 - [MESSAGE][WARNING] - Object Object Repository/LockScreen/NewPin/Offline Master Sync not found
+
+17-01-2024T11:15:10 - [TEST_STEP][PASSED] - if (Bool_Offline == true): null
+
+17-01-2024T11:15:10 - [TEST_STEP][PASSED] - else: null
+
+17-01-2024T11:15:10 - [TEST_STEP][PASSED] - println("Master Sync Popup not found"): null
+
+17-01-2024T11:15:10 - [TEST_STEP][PASSED] - setText(findTestObject("Primery Details/Address Details/Pincode"), str_Pincode, 0): Text '410210' has been set to element 'Object Repository/Primery Details/Address Details/Pincode'
+
+17-01-2024T11:15:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-01-2024T11:15:12 - [MESSAGE][PASSED] - Text '410210' has been set to element 'Object Repository/Primery Details/Address Details/Pincode'
+
+17-01-2024T11:15:12 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+17-01-2024T11:15:15 - [MESSAGE][PASSED] - Keyboard is hidden
+
+17-01-2024T11:15:15 - [TEST_STEP][PASSED] - tap(findTestObject("Add Account/Searched PinCode"), 0): Tapped on element 'Object Repository/Add Account/Searched PinCode'
+
+17-01-2024T11:15:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-01-2024T11:15:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Add Account/Searched PinCode'
+
+17-01-2024T11:15:15 - [TEST_STEP][PASSED] - setText(findTestObject("Primery Details/Address Details/District"), str_District, 0): Text 'Raigad' has been set to element 'Object Repository/Primery Details/Address Details/District'
+
+17-01-2024T11:15:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-01-2024T11:15:17 - [MESSAGE][PASSED] - Text 'Raigad' has been set to element 'Object Repository/Primery Details/Address Details/District'
+
+17-01-2024T11:15:17 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+17-01-2024T11:15:20 - [MESSAGE][PASSED] - Keyboard is hidden
+
+17-01-2024T11:15:20 - [TEST_STEP][PASSED] - tap(findTestObject("Add Account/Searched District"), 0): Tapped on element 'Object Repository/Add Account/Searched District'
+
+17-01-2024T11:15:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-01-2024T11:15:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Add Account/Searched District'
+
+17-01-2024T11:15:20 - [TEST_STEP][PASSED] - setText(findTestObject("Primery Details/Address Details/Taluka"), str_Taluka, 0): Text 'Test' has been set to element 'Object Repository/Primery Details/Address Details/Taluka'
+
+17-01-2024T11:15:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-01-2024T11:15:22 - [MESSAGE][PASSED] - Text 'Test' has been set to element 'Object Repository/Primery Details/Address Details/Taluka'
+
+17-01-2024T11:15:22 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+17-01-2024T11:15:25 - [MESSAGE][PASSED] - Keyboard is hidden
+
+17-01-2024T11:15:25 - [TEST_STEP][PASSED] - tap(findTestObject("Add Account/Searched Taluka"), 0): Tapped on element 'Object Repository/Add Account/Searched Taluka'
+
+17-01-2024T11:15:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-01-2024T11:15:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Add Account/Searched Taluka'
+
+17-01-2024T11:15:26 - [TEST_STEP][PASSED] - tap(findTestObject("Primery Details/Address Details/NextButton"), 0): Tapped on element 'Object Repository/Primery Details/Address Details/NextButton'
+
+17-01-2024T11:15:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-01-2024T11:15:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Primery Details/Address Details/NextButton'
+
+17-01-2024T11:15:27 - [TEST_STEP][PASSED] - takeScreenshot("", STOP_ON_FAILURE): Screenshot is taken
+
+17-01-2024T11:15:28 - [MESSAGE][WARNING] - 
+
+17-01-2024T11:15:28 - [MESSAGE][PASSED] - Screenshot is taken]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[17-01-2024T11:12:30 - [TEST_SUITE][PASSED] - TS-01: Test Cases/TC/TC_03 -Add Account]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
