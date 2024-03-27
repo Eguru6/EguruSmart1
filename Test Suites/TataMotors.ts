@@ -298,6 +298,37 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
+      <guid>b19c16a8-e26b-4ea7-9ac7-dfd7ee047af4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC/TC_05 - Follow up Already Scheduled</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b7403800-dc46-4ec3-8691-7375f8d73d3c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4c3e723f-6caa-4b63-8bf5-c690044468ab</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f9cc366b-2cb4-4d11-bc75-cc7f34263223</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4609d873-1901-4be7-a661-d15ce16e7918</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
       <guid>7912b793-ecc0-4f91-a203-323efff4c1a1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -548,34 +579,64 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>b19c16a8-e26b-4ea7-9ac7-dfd7ee047af4</guid>
+      <guid>214011e2-ab00-4404-b6d1-fbdfe960ac92</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC/TC_05 - Follow up Already Scheduled</testCaseId>
+      <testCaseId>Test Cases/TC/TC_10 - Follow up Update schedule</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>b7403800-dc46-4ec3-8691-7375f8d73d3c</variableId>
+         <variableId>6e8af668-6903-4cbc-a2bf-38c5159e1fc8</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>4c3e723f-6caa-4b63-8bf5-c690044468ab</variableId>
+         <variableId>4c37fee1-68b3-4daf-9e4a-60eff39da14d</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>f9cc366b-2cb4-4d11-bc75-cc7f34263223</variableId>
+         <variableId>737b2a54-a3f0-4e14-8274-b8240ad098c6</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>4609d873-1901-4be7-a661-d15ce16e7918</variableId>
+         <variableId>0fc61a49-7dcf-4a2c-bfb0-e383624e8766</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6a297c36-2fe2-47de-b4f1-b6b7461bec5c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>654a93b9-bae7-4cfc-9686-0e83b588d61e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>03b6402a-c561-4422-8b40-75b9b9adc283</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>46adf29c-1502-46dd-818d-dec65241f149</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>50434440-417c-4f26-b97a-eb3ba6b07528</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

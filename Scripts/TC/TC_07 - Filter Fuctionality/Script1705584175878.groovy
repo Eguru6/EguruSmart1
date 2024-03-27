@@ -86,7 +86,7 @@ if (Bool_Offline == true) {
     Mobile.tap(findTestObject('LockScreen/NewPin/OkButton'), 5)
 }
 
-Mobile.tap(findTestObject('NewObject/Verified'), 0, FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('Filter/VerifiedFilter'), 0, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
@@ -107,7 +107,7 @@ Mobile.tap(findTestObject('Menu/Verification Status'), 0, FailureHandling.STOP_O
 
 Mobile.tap(findTestObject('Menu/CLEAR ALL'), 0, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('NewObject/Non Verified'), 0, FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('Filter/NonVerifiedFilter'), 0, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
