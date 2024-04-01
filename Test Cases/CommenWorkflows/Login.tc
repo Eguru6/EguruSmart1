@@ -30,7 +30,7 @@
       <variableId>28c7a4f6-62db-4430-89b3-4eaea5a2c7bd</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'C:\\Users\\sushil.gaikwad\\Katalon Studio\\tatamotarsdemoNew\\Application\\app-release (4).apk'</defaultValue>
+      <defaultValue>'C:\\Users\\sushil.gaikwad\\git\\EguruSmart1\\Application\\app-release (4).apk'</defaultValue>
       <description></description>
       <id>1c95388d-ad35-4c09-9d1e-a37713c0991e</id>
       <masked>false</masked>

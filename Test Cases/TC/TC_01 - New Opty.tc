@@ -95,6 +95,12 @@
       <value></value>
       <variableId>fb58eb0f-11f0-4b0c-9d56-b27b9ff8a9c5</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>62fe87b3-7132-4f0b-a554-25bcfc26baec</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'Kshitija'</defaultValue>
       <description></description>
@@ -103,7 +109,7 @@
       <name>str_NewContact</name>
    </variable>
    <variable>
-      <defaultValue>'test'</defaultValue>
+      <defaultValue>'Rest'</defaultValue>
       <description></description>
       <id>d4959c25-84b5-40fa-a66d-b62c96c50dd2</id>
       <masked>false</masked>
@@ -199,5 +205,12 @@
       <id>fb58eb0f-11f0-4b0c-9d56-b27b9ff8a9c5</id>
       <masked>false</masked>
       <name>str_Pincode</name>
+   </variable>
+   <variable>
+      <defaultValue>'Influencer type'</defaultValue>
+      <description></description>
+      <id>62fe87b3-7132-4f0b-a554-25bcfc26baec</id>
+      <masked>false</masked>
+      <name>textInfluencer</name>
    </variable>
 </TestCaseEntity>

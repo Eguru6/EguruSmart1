@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "151649E46F3C73DC346A46B5F63CEFB6",
+  "keywordClasses": [
+    {
+      "name": "com.my.keywords.android.swiping",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

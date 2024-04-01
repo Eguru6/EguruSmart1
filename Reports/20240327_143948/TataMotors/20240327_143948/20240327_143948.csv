@@ -1,0 +1,548 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TataMotors,,,,27-03-2024 14:39:52,27-03-2024 15:03:15,23m - 22.903s,FAILED
+,,,,,,,
+Test Cases/TC/TC_01 - New Opty,,,,27-03-2024 14:39:53,27-03-2024 14:44:01,4m - 8.009s,PASSED
+"callTestCase(findTestCase(""CommenWorkflows/Login""), [""Str_URL"":""C:\Users\sushil.gaikwad\git\EguruSmart1\Application\app-release (4).apk"", ""Str_Username"":""DUSER145"", ""Str_Password"":""Soct#2023"", ... ], STOP_ON_FAILURE)",,,,27-03-2024 14:39:54,27-03-2024 14:40:51,56.986s,PASSED
+"Bool_Offline = waitForElementPresent(findTestObject(""LockScreen/NewPin/Offline Master Sync""), 5)",,,,27-03-2024 14:40:51,27-03-2024 14:40:56,5.141s,PASSED
+if (Bool_Offline == true),,,,27-03-2024 14:40:56,27-03-2024 14:40:56,0.008s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,27-03-2024 14:40:56,27-03-2024 14:40:58,2.040s,PASSED
+"verifyElementExist(findTestObject(""TataMotars/HomeButton""), 10)",,,,27-03-2024 14:40:58,27-03-2024 14:40:59,0.395s,PASSED
+"tap(findTestObject(""TataMotars/PluseButton""), 0)",,,,27-03-2024 14:40:59,27-03-2024 14:41:01,2.080s,PASSED
+"bool_Opportunity = verifyElementExist(findTestObject(""TataMotars/Pluse Button/OpportunityButton""), 0)",,,,27-03-2024 14:41:01,27-03-2024 14:41:01,0.290s,PASSED
+"bool_Account = verifyElementExist(findTestObject(""TataMotars/Pluse Button/Account""), 0)",,,,27-03-2024 14:41:01,27-03-2024 14:41:01,0.285s,PASSED
+"bool_Customer = verifyElementExist(findTestObject(""TataMotars/Pluse Button/Customer""), 0)",,,,27-03-2024 14:41:01,27-03-2024 14:41:02,0.292s,PASSED
+"bool_Influencer = verifyElementExist(findTestObject(""TataMotars/Pluse Button/Influencer""), 0)",,,,27-03-2024 14:41:02,27-03-2024 14:41:02,0.299s,PASSED
+"bool_FollowUp = verifyElementExist(findTestObject(""TataMotars/Pluse Button/Follow Up""), 0)",,,,27-03-2024 14:41:02,27-03-2024 14:41:02,0.307s,PASSED
+bool_Opportunity && bool_Account && bool_Customer && bool_Influencer && bool_FollowUp == false,,,,27-03-2024 14:41:02,27-03-2024 14:41:02,0.014s,PASSED
+takeScreenshot(),,"STEP-01 : Click on + icon
+
+Expected_Result : The pop up should appear and below 4 option should be listed
+1. Opportunity
+2. Customer
+3. Account
+4. Influencer",,27-03-2024 14:41:02,27-03-2024 14:41:05,2.260s,PASSED
+"tap(findTestObject(""TataMotars/Pluse Button/OpportunityButton""), 3)",,,,27-03-2024 14:41:05,27-03-2024 14:41:06,1.097s,PASSED
+"bool_AddContact = verifyElementExist(findTestObject(""Add Contact/AddContact""), 30)",,,,27-03-2024 14:41:06,27-03-2024 14:41:06,0.282s,PASSED
+"bool_SearchAddContact = verifyElementExist(findTestObject(""Add Contact/Search - Add Contact""), 30)",,,,27-03-2024 14:41:06,27-03-2024 14:41:07,1.131s,PASSED
+bool_AddContact && bool_SearchAddContact == true,,,,27-03-2024 14:41:07,27-03-2024 14:41:07,0.004s,PASSED
+takeScreenshot(),,"STEP-02 : The user successfully  landed on the Add Opportunity screen with the below options-:
+1. Add Contact
+2. Search bar for existing contact search",,27-03-2024 14:41:07,27-03-2024 14:41:10,2.542s,PASSED
+minRange = 1,,,,27-03-2024 14:41:10,27-03-2024 14:41:10,0.002s,PASSED
+maxRange = 1000,,,,27-03-2024 14:41:10,27-03-2024 14:41:10,0.001s,PASSED
+"randomInt = current().nextInt(minRange, maxRange + 1)",,,,27-03-2024 14:41:10,27-03-2024 14:41:10,0.024s,PASSED
+Result = $str_NewContact $randomInt,,,,27-03-2024 14:41:10,27-03-2024 14:41:10,0.067s,PASSED
+"tap(findTestObject(""Add Contact/Search - Add Contact""), 0, STOP_ON_FAILURE)",,,,27-03-2024 14:41:10,27-03-2024 14:41:11,1.232s,PASSED
+"setText(findTestObject(""TataMotars/SearchBox""), Result, 0)",,,,27-03-2024 14:41:11,27-03-2024 14:41:13,2.086s,PASSED
+hideKeyboard(),,,,27-03-2024 14:41:13,27-03-2024 14:41:15,2.119s,PASSED
+"str_getNewContact = getAttribute(findTestObject(""TataMotars/SearchBox""), ""name"", 0)",,,,27-03-2024 14:41:15,27-03-2024 14:41:16,1.187s,PASSED
+Result == str_getNewContact,,,,27-03-2024 14:41:16,27-03-2024 14:41:16,0.002s,PASSED
+takeScreenshot(),,STEP-03 : The user successfully enters the name and respective name should be visible,,27-03-2024 14:41:16,27-03-2024 14:41:18,2.085s,PASSED
+"tap(findTestObject(""Add Contact/AddNewContactButton""), 0)",,,,27-03-2024 14:41:18,27-03-2024 14:41:19,0.386s,PASSED
+"setText(findTestObject(""Primery Details/FirstName""), str_FirstName, 0)",,,,27-03-2024 14:41:19,27-03-2024 14:41:21,2.632s,PASSED
+hideKeyboard(),,,,27-03-2024 14:41:21,27-03-2024 14:41:24,2.067s,PASSED
+"setText(findTestObject(""Primery Details/LastName""), str_LastName, 0)",,,,27-03-2024 14:41:24,27-03-2024 14:41:26,2.230s,PASSED
+hideKeyboard(),,,,27-03-2024 14:41:26,27-03-2024 14:41:28,2.165s,PASSED
+"tap(findTestObject(""Primery Details/MobileNumber""), 0)",,,,27-03-2024 14:41:28,27-03-2024 14:41:29,1.209s,PASSED
+"setText(findTestObject(""Primery Details/MobileNumber""), str_MobileNumber, 0)",,,,27-03-2024 14:41:29,27-03-2024 14:41:32,2.462s,PASSED
+hideKeyboard(),,,,27-03-2024 14:41:32,27-03-2024 14:41:36,4.447s,PASSED
+takeScreenshot(),,,,27-03-2024 14:41:36,27-03-2024 14:41:38,1.649s,PASSED
+"tap(findTestObject(""Create New Opportunity/Customer Type""), 0)",,,,27-03-2024 14:41:38,27-03-2024 14:41:39,1.191s,PASSED
+"sendKeys(findTestObject(""Create New Opportunity/Type_CustomerType""), str_CustomerType, STOP_ON_FAILURE)",,,,27-03-2024 14:41:39,27-03-2024 14:41:41,1.960s,PASSED
+hideKeyboard(),,,,27-03-2024 14:41:41,27-03-2024 14:41:43,2.131s,PASSED
+"Bool_Customer = waitForElementPresent(findTestObject(""Create New Opportunity/Click_Customer""), 5)",,,,27-03-2024 14:41:43,27-03-2024 14:41:43,0.322s,PASSED
+if (Bool_Customer == true),,,,27-03-2024 14:41:43,27-03-2024 14:41:44,0.923s,PASSED
+"checkElement(findTestObject(""Primery Details/Influencer Checkbox""), 0)",,,,27-03-2024 14:41:44,27-03-2024 14:41:46,1.923s,PASSED
+hideKeyboard(),,,,27-03-2024 14:41:46,27-03-2024 14:41:47,0.903s,PASSED
+"tap(findTestObject(""Create New Opportunity/Additional information""), 0)",,,,27-03-2024 14:41:47,27-03-2024 14:41:49,1.929s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,27-03-2024 14:41:49,27-03-2024 14:41:52,3.012s,PASSED
+"tap(findTestObject(""Primery Details/Enter InfluencerType""), 0)",,,,27-03-2024 14:41:52,27-03-2024 14:41:53,1.210s,PASSED
+"setText(findTestObject(""Create New Opportunity/Type Influencer""), str_InfluencerType, 0)",,,,27-03-2024 14:41:53,27-03-2024 14:41:55,2.015s,PASSED
+hideKeyboard(),,,,27-03-2024 14:41:55,27-03-2024 14:41:57,2.150s,PASSED
+"tap(findTestObject(""Primery Details/Address Details/NextButton""), 0)",,,,27-03-2024 14:41:57,27-03-2024 14:41:59,1.448s,PASSED
+"bool_Pincode = waitForElementPresent(findTestObject(""Primery Details/Address Details/Pincode""), 5)",,,,27-03-2024 14:41:59,27-03-2024 14:42:04,5.162s,PASSED
+if (bool_Pincode == true),,,,27-03-2024 14:42:04,27-03-2024 14:42:04,0.004s,PASSED
+"bool_ProceedButton = verifyElementExist(findTestObject(""Primery Details/Proceed Button""), 30)",,,,27-03-2024 14:42:04,27-03-2024 14:42:04,0.290s,PASSED
+takeScreenshot(),,"STEP-04 : Enter all the details and select check box of also an influencer and click on Next
+Expected_Result : The popup successfully appears to select the contact",,27-03-2024 14:42:04,27-03-2024 14:42:06,1.722s,PASSED
+if (bool_ProceedButton),,,,27-03-2024 14:42:06,27-03-2024 14:42:10,4.276s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,27-03-2024 14:42:10,27-03-2024 14:42:12,2.016s,PASSED
+"verifyElementExist(findTestObject(""Vehicle information/Vehicle information""), 30)",,,,27-03-2024 14:42:12,27-03-2024 14:42:13,0.270s,PASSED
+takeScreenshot(),,"STEP-06 : Click on Proceed
+
+Expected_Result : The user clicks on proceed and successfully land on the vehicle information page",,27-03-2024 14:42:13,27-03-2024 14:42:14,1.616s,PASSED
+"tap(findTestObject(""Vehicle information/SelectProductLine""), 0)",,,,27-03-2024 14:42:14,27-03-2024 14:42:16,1.667s,PASSED
+"setText(findTestObject(""Vehicle information/SelectProductLine""), str_ProductLine, 0)",,,,27-03-2024 14:42:16,27-03-2024 14:42:18,2.419s,PASSED
+"tap(findTestObject(""Vehicle information/ClickSelectedProduct""), 0)",,,,27-03-2024 14:42:18,27-03-2024 14:42:20,1.430s,PASSED
+hideKeyboard(),,,,27-03-2024 14:42:20,27-03-2024 14:42:22,2.314s,PASSED
+takeScreenshot(),,,,27-03-2024 14:42:22,27-03-2024 14:42:24,1.817s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,27-03-2024 14:42:24,27-03-2024 14:42:29,5.007s,PASSED
+"tap(findTestObject(""Vehicle information/SelectModel""), 0)",,,,27-03-2024 14:42:29,27-03-2024 14:42:31,1.805s,PASSED
+"setText(findTestObject(""Vehicle information/SelectModel""), str_Model, 0)",,,,27-03-2024 14:42:31,27-03-2024 14:42:33,2.237s,PASSED
+"tap(findTestObject(""Vehicle information/TapModel""), 0)",,,,27-03-2024 14:42:33,27-03-2024 14:42:35,2.210s,PASSED
+takeScreenshot(),,"STEP-07 : Select the Product line and model
+
+Expected_Result : The user should be able to select the product line and model option
+
+Actual_Result : The user selects the product line option and model option",,27-03-2024 14:42:35,27-03-2024 14:42:37,2.105s,PASSED
+"tap(findTestObject(""Vehicle information/NextButton""), 0)",,,,27-03-2024 14:42:37,27-03-2024 14:42:38,1.242s,PASSED
+"verifyElementVisible(findTestObject(""Create New Opportunity/ClickVehicleApplication""), 0)",,,,27-03-2024 14:42:38,27-03-2024 14:42:40,1.125s,PASSED
+"tap(findTestObject(""Create New Opportunity/ClickVehicleApplication""), 0)",,,,27-03-2024 14:42:40,27-03-2024 14:42:41,1.156s,PASSED
+"setText(findTestObject(""Create New Opportunity/ClickVehicleApplication""), str_VehicleApplication, 0)",,"STEP-08 : Select the vehicle application and body type
+
+Expected_Result : The user should be land on the vehicle application and body type and should land on the select quantity
+
+Actual_Result : The user landed on the vehicle application and body type and  landed on the select quantity",,27-03-2024 14:42:41,27-03-2024 14:42:43,1.998s,PASSED
+"tap(findTestObject(""Create New Opportunity/SelectVehicleApplication""), 0)",,,,27-03-2024 14:42:43,27-03-2024 14:42:44,1.470s,PASSED
+hideKeyboard(),,,,27-03-2024 14:42:44,27-03-2024 14:42:46,2.315s,PASSED
+"checkElement(findTestObject(""Create New Opportunity/BodyType""), 0)",,,,27-03-2024 14:42:46,27-03-2024 14:42:48,1.320s,PASSED
+"tap(findTestObject(""Create New Opportunity/BodyType""), 0)",,,,27-03-2024 14:42:48,27-03-2024 14:42:50,1.882s,PASSED
+"setText(findTestObject(""Create New Opportunity/BodyType""), str_BodyType, 0)",,,,27-03-2024 14:42:50,27-03-2024 14:42:51,0.954s,PASSED
+"tap(findTestObject(""Create New Opportunity/SelectBodyType""), 0)",,,,27-03-2024 14:42:51,27-03-2024 14:42:52,1.451s,PASSED
+"tap(findTestObject(""Vehicle information/NextButton""), 0)",,,,27-03-2024 14:42:52,27-03-2024 14:42:53,1.258s,PASSED
+takeScreenshot(),,"STEP-08 : Select the vehicle application and body type
+
+Expected_Result : The user should be land on the vehicle application and body type and should land on the select quantity
+
+Actual_Result : The user landed on the vehicle application and body type and  landed on the select quantity",,27-03-2024 14:42:53,27-03-2024 14:42:55,1.640s,PASSED
+"tap(findTestObject(""Additional Info/Quantity""), 0)",,,,27-03-2024 14:42:55,27-03-2024 14:42:57,1.540s,PASSED
+"setText(findTestObject(""Additional Info/Quantity""), ""1"", 0)",,,,27-03-2024 14:42:57,27-03-2024 14:42:59,2.336s,PASSED
+"tap(findTestObject(""Vehicle information/NextButton""), 0)",,,,27-03-2024 14:42:59,27-03-2024 14:43:00,0.773s,PASSED
+takeScreenshot(),,,,27-03-2024 14:43:00,27-03-2024 14:43:01,1.522s,PASSED
+"tap(findTestObject(""Additional Info/Month""), 0)",,Tap on March,,27-03-2024 14:43:01,27-03-2024 14:43:02,0.847s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,27-03-2024 14:43:02,27-03-2024 14:43:05,3.018s,PASSED
+takeScreenshot(),,"STEP-09 : Enter the quantity and click on Next
+
+Expected_Result : The user should be able to add the quantity and by clicking on Next the user should land on the select purchase month screen
+
+Actual_Result : The user added the quantity and by clicking on Next the user  landed on the select purchase month screen",,27-03-2024 14:43:05,27-03-2024 14:43:07,1.646s,PASSED
+"tap(findTestObject(""Vehicle information/NextButton""), 0)",,,,27-03-2024 14:43:07,27-03-2024 14:43:08,0.885s,PASSED
+"verifyElementVisible(findTestObject(""Additional Info/SourceOfContact_Text""), 0)",,,,27-03-2024 14:43:08,27-03-2024 14:43:08,0.332s,PASSED
+"tap(findTestObject(""Additional Info/Enter SourceOfContact""), 0)",,,,27-03-2024 14:43:08,27-03-2024 14:43:09,1.440s,PASSED
+"setText(findTestObject(""Additional Info/Enter SourceOfContact""), str_SourceOfContact, 0)",,,,27-03-2024 14:43:09,27-03-2024 14:43:12,2.275s,PASSED
+"tap(findTestObject(""Additional Info/Searched SourceOfContact""), 0)",,,,27-03-2024 14:43:12,27-03-2024 14:43:13,1.429s,PASSED
+"tap(findTestObject(""Vehicle information/NextButton""), 0)",,,,27-03-2024 14:43:13,27-03-2024 14:43:14,1.230s,PASSED
+"verifyElementVisible(findTestObject(""Additional Info/CustomerInterestedInExchange""), 0)",,,,27-03-2024 14:43:14,27-03-2024 14:43:15,0.314s,PASSED
+takeScreenshot(),,"STEP-10 : Select the source of contact
+
+Expected_Result : The user should be able to select the contact and should landed on the customer interest option
+
+Actual_Result : The user selects the contact and landed on the customer interest page",,27-03-2024 14:43:15,27-03-2024 14:43:16,1.613s,PASSED
+"tap(findTestObject(""Additional Info/Yes RadioButton""), 0)",,,,27-03-2024 14:43:16,27-03-2024 14:43:17,0.852s,PASSED
+"bool_ExchangeQuantity = verifyElementExist(findTestObject(""Additional Info/SetQuantity""), 0)",,,,27-03-2024 14:43:17,27-03-2024 14:43:18,1.035s,PASSED
+"bool_Make = verifyElementExist(findTestObject(""Additional Info/ClickMake""), 0)",,,,27-03-2024 14:43:18,27-03-2024 14:43:19,1.029s,PASSED
+bool_ExchangeQuantity && bool_Make == true,,,,27-03-2024 14:43:19,27-03-2024 14:43:19,0.002s,PASSED
+takeScreenshot(),,"STEP-11 : Select the customer interest option
+
+Expected_Result : The user should able to select the customer interest option and the exchange type option should be visible to the user
+
+Actual_Result : The user selects the customer interest option and on the exchange type screen should appear",,27-03-2024 14:43:19,27-03-2024 14:43:21,1.685s,PASSED
+"tap(findTestObject(""Additional Info/SetQuantity""), 0)",,,,27-03-2024 14:43:21,27-03-2024 14:43:22,1.144s,PASSED
+"setText(findTestObject(""Additional Info/SetQuantity""), str_ExchangeQuantity, 0)",,,,27-03-2024 14:43:22,27-03-2024 14:43:24,2.020s,PASSED
+hideKeyboard(),,,,27-03-2024 14:43:24,27-03-2024 14:43:28,4.388s,PASSED
+"tap(findTestObject(""Additional Info/ClickMake""), 0)",,,,27-03-2024 14:43:28,27-03-2024 14:43:30,1.145s,PASSED
+"setText(findTestObject(""Additional Info/SetMake""), str_Make, 0)",,,,27-03-2024 14:43:30,27-03-2024 14:43:32,2.031s,PASSED
+hideKeyboard(),,,,27-03-2024 14:43:32,27-03-2024 14:43:34,2.163s,PASSED
+"tap(findTestObject(""Additional Info/SelectMake""), 0)",,,,27-03-2024 14:43:34,27-03-2024 14:43:35,0.962s,PASSED
+"tap(findTestObject(""Vehicle information/NextButton""), 0)",,,,27-03-2024 14:43:35,27-03-2024 14:43:36,1.009s,PASSED
+"verifyElementVisible(findTestObject(""Additional Info/ReviewOpty Text""), 0)",,,,27-03-2024 14:43:36,27-03-2024 14:43:36,0.402s,PASSED
+takeScreenshot(),,"STEP-12 : Enter the quantity and Make and click on Next
+
+Expected_Result : The user should be land on the review opty screen
+
+Actual_Result : The user landed on the review opty screen",,27-03-2024 14:43:36,27-03-2024 14:43:38,1.542s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,27-03-2024 14:43:38,27-03-2024 14:43:41,3.008s,PASSED
+"tap(findTestObject(""Add Account/SubmitButton""), 0)",,,,27-03-2024 14:43:41,27-03-2024 14:43:42,0.983s,PASSED
+"verifyElementVisible(findTestObject(""Add Account/1 Opportunity successfully created popup""), 60)",,,,27-03-2024 14:43:42,27-03-2024 14:43:57,15.631s,PASSED
+takeScreenshot(),,"STEP-13 : Click on Submit
+
+Expected_Result : The user should be land on successful screen
+
+Actual_Result : The user landed on the successful screen",,27-03-2024 14:43:57,27-03-2024 14:43:59,1.772s,PASSED
+closeApplication(),,,,27-03-2024 14:43:59,27-03-2024 14:44:01,1.552s,PASSED
+,,,,,,,
+Test Cases/TC/TC_02 -Create New Customer,,,,27-03-2024 14:44:01,27-03-2024 14:46:31,2m - 30.395s,FAILED
+"callTestCase(findTestCase(""CommenWorkflows/Login""), [""Str_URL"":""C:\Users\sushil.gaikwad\git\EguruSmart1\Application\app-release (4).apk"", ""Str_Username"":""DUSER145"", ""Str_Password"":""Soct#2023"", ... ], STOP_ON_FAILURE)",,,,27-03-2024 14:44:01,27-03-2024 14:44:55,53.238s,PASSED
+"Bool_Offline = waitForElementPresent(findTestObject(""LockScreen/NewPin/Offline Master Sync""), 10)",,,,27-03-2024 14:44:55,27-03-2024 14:45:05,10.096s,PASSED
+if (Bool_Offline == true),,,,27-03-2024 14:45:05,27-03-2024 14:45:05,0.002s,PASSED
+"verifyElementExist(findTestObject(""TataMotars/HomeButton""), 10)",,,,27-03-2024 14:45:05,27-03-2024 14:45:05,0.315s,PASSED
+"tap(findTestObject(""TataMotars/PluseButton""), 0)",,,,27-03-2024 14:45:05,27-03-2024 14:45:07,2.090s,PASSED
+"bool_Opportunity = verifyElementExist(findTestObject(""TataMotars/Pluse Button/OpportunityButton""), 0)",,,,27-03-2024 14:45:07,27-03-2024 14:45:07,0.289s,PASSED
+"bool_Account = verifyElementExist(findTestObject(""TataMotars/Pluse Button/Account""), 0)",,,,27-03-2024 14:45:07,27-03-2024 14:45:08,0.289s,PASSED
+"bool_Customer = verifyElementExist(findTestObject(""TataMotars/Pluse Button/Customer""), 0)",,,,27-03-2024 14:45:08,27-03-2024 14:45:08,0.279s,PASSED
+"bool_Influencer = verifyElementExist(findTestObject(""TataMotars/Pluse Button/Influencer""), 0)",,,,27-03-2024 14:45:08,27-03-2024 14:45:08,0.271s,PASSED
+"bool_FollowUp = verifyElementExist(findTestObject(""TataMotars/Pluse Button/Follow Up""), 0)",,,,27-03-2024 14:45:08,27-03-2024 14:45:09,0.270s,PASSED
+bool_Opportunity && bool_Account && bool_Customer && bool_Influencer && bool_FollowUp == false,,,,27-03-2024 14:45:09,27-03-2024 14:45:09,0.001s,PASSED
+takeScreenshot(),,"STEP-01 : Click on + icon
+
+Expected_Result : The pop up should appear and below 4 option should be listed
+1. Opportunity
+2. Customer
+3. Account
+4. Influencer",,27-03-2024 14:45:09,27-03-2024 14:45:11,2.188s,PASSED
+"tap(findTestObject(""TataMotars/Pluse Button/Customer""), 3)",,,,27-03-2024 14:45:11,27-03-2024 14:45:12,1.107s,PASSED
+"bool_PrimaryDetails = verifyElementExist(findTestObject(""Primery Details/Primary Details""), 10)",,,,27-03-2024 14:45:12,27-03-2024 14:45:12,0.321s,PASSED
+bool_PrimaryDetails == true,,,,27-03-2024 14:45:12,27-03-2024 14:45:12,0.003s,PASSED
+takeScreenshot(),,"STEP-02 : Click on Customer
+Expected_Result : The user successfully landed on the add customer pirmary detail screen which contains the below options-:
+1. First Name - text box
+2. Last Name - text box
+3. Mobile Number - text box
+4. Customer Type- Dropdown
+5. Influence- Checkbox
+6. Back  - CTA
+7. Next - CTA
+8. Add More Information",,27-03-2024 14:45:12,27-03-2024 14:45:15,2.406s,PASSED
+"tap(findTestObject(""Primery Details/FirstName""), 0)",,,,27-03-2024 14:45:15,27-03-2024 14:45:16,1.265s,PASSED
+"setText(findTestObject(""Primery Details/FirstName""), str_FirstName, 0)",,,,27-03-2024 14:45:16,27-03-2024 14:45:18,2.096s,PASSED
+hideKeyboard(),,,,27-03-2024 14:45:18,27-03-2024 14:45:20,2.078s,PASSED
+"tap(findTestObject(""Primery Details/LastName""), 0)",,,,27-03-2024 14:45:20,27-03-2024 14:45:21,1.247s,PASSED
+"setText(findTestObject(""Primery Details/LastName""), str_LastName, 0)",,,,27-03-2024 14:45:21,27-03-2024 14:45:23,2.011s,PASSED
+hideKeyboard(),,,,27-03-2024 14:45:23,27-03-2024 14:45:25,2.042s,PASSED
+"Bool_Offline = waitForElementPresent(findTestObject(""LockScreen/NewPin/Offline Master Sync""), 5)",,,,27-03-2024 14:45:25,27-03-2024 14:45:30,5.194s,PASSED
+if (Bool_Offline == true),,,,27-03-2024 14:45:30,27-03-2024 14:45:30,0.001s,PASSED
+"tap(findTestObject(""Primery Details/MobileNumber""), 0)",,,,27-03-2024 14:45:30,27-03-2024 14:45:32,1.207s,PASSED
+"setText(findTestObject(""Primery Details/MobileNumber""), str_MobileNumber, 0)",,,,27-03-2024 14:45:32,27-03-2024 14:45:34,2.008s,PASSED
+hideKeyboard(),,,,27-03-2024 14:45:34,27-03-2024 14:45:38,4.338s,PASSED
+"tap(findTestObject(""Create New Opportunity/Customer Type""), 0)",,,,27-03-2024 14:45:38,27-03-2024 14:45:39,1.177s,PASSED
+"sendKeys(findTestObject(""Create New Opportunity/Type_CustomerType""), str_CustomerType, STOP_ON_FAILURE)",,,,27-03-2024 14:45:39,27-03-2024 14:45:41,1.993s,PASSED
+hideKeyboard(),,,,27-03-2024 14:45:41,27-03-2024 14:45:43,2.157s,PASSED
+"tap(findTestObject(""Primery Details/Searched CustomerType""), 0)",,,,27-03-2024 14:45:43,27-03-2024 14:45:44,0.897s,PASSED
+"tap(findTestObject(""Primery Details/Address Details/NextButton""), 0)",,,,27-03-2024 14:45:44,27-03-2024 14:45:45,0.927s,PASSED
+"bool_Pincode = verifyElementExist(findTestObject(""Primery Details/Address Details/Pincode""), 10)",,,,27-03-2024 14:45:45,27-03-2024 14:45:46,1.104s,PASSED
+bool_Pincode == true,,,,27-03-2024 14:45:46,27-03-2024 14:45:46,0.003s,PASSED
+takeScreenshot(),,"STEP-03 : The user successfully land on the Business Address page
+Expected_Result : The user successfully land on the Business Address page",,27-03-2024 14:45:46,27-03-2024 14:45:48,1.937s,PASSED
+"tap(findTestObject(""Primery Details/Address Details/Pincode""), 0, STOP_ON_FAILURE)",,,,27-03-2024 14:45:48,27-03-2024 14:45:49,1.205s,PASSED
+"setText(findTestObject(""Primery Details/Address Details/Pincode""), str_Pincode, 0)",,,,27-03-2024 14:45:49,27-03-2024 14:45:51,2.006s,PASSED
+hideKeyboard(),,,,27-03-2024 14:45:51,27-03-2024 14:45:54,2.153s,PASSED
+"Bool_Pin = waitForElementPresent(findTestObject(""Add Account/Searched PinCode""), 2)",,,,27-03-2024 14:45:54,27-03-2024 14:45:56,2.186s,PASSED
+if (Bool_Pin == true),,,,27-03-2024 14:45:56,27-03-2024 14:45:56,0.002s,PASSED
+"tap(findTestObject(""NewObject/DropDownDistrict""), 0, STOP_ON_FAILURE)",,,,27-03-2024 14:45:56,27-03-2024 14:45:57,1.702s,PASSED
+"tap(findTestObject(""NewObject/DropDownSearchedDistrict""), 0, STOP_ON_FAILURE)",,,,27-03-2024 14:45:57,27-03-2024 14:46:31,33.473s,FAILED
+,,,,,,,
+Test Cases/TC/TC_03 -Add Account,,,,27-03-2024 14:46:31,27-03-2024 14:48:34,2m - 2.701s,FAILED
+"callTestCase(findTestCase(""CommenWorkflows/Login""), [""Str_URL"":""C:\Users\sushil.gaikwad\git\EguruSmart1\Application\app-release (4).apk"", ""Str_Username"":""DUSER145"", ""Str_Password"":""Soct#2023"", ... ], STOP_ON_FAILURE)",,,,27-03-2024 14:46:32,27-03-2024 14:47:16,44.446s,PASSED
+"verifyElementExist(findTestObject(""TataMotars/HomeButton""), 10)",,,,27-03-2024 14:47:16,27-03-2024 14:47:16,0.354s,PASSED
+"tap(findTestObject(""TataMotars/PluseButton""), 0)",,"
+",,27-03-2024 14:47:16,27-03-2024 14:47:19,2.105s,PASSED
+"bool_Opportunity = verifyElementExist(findTestObject(""TataMotars/Pluse Button/OpportunityButton""), 0)",,,,27-03-2024 14:47:19,27-03-2024 14:47:19,0.347s,PASSED
+"bool_Account = verifyElementExist(findTestObject(""TataMotars/Pluse Button/Account""), 0)",,,,27-03-2024 14:47:19,27-03-2024 14:47:19,0.314s,PASSED
+"bool_Customer = verifyElementExist(findTestObject(""TataMotars/Pluse Button/Customer""), 0)",,,,27-03-2024 14:47:19,27-03-2024 14:47:20,0.312s,PASSED
+"bool_Influencer = verifyElementExist(findTestObject(""TataMotars/Pluse Button/Influencer""), 0)",,,,27-03-2024 14:47:20,27-03-2024 14:47:20,0.292s,PASSED
+"bool_FollowUp = verifyElementExist(findTestObject(""TataMotars/Pluse Button/Follow Up""), 0)",,,,27-03-2024 14:47:20,27-03-2024 14:47:20,0.310s,PASSED
+bool_Opportunity && bool_Account && bool_Customer && bool_Influencer && bool_FollowUp == false,,,,27-03-2024 14:47:20,27-03-2024 14:47:20,0.002s,PASSED
+takeScreenshot(),,"STEP-01 : Click on + icon
+
+Expected_Result : The pop up should appear and below 4 option should be listed
+1. Opportunity
+2. Customer
+3. Account
+4. Influencer",,27-03-2024 14:47:20,27-03-2024 14:47:22,2.237s,PASSED
+"tap(findTestObject(""TataMotars/Pluse Button/Account""), 3)",,,,27-03-2024 14:47:22,27-03-2024 14:47:23,1.120s,PASSED
+"bool_AccountInfo = verifyElementExist(findTestObject(""C1 Functionality/Account Information""), 30)",,,,27-03-2024 14:47:23,27-03-2024 14:47:24,0.337s,PASSED
+"bool_AccountName = verifyElementExist(findTestObject(""Add Account/Account Name""), 30)",,,,27-03-2024 14:47:24,27-03-2024 14:47:25,1.231s,PASSED
+"bool_MainPhoneNumber = verifyElementExist(findTestObject(""Add Account/Main Phone Number""), 30)",,,,27-03-2024 14:47:25,27-03-2024 14:47:26,1.198s,PASSED
+bool_AccountInfo && bool_AccountName && bool_MainPhoneNumber == true,,,,27-03-2024 14:47:26,27-03-2024 14:47:26,0.001s,PASSED
+takeScreenshot(),,"STEP-02 : Click on Account
+
+Expected_Result : The user successfully landed on the Account Information screen with the below options-:
+1. Account Type
+2. Account Name
+3. Main Phone Number
+4. PAN Numer
+5. Back 
+6. Next",,27-03-2024 14:47:26,27-03-2024 14:47:29,2.552s,PASSED
+"Bool_Offline = waitForElementPresent(findTestObject(""LockScreen/NewPin/Offline Master Sync""), 5)",,,,27-03-2024 14:47:29,27-03-2024 14:47:34,5.071s,PASSED
+if (Bool_Offline == true),,,,27-03-2024 14:47:34,27-03-2024 14:47:34,0.002s,PASSED
+"tap(findTestObject(""Add Account/Individual RadioButton""), 0)",,,,27-03-2024 14:47:34,27-03-2024 14:47:35,0.936s,PASSED
+minRange = 1,,,,27-03-2024 14:47:35,27-03-2024 14:47:35,0.001s,PASSED
+maxRange = 1000,,,,27-03-2024 14:47:35,27-03-2024 14:47:35,0.001s,PASSED
+"randomInt = current().nextInt(minRange, maxRange + 1)",,,,27-03-2024 14:47:35,27-03-2024 14:47:35,0.002s,PASSED
+Result = $str_AccountName $randomInt,,,,27-03-2024 14:47:35,27-03-2024 14:47:35,0.001s,PASSED
+"tap(findTestObject(""Add Account/Account Name""), 0)",,,,27-03-2024 14:47:35,27-03-2024 14:47:36,1.279s,PASSED
+"setText(findTestObject(""Add Account/Account Name""), Result, 0)",,,,27-03-2024 14:47:36,27-03-2024 14:47:38,2.105s,PASSED
+hideKeyboard(),,,,27-03-2024 14:47:38,27-03-2024 14:47:40,2.062s,PASSED
+"tap(findTestObject(""Add Account/Main Phone Number""), 0)",,,,27-03-2024 14:47:40,27-03-2024 14:47:42,1.240s,PASSED
+"setText(findTestObject(""Add Account/Main Phone Number""), str_MainMobileNo, 0)",,,,27-03-2024 14:47:42,27-03-2024 14:47:44,2.060s,PASSED
+hideKeyboard(),,,,27-03-2024 14:47:44,27-03-2024 14:47:48,4.231s,PASSED
+"tap(findTestObject(""Primery Details/Address Details/NextButton""), 0)",,,,27-03-2024 14:47:48,27-03-2024 14:47:49,0.942s,PASSED
+"bool_Pincode = verifyElementExist(findTestObject(""Primery Details/Address Details/Pincode""), 30)",,,,27-03-2024 14:47:49,27-03-2024 14:47:50,1.173s,PASSED
+takeScreenshot(),,"STEP-03 : Enter details and click on Next
+
+Expected_Result : The user successfully land on the Business Address page",,27-03-2024 14:47:50,27-03-2024 14:47:52,2.027s,PASSED
+"tap(findTestObject(""Primery Details/Address Details/Pincode""), 0)",,,,27-03-2024 14:47:52,27-03-2024 14:47:53,1.228s,PASSED
+"setText(findTestObject(""Primery Details/Address Details/Pincode""), str_Pincode, 0)",,,,27-03-2024 14:47:53,27-03-2024 14:47:55,2.117s,PASSED
+hideKeyboard(),,,,27-03-2024 14:47:55,27-03-2024 14:47:57,2.134s,PASSED
+"Bool_Pin = waitForElementPresent(findTestObject(""NewObject/Searched PinCodeTC3""), 2)",,,,27-03-2024 14:47:57,27-03-2024 14:48:00,2.085s,PASSED
+if (Bool_Pin == true),,,,27-03-2024 14:48:00,27-03-2024 14:48:00,0.002s,PASSED
+"tap(findTestObject(""NewObject/DropDownDistrict""), 0, STOP_ON_FAILURE)",,,,27-03-2024 14:48:00,27-03-2024 14:48:34,34.146s,FAILED
+,,,,,,,
+Test Cases/TC/TC_04 -Add Influencer,,,,27-03-2024 14:48:34,27-03-2024 14:50:57,2m - 22.929s,FAILED
+"callTestCase(findTestCase(""CommenWorkflows/Login""), [""Str_URL"":""C:\Users\sushil.gaikwad\git\EguruSmart1\Application\app-release (4).apk"", ""Str_Username"":""DUSER145"", ""Str_Password"":""Soct#2023"", ... ], STOP_ON_FAILURE)",,,,27-03-2024 14:48:34,27-03-2024 14:49:19,44.436s,PASSED
+"verifyElementExist(findTestObject(""TataMotars/HomeButton""), 10)",,,,27-03-2024 14:49:19,27-03-2024 14:49:19,0.351s,PASSED
+"tap(findTestObject(""TataMotars/PluseButton""), 0)",,,,27-03-2024 14:49:19,27-03-2024 14:49:21,2.092s,PASSED
+"bool_Opportunity = verifyElementExist(findTestObject(""TataMotars/Pluse Button/OpportunityButton""), 0)",,,,27-03-2024 14:49:21,27-03-2024 14:49:22,0.320s,PASSED
+"bool_Account = verifyElementExist(findTestObject(""TataMotars/Pluse Button/Account""), 0)",,,,27-03-2024 14:49:22,27-03-2024 14:49:22,0.290s,PASSED
+"bool_Customer = verifyElementExist(findTestObject(""TataMotars/Pluse Button/Customer""), 0)",,,,27-03-2024 14:49:22,27-03-2024 14:49:22,0.295s,PASSED
+"bool_Influencer = verifyElementExist(findTestObject(""TataMotars/Pluse Button/Influencer""), 0)",,,,27-03-2024 14:49:22,27-03-2024 14:49:22,0.299s,PASSED
+"bool_FollowUp = verifyElementExist(findTestObject(""TataMotars/Pluse Button/Follow Up""), 0)",,,,27-03-2024 14:49:22,27-03-2024 14:49:23,0.306s,PASSED
+bool_Opportunity && bool_Account && bool_Customer && bool_Influencer && bool_FollowUp == false,,,,27-03-2024 14:49:23,27-03-2024 14:49:23,0.001s,PASSED
+takeScreenshot(),,"STEP-01 : Click on + icon
+
+Expected_Result : The pop up should appear and below 4 option should be listed
+1. Opportunity
+2. Customer
+3. Account
+4. Influencer",,27-03-2024 14:49:23,27-03-2024 14:49:25,2.216s,PASSED
+"tap(findTestObject(""TataMotars/Pluse Button/Influencer""), 3)",,,,27-03-2024 14:49:25,27-03-2024 14:49:25,0.392s,PASSED
+"bool_PrimaryDetails = verifyElementExist(findTestObject(""Primery Details/Primary Details""), 10)",,,,27-03-2024 14:49:25,27-03-2024 14:49:26,0.914s,PASSED
+bool_PrimaryDetails == true,,,,27-03-2024 14:49:26,27-03-2024 14:49:26,0.003s,PASSED
+takeScreenshot(),,"STEP-02 : Click on Influencer
+
+Expected_Result : TThe user successfully landed on the add Influencer  primary detail screen which contains the below options-:
+1. First Name - text box
+2. Last Name - text box
+3. Mobile Number - text box
+4. Influencer Type- Dropdown
+5. Customer- checkbox
+6. Back  - CTA
+7. Next - CTA
+8. Add More Information",,27-03-2024 14:49:26,27-03-2024 14:49:29,2.296s,PASSED
+"tap(findTestObject(""Primery Details/FirstName""), 0)",,,,27-03-2024 14:49:29,27-03-2024 14:49:31,2.729s,PASSED
+"setText(findTestObject(""Primery Details/FirstName""), str_FirstName, 0)",,,,27-03-2024 14:49:31,27-03-2024 14:49:33,1.339s,PASSED
+hideKeyboard(),,,,27-03-2024 14:49:33,27-03-2024 14:49:35,2.123s,PASSED
+"tap(findTestObject(""Primery Details/LastName""), 0)",,,,27-03-2024 14:49:35,27-03-2024 14:49:36,1.292s,PASSED
+"setText(findTestObject(""Primery Details/LastName""), str_LastName, 0)",,,,27-03-2024 14:49:36,27-03-2024 14:49:38,2.073s,PASSED
+hideKeyboard(),,,,27-03-2024 14:49:38,27-03-2024 14:49:40,2.118s,PASSED
+"tap(findTestObject(""Primery Details/MobileNumber""), 0)",,,,27-03-2024 14:49:40,27-03-2024 14:49:41,1.209s,PASSED
+"setText(findTestObject(""Primery Details/MobileNumber""), str_MobileNumber, 0)",,,,27-03-2024 14:49:41,27-03-2024 14:49:44,2.039s,PASSED
+hideKeyboard(),,,,27-03-2024 14:49:44,27-03-2024 14:49:48,4.278s,PASSED
+takeScreenshot(),,,,27-03-2024 14:49:48,27-03-2024 14:49:50,2.024s,PASSED
+"Bool_BackButton = waitForElementPresent(findTestObject(""Create Customer/Back Button""), 0)",,,,27-03-2024 14:49:50,27-03-2024 14:49:50,0.287s,PASSED
+"Bool_NextButton = waitForElementPresent(findTestObject(""Vehicle information/NextButton""), 0)",,,,27-03-2024 14:49:50,27-03-2024 14:49:50,0.281s,PASSED
+Bool_BackButton && Bool_NextButton == true,,,,27-03-2024 14:49:50,27-03-2024 14:49:50,0.001s,PASSED
+takeScreenshot(),,"STEP-03 : Enter all the details in the respective field
+
+Expected_Result : The respective additional influencer fields are successfully shown and are-:
+1. PAN Card Number- Text box
+2. Email Id- Text Box
+3. Back- CTA
+4. Next- CTA",,27-03-2024 14:49:50,27-03-2024 14:49:52,1.736s,PASSED
+"tap(findTestObject(""Primery Details/Enter InfluencerType""), 0)",,,,27-03-2024 14:49:52,27-03-2024 14:49:53,1.185s,PASSED
+"sendKeys(findTestObject(""Create Customer/Influencer Type""), str_InfluencerType, STOP_ON_FAILURE)",,,,27-03-2024 14:49:53,27-03-2024 14:49:55,1.956s,PASSED
+hideKeyboard(),,,,27-03-2024 14:49:55,27-03-2024 14:49:57,2.099s,PASSED
+takeScreenshot(),,,,27-03-2024 14:49:57,27-03-2024 14:49:59,1.772s,PASSED
+"tap(findTestObject(""Primery Details/Address Details/NextButton""), 0)",,,,27-03-2024 14:49:59,27-03-2024 14:50:01,1.870s,PASSED
+"bool_Pincode = verifyElementExist(findTestObject(""Primery Details/Address Details/Pincode""), 10)",,,,27-03-2024 14:50:01,27-03-2024 14:50:07,5.774s,PASSED
+bool_Pincode == true,,,,27-03-2024 14:50:07,27-03-2024 14:50:07,0.001s,PASSED
+takeScreenshot(),,"STEP-04 : Click on Next
+
+Expected_Result : The user successfully land on the Address detail field",,27-03-2024 14:50:07,27-03-2024 14:50:09,1.740s,PASSED
+"tap(findTestObject(""Primery Details/Address Details/Pincode""), 0, STOP_ON_FAILURE)",,,,27-03-2024 14:50:09,27-03-2024 14:50:12,3.474s,PASSED
+"setText(findTestObject(""Primery Details/Address Details/Pincode""), str_Pincode, 0)",,,,27-03-2024 14:50:12,27-03-2024 14:50:14,2.038s,PASSED
+"Bool_PinCode = waitForElementPresent(findTestObject(""Address details/ClickPincodeNo""), 5)",,,,27-03-2024 14:50:14,27-03-2024 14:50:19,5.116s,PASSED
+if (Bool_PinCode == true),,,,27-03-2024 14:50:19,27-03-2024 14:50:19,0.003s,PASSED
+hideKeyboard(),,,,27-03-2024 14:50:19,27-03-2024 14:50:22,2.343s,PASSED
+"tap(findTestObject(""NewObject/DropDownDistrict""), 0, STOP_ON_FAILURE)",,,,27-03-2024 14:50:22,27-03-2024 14:50:23,1.685s,PASSED
+"tap(findTestObject(""NewObject/DropDownSearchedDistrict""), 0, STOP_ON_FAILURE)",,,,27-03-2024 14:50:23,27-03-2024 14:50:57,33.392s,FAILED
+,,,,,,,
+Test Cases/TC/TC_05 - Follow up Already Scheduled,,,,27-03-2024 14:50:57,27-03-2024 14:53:03,2m - 6.711s,PASSED
+"callTestCase(findTestCase(""CommenWorkflows/Login""), [""Str_URL"":""C:\Users\sushil.gaikwad\git\EguruSmart1\Application\app-release (4).apk"", ""Str_Username"":""DUSER145"", ""Str_Password"":""Soct#2023"", ... ], STOP_ON_FAILURE)",,,,27-03-2024 14:50:57,27-03-2024 14:51:42,44.859s,PASSED
+"Bool_Offline = waitForElementPresent(findTestObject(""LockScreen/NewPin/Offline Master Sync""), 10)",,,,27-03-2024 14:51:42,27-03-2024 14:51:52,10.164s,PASSED
+if (Bool_Offline == true),,,,27-03-2024 14:51:52,27-03-2024 14:51:52,0.003s,PASSED
+"verifyElementExist(findTestObject(""TataMotars/HomeButton""), 10)",,,,27-03-2024 14:51:52,27-03-2024 14:51:52,0.351s,PASSED
+"tap(findTestObject(""Home/Opportunities""), 0)",,,,27-03-2024 14:51:52,27-03-2024 14:51:53,0.425s,PASSED
+"tap(findTestObject(""NewObject/CliKC1""), 30)",,,,27-03-2024 14:51:53,27-03-2024 14:51:55,2.595s,PASSED
+"verifyElementExist(findTestObject(""NewObject/C1 Summary""), 30)",,,,27-03-2024 14:51:55,27-03-2024 14:51:57,1.823s,PASSED
+takeScreenshot(),,"STEP-01 : Click on Opportunities and click on C1
+
+Expected_Result :The user successfully landed on the all opporunities detail page",,27-03-2024 14:51:57,27-03-2024 14:52:00,2.861s,PASSED
+"tap(findTestObject(""NewObject/CREATE C1A""), 0)",,,,27-03-2024 14:52:00,27-03-2024 14:52:01,1.010s,PASSED
+"tap(findTestObject(""NewObject/PDORClick""), 0)",,,,27-03-2024 14:52:01,27-03-2024 14:52:03,2.374s,PASSED
+"verifyElementExist(findTestObject(""NewObject/ADD PDOR""), 30)",,,,27-03-2024 14:52:03,27-03-2024 14:52:04,0.398s,PASSED
+takeScreenshot(),,"STEP-02 : Click on Create C1A and click on PDOR
+Expected_Result :The Add PDOR CTA successfully displayed",,27-03-2024 14:52:04,27-03-2024 14:52:06,2.470s,PASSED
+"tap(findTestObject(""NewObject/ADD PDOR""), 0)",,,,27-03-2024 14:52:06,27-03-2024 14:52:07,1.045s,PASSED
+"tap(findTestObject(""C1 Functionality/Most Likely to buy tata""), 0)",,,,27-03-2024 14:52:07,27-03-2024 14:52:08,0.898s,PASSED
+"tap(findTestObject(""C1 Functionality/LikelyPurchaseDate""), 0)",,,,27-03-2024 14:52:08,27-03-2024 14:52:10,1.874s,PASSED
+"tap(findTestObject(""C1 Functionality/OK""), 0)",,,,27-03-2024 14:52:10,27-03-2024 14:52:11,1.172s,PASSED
+"tap(findTestObject(""C1 Functionality/PotentialDropOffReason""), 0)",,,,27-03-2024 14:52:11,27-03-2024 14:52:14,2.801s,PASSED
+"setText(findTestObject(""C1 Functionality/PotentialDropOffReason""), str_PotentialDropOffReason, 0)",,,,27-03-2024 14:52:14,27-03-2024 14:52:16,1.725s,PASSED
+"tap(findTestObject(""C1 Functionality/NotEligibleForFinance""), 0)",,,,27-03-2024 14:52:16,27-03-2024 14:52:17,1.508s,PASSED
+"tap(findTestObject(""Vehicle information/NextButton""), 0)",,,,27-03-2024 14:52:17,27-03-2024 14:52:18,1.224s,PASSED
+"verifyElementExist(findTestObject(""NewObject/Potential drop off reason""), 30)",,,,27-03-2024 14:52:18,27-03-2024 14:52:19,0.348s,PASSED
+takeScreenshot(),,"STEP-03 : Click on Add PDOR and click on Next
+
+Expected_Result :The user successfully landed on the Create PDOR page",,27-03-2024 14:52:19,27-03-2024 14:52:21,1.749s,PASSED
+"tap(findTestObject(""C1 Functionality/PotentialDropOffReason""), 0)",,,,27-03-2024 14:52:21,27-03-2024 14:52:23,2.690s,PASSED
+"setText(findTestObject(""C1 Functionality/PotentialDropOffReason""), ""CIBIL"", 0)",,,,27-03-2024 14:52:23,27-03-2024 14:52:25,1.672s,PASSED
+"tap(findTestObject(""C1 Functionality/CIBIL""), 0)",,,,27-03-2024 14:52:25,27-03-2024 14:52:26,0.992s,PASSED
+"tap(findTestObject(""C1 Functionality/FinancierSelected""), 0)",,,,27-03-2024 14:52:26,27-03-2024 14:52:27,1.562s,PASSED
+"setText(findTestObject(""C1 Functionality/FinancierSelected""), str_FinancierSelect, 0)",,,,27-03-2024 14:52:27,27-03-2024 14:52:29,1.737s,PASSED
+"tap(findTestObject(""C1 Functionality/No""), 0)",,,,27-03-2024 14:52:29,27-03-2024 14:52:31,1.484s,PASSED
+hideKeyboard(),,,,27-03-2024 14:52:31,27-03-2024 14:52:33,2.292s,PASSED
+"tap(findTestObject(""Add Account/SubmitButton""), 10)",,,,27-03-2024 14:52:33,27-03-2024 14:52:44,11.083s,PASSED
+"verifyElementExist(findTestObject(""NewObject/Potential Drop Off activity created successfully""), 30)",,,,27-03-2024 14:52:44,27-03-2024 14:53:00,15.785s,PASSED
+takeScreenshot(),,"STEP-04 : Enter all details and click on submit
+
+Expected_Result :Potential Drop Off Activity created successfully popup appeared",,27-03-2024 14:53:00,27-03-2024 14:53:02,1.762s,PASSED
+closeApplication(),,,,27-03-2024 14:53:02,27-03-2024 14:53:03,1.683s,PASSED
+,,,,,,,
+Test Cases/TC/TC_06 - C1 Functionality,,,,27-03-2024 14:53:03,27-03-2024 14:55:12,2m - 8.266s,FAILED
+"callTestCase(findTestCase(""CommenWorkflows/Login""), [""Str_URL"":""C:\Users\sushil.gaikwad\git\EguruSmart1\Application\app-release (4).apk"", ""Str_Username"":""DUSER145"", ""Str_Password"":""Soct#2023"", ... ], STOP_ON_FAILURE)",,,,27-03-2024 14:53:04,27-03-2024 14:53:57,53.164s,PASSED
+"verifyElementExist(findTestObject(""TataMotars/HomeButton""), 10)",,,,27-03-2024 14:53:57,27-03-2024 14:53:58,0.365s,PASSED
+"tap(findTestObject(""Home/Opportunities""), 0)",,,,27-03-2024 14:53:58,27-03-2024 14:53:59,0.953s,PASSED
+"tap(findTestObject(""Lost and Non Lost Functionality/C0""), 30)",,,,27-03-2024 14:53:59,27-03-2024 14:54:01,1.921s,PASSED
+"bool_Summary = verifyElementExist(findTestObject(""Lost and Non Lost Functionality/C0 Summary Text""), 0)",,,,27-03-2024 14:54:01,27-03-2024 14:54:02,1.544s,PASSED
+"bool_Target = verifyElementExist(findTestObject(""Lost and Non Lost Functionality/Target text""), 0)",,,,27-03-2024 14:54:02,27-03-2024 14:54:03,0.432s,PASSED
+"bool_MTD = verifyElementExist(findTestObject(""Lost and Non Lost Functionality/MTD text""), 0)",,,,27-03-2024 14:54:03,27-03-2024 14:54:04,0.956s,PASSED
+"bool_ThisWeek = verifyElementExist(findTestObject(""Lost and Non Lost Functionality/This Week text""), 0)",,,,27-03-2024 14:54:04,27-03-2024 14:54:04,0.424s,PASSED
+"bool_Yesterday = verifyElementExist(findTestObject(""Lost and Non Lost Functionality/Yesterday text""), 0)",,,,27-03-2024 14:54:04,27-03-2024 14:54:04,0.417s,PASSED
+bool_Yesterday && bool_ThisWeek && bool_MTD && bool_Target && bool_Summary == true,,,,27-03-2024 14:54:04,27-03-2024 14:54:04,0.002s,PASSED
+takeScreenshot(),,"STEP-01 : Click on C0
+
+Expected_Result : The user successfully landed on the C0 summary page with below option-:
+1. C0 Summary
+2. Target
+3. MTD
+4. This Week
+5. Yesterday",,27-03-2024 14:54:04,27-03-2024 14:54:08,3.336s,PASSED
+"tap(findTestObject(""C1 Functionality/CREATE C1""), 0)",,,,27-03-2024 14:54:08,27-03-2024 14:54:38,30.310s,PASSED
+"bool_LeadClassification = verifyElementExist(findTestObject(""C1 Functionality/Lead classification and PDOR""), 0)",,,,27-03-2024 14:54:38,27-03-2024 14:55:12,33.472s,FAILED
+,,,,,,,
+Test Cases/TC/TC_07 - Filter Fuctionality,,,,27-03-2024 14:55:12,27-03-2024 14:57:31,2m - 19.305s,PASSED
+"callTestCase(findTestCase(""CommenWorkflows/Login""), [""Str_URL"":""C:\Users\sushil.gaikwad\git\EguruSmart1\Application\app-release (4).apk"", ""Str_Username"":""DUSER145"", ""Str_Password"":""Soct#2023"", ... ], STOP_ON_FAILURE)",,,,27-03-2024 14:55:12,27-03-2024 14:56:14,1m - 1.992s,PASSED
+"verifyElementExist(findTestObject(""TataMotars/HomeButton""), 10)",,,,27-03-2024 14:56:14,27-03-2024 14:56:15,0.368s,PASSED
+"tap(findTestObject(""Menu/Menu""), 0)",,,,27-03-2024 14:56:15,27-03-2024 14:56:16,1.327s,PASSED
+"bool_Opportunities = verifyElementExist(findTestObject(""Menu/Opportunities""), 0)",,,,27-03-2024 14:56:16,27-03-2024 14:56:16,0.334s,PASSED
+"bool_Contacts = verifyElementExist(findTestObject(""Menu/Contacts""), 0)",,,,27-03-2024 14:56:16,27-03-2024 14:56:17,0.327s,PASSED
+"bool_Calendar = verifyElementExist(findTestObject(""Menu/Calendar""), 0)",,,,27-03-2024 14:56:17,27-03-2024 14:56:17,0.339s,PASSED
+"bool_StockInfo = verifyElementExist(findTestObject(""Menu/Stock Information""), 0)",,,,27-03-2024 14:56:17,27-03-2024 14:56:17,0.334s,PASSED
+"bool_Activities = verifyElementExist(findTestObject(""Menu/Activities""), 0)",,,,27-03-2024 14:56:17,27-03-2024 14:56:18,0.328s,PASSED
+"bool_LostCases = verifyElementExist(findTestObject(""Menu/Lost Cases""), 0)",,,,27-03-2024 14:56:18,27-03-2024 14:56:18,0.287s,PASSED
+"bool_PDOR = verifyElementExist(findTestObject(""Menu/PDOR""), 0)",,,,27-03-2024 14:56:18,27-03-2024 14:56:18,0.325s,PASSED
+"bool_SyncMaster = verifyElementExist(findTestObject(""Menu/Sync Master""), 0)",,,,27-03-2024 14:56:18,27-03-2024 14:56:19,0.299s,PASSED
+"bool_AboutUs = verifyElementExist(findTestObject(""Menu/About Us""), 0)",,,,27-03-2024 14:56:19,27-03-2024 14:56:19,0.296s,PASSED
+"bool_LogOut = verifyElementExist(findTestObject(""Menu/Log Out""), 0)",,,,27-03-2024 14:56:19,27-03-2024 14:56:28,9.121s,PASSED
+bool_LogOut && bool_AboutUs && bool_SyncMaster && bool_PDOR && bool_LostCases && bool_Activities && bool_StockInfo && bool_Calendar && bool_Contacts && bool_Opportunities == true,,,,27-03-2024 14:56:28,27-03-2024 14:56:28,0.001s,PASSED
+takeScreenshot(),,"STEP-01 : Click on Menu
+
+Expected_Result : The pop up successfully appears wih below option-
+1. E- Guru- logo
+2. Opportunities
+3. Contact
+4. Calendar
+5. Stock Information
+6. Activities
+7. Lost Case
+8. PDOR
+9. Sync Master
+10. About Us
+11. Logout",,27-03-2024 14:56:28,27-03-2024 14:56:31,3.141s,PASSED
+"tap(findTestObject(""Menu/Opportunities""), 0, STOP_ON_FAILURE)",,,,27-03-2024 14:56:31,27-03-2024 14:56:32,1.259s,PASSED
+"waitForElementPresent(findTestObject(""Lost and Non Lost Functionality/C0 Summary Text""), 30)",,,,27-03-2024 14:56:33,27-03-2024 14:56:35,2.404s,PASSED
+"bool_AllOpportunity = verifyElementExist(findTestObject(""Menu/All Opportunities""), 0)",,,,27-03-2024 14:56:35,27-03-2024 14:56:35,0.394s,PASSED
+bool_AllOpportunity == true,,,,27-03-2024 14:56:35,27-03-2024 14:56:35,0.002s,PASSED
+takeScreenshot(),,,,27-03-2024 14:56:35,27-03-2024 14:56:38,2.257s,PASSED
+"tap(findTestObject(""Menu/FilterButton""), 0, STOP_ON_FAILURE)",,,,27-03-2024 14:56:38,27-03-2024 14:56:43,5.486s,PASSED
+"tap(findTestObject(""Menu/Verification Status""), 0, STOP_ON_FAILURE)",,,,27-03-2024 14:56:43,27-03-2024 14:56:44,1.130s,PASSED
+"bool_Verified = verifyElementExist(findTestObject(""Filter/VerifiedFilter""), 0)",,,,27-03-2024 14:56:44,27-03-2024 14:56:45,1.200s,PASSED
+"bool_NonVerified = verifyElementExist(findTestObject(""Filter/NonVerifiedFilter""), 0)",,,,27-03-2024 14:56:45,27-03-2024 14:56:47,1.200s,PASSED
+"bool_ClearAll = verifyElementExist(findTestObject(""Menu/CLEAR ALL""), 0)",,,,27-03-2024 14:56:47,27-03-2024 14:56:47,0.324s,PASSED
+"bool_Cancel = verifyElementExist(findTestObject(""Menu/Cancel""), 0)",,,,27-03-2024 14:56:47,27-03-2024 14:56:47,0.320s,PASSED
+"bool_Apply = verifyElementExist(findTestObject(""Menu/Apply""), 0)",,,,27-03-2024 14:56:47,27-03-2024 14:56:48,0.926s,PASSED
+bool_Verified && bool_NonVerified && bool_ClearAll && bool_Cancel && bool_Apply == true,,,,27-03-2024 14:56:48,27-03-2024 14:56:48,0.001s,PASSED
+takeScreenshot(),,"STEP-03 : Click on Filter icon and click on verification status
+
+Expected_Result : The user successfully land on the verification status option with below option-:
+1. Verified
+2. Non Verified
+3. Cancel
+4. Apply
+5. Clear All",,27-03-2024 14:56:48,27-03-2024 14:56:50,1.644s,PASSED
+"Bool_Offline = waitForElementPresent(findTestObject(""LockScreen/NewPin/Offline Master Sync""), 10)",,,,27-03-2024 14:56:50,27-03-2024 14:57:00,10.116s,PASSED
+if (Bool_Offline == true),,,,27-03-2024 14:57:00,27-03-2024 14:57:00,0.002s,PASSED
+"tap(findTestObject(""Filter/VerifiedFilter""), 0, STOP_ON_FAILURE)",,,,27-03-2024 14:57:00,27-03-2024 14:57:01,1.256s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,27-03-2024 14:57:01,27-03-2024 14:57:06,5.015s,PASSED
+"tap(findTestObject(""Menu/Apply""), 0, STOP_ON_FAILURE)",,,,27-03-2024 14:57:06,27-03-2024 14:57:07,0.918s,PASSED
+"waitForElementPresent(findTestObject(""Lost and Non Lost Functionality/C0 Summary Text""), 30)",,,,27-03-2024 14:57:07,27-03-2024 14:57:11,4.386s,PASSED
+"bool_AllOpportunity = verifyElementExist(findTestObject(""Menu/All Opportunities""), 30)",,,,27-03-2024 14:57:11,27-03-2024 14:57:12,0.456s,PASSED
+bool_AllOpportunity == true,,,,27-03-2024 14:57:12,27-03-2024 14:57:12,0.003s,PASSED
+takeScreenshot(),,"STEP-04 : Click on Verified and click on apply
+
+Expected_Result :The user successfully landed on the All opportunities page and all the verified opty's are displayed with ""VRFD"" token on each opty card successfully",,27-03-2024 14:57:12,27-03-2024 14:57:14,1.821s,PASSED
+"tap(findTestObject(""Menu/FilterButton""), 0, STOP_ON_FAILURE)",,,,27-03-2024 14:57:14,27-03-2024 14:57:17,3.182s,PASSED
+"tap(findTestObject(""Menu/Verification Status""), 0, STOP_ON_FAILURE)",,,,27-03-2024 14:57:17,27-03-2024 14:57:18,0.924s,PASSED
+"tap(findTestObject(""Menu/CLEAR ALL""), 0, STOP_ON_FAILURE)",,,,27-03-2024 14:57:18,27-03-2024 14:57:18,0.259s,PASSED
+"tap(findTestObject(""Filter/NonVerifiedFilter""), 0, STOP_ON_FAILURE)",,,,27-03-2024 14:57:18,27-03-2024 14:57:19,0.632s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,27-03-2024 14:57:19,27-03-2024 14:57:24,5.016s,PASSED
+"tap(findTestObject(""Menu/Apply""), 0, STOP_ON_FAILURE)",,,,27-03-2024 14:57:24,27-03-2024 14:57:27,2.849s,PASSED
+"bool_AllOpportunity = verifyElementExist(findTestObject(""Menu/All Opportunities""), 0)",,,,27-03-2024 14:57:27,27-03-2024 14:57:29,2.113s,PASSED
+bool_AllOpportunity == true,,,,27-03-2024 14:57:29,27-03-2024 14:57:29,0.002s,PASSED
+takeScreenshot(),,"STEP-05 : Go to Opportunity filter page Click on Clear All and click on Non Verified and click on apply 
+Expected_Result :The user successfully landed on the All opportunities page and all the verified opty's are displayed with ""NOT VRFD"" token on each opty card successfully",,27-03-2024 14:57:29,27-03-2024 14:57:30,0.858s,PASSED
+closeApplication(),,,,27-03-2024 14:57:30,27-03-2024 14:57:31,1.290s,PASSED
+,,,,,,,
+Test Cases/TC/TC_08 - Lost Functionality,,,,27-03-2024 14:57:31,27-03-2024 14:59:52,2m - 21.102s,FAILED
+"callTestCase(findTestCase(""CommenWorkflows/Login""), [""Str_URL"":""C:\Users\sushil.gaikwad\git\EguruSmart1\Application\app-release (4).apk"", ""Str_Username"":""DUSER145"", ""Str_Password"":""Soct#2023"", ... ], STOP_ON_FAILURE)",,,,27-03-2024 14:57:32,27-03-2024 14:58:22,50.306s,PASSED
+"verifyElementExist(findTestObject(""TataMotars/HomeButton""), 10)",,,,27-03-2024 14:58:22,27-03-2024 14:58:22,0.362s,PASSED
+"tap(findTestObject(""Home/Opportunities""), 0)",,,,27-03-2024 14:58:22,27-03-2024 14:58:23,0.933s,PASSED
+"tap(findTestObject(""Lost and Non Lost Functionality/C0""), 0)",,,,27-03-2024 14:58:23,27-03-2024 14:58:26,2.537s,PASSED
+"bool_Summary = verifyElementExist(findTestObject(""Lost and Non Lost Functionality/C0 Summary Text""), 30)",,,,27-03-2024 14:58:26,27-03-2024 14:58:27,1.718s,PASSED
+"bool_Target = verifyElementExist(findTestObject(""Lost and Non Lost Functionality/Target text""), 30)",,,,27-03-2024 14:58:27,27-03-2024 14:58:28,0.447s,PASSED
+"bool_MTD = verifyElementExist(findTestObject(""Lost and Non Lost Functionality/MTD text""), 0)",,,,27-03-2024 14:58:28,27-03-2024 14:58:29,0.817s,PASSED
+"bool_ThisWeek = verifyElementExist(findTestObject(""Lost and Non Lost Functionality/This Week text""), 0)",,,,27-03-2024 14:58:29,27-03-2024 14:58:29,0.414s,PASSED
+"bool_Yesterday = verifyElementExist(findTestObject(""Lost and Non Lost Functionality/Yesterday text""), 0)",,,,27-03-2024 14:58:29,27-03-2024 14:58:29,0.419s,PASSED
+bool_Yesterday && bool_ThisWeek && bool_MTD && bool_Target && bool_Summary == true,,,,27-03-2024 14:58:29,27-03-2024 14:58:29,0.001s,PASSED
+takeScreenshot(),,"STEP-01 : Click on C0
+
+Expected_Result : The user successfully landed on the C0 summary page with below option-:
+1. C0 Summary
+2. Target
+3. MTD
+4. This Week
+5. Yesterday",,27-03-2024 14:58:29,27-03-2024 14:58:32,2.883s,PASSED
+"Bool_Offline = waitForElementPresent(findTestObject(""LockScreen/NewPin/Offline Master Sync""), 5)",,,,27-03-2024 14:58:32,27-03-2024 14:58:37,5.052s,PASSED
+if (Bool_Offline == true),,,,27-03-2024 14:58:37,27-03-2024 14:58:37,0.001s,PASSED
+"tap(findTestObject(""Lost and Non Lost Functionality/C0 Three Dots""), 0)",,,,27-03-2024 14:58:37,27-03-2024 14:58:47,9.114s,PASSED
+"Bool_Offline = waitForElementPresent(findTestObject(""Lost and Non Lost Functionality/Opportunity Details""), 10)",,,,27-03-2024 14:58:47,27-03-2024 14:58:47,0.331s,PASSED
+"tap(findTestObject(""Lost and Non Lost Functionality/Opportunity Details""), 0)",,,,27-03-2024 14:58:47,27-03-2024 14:58:48,0.937s,PASSED
+"waitForElementPresent(findTestObject(""Lost and Non Lost Functionality/Schedule a follow up""), 5)",,,,27-03-2024 14:58:48,27-03-2024 14:58:53,5.137s,PASSED
+"bool_CreateC1 = verifyElementExist(findTestObject(""Lost and Non Lost Functionality/CREATE C1""), 0)",,,,27-03-2024 14:58:53,27-03-2024 14:59:18,25.051s,PASSED
+"bool_Details = verifyElementExist(findTestObject(""Lost and Non Lost Functionality/DETAILS""), 0)",,,,27-03-2024 14:59:18,27-03-2024 14:59:52,34.005s,FAILED
+,,,,,,,
+Test Cases/TC/TC_09 - Non Lost Functionality,,,,27-03-2024 14:59:52,27-03-2024 15:01:48,1m - 55.626s,FAILED
+"callTestCase(findTestCase(""CommenWorkflows/Login""), [""Str_URL"":""C:\Users\sushil.gaikwad\git\EguruSmart1\Application\app-release (4).apk"", ""Str_Username"":""DUSER145"", ""Str_Password"":""Soct#2023"", ... ], STOP_ON_FAILURE)",,,,27-03-2024 14:59:52,27-03-2024 15:00:38,45.261s,PASSED
+"verifyElementExist(findTestObject(""TataMotars/HomeButton""), 30)",,,,27-03-2024 15:00:38,27-03-2024 15:00:38,0.349s,PASSED
+"tap(findTestObject(""Home/Opportunities""), 0)",,,,27-03-2024 15:00:38,27-03-2024 15:00:39,0.918s,PASSED
+"tap(findTestObject(""Lost and Non Lost Functionality/C0""), 0)",,,,27-03-2024 15:00:39,27-03-2024 15:00:41,2.418s,PASSED
+"bool_Summary = verifyElementExist(findTestObject(""Lost and Non Lost Functionality/C0 Summary Text""), 0)",,,,27-03-2024 15:00:41,27-03-2024 15:00:43,1.428s,PASSED
+"bool_Target = verifyElementExist(findTestObject(""Lost and Non Lost Functionality/Target text""), 0)",,,,27-03-2024 15:00:43,27-03-2024 15:00:43,0.477s,PASSED
+"bool_MTD = verifyElementExist(findTestObject(""Lost and Non Lost Functionality/MTD text""), 0)",,,,27-03-2024 15:00:43,27-03-2024 15:00:44,0.801s,PASSED
+"bool_ThisWeek = verifyElementExist(findTestObject(""Lost and Non Lost Functionality/This Week text""), 0)",,,,27-03-2024 15:00:44,27-03-2024 15:00:45,0.424s,PASSED
+"bool_Yesterday = verifyElementExist(findTestObject(""Lost and Non Lost Functionality/Yesterday text""), 0)",,,,27-03-2024 15:00:45,27-03-2024 15:00:45,0.432s,PASSED
+bool_Yesterday && bool_ThisWeek && bool_MTD && bool_Target && bool_Summary == true,,,,27-03-2024 15:00:45,27-03-2024 15:00:45,0.001s,PASSED
+takeScreenshot(),,"STEP-01 : Click on C0
+
+Expected_Result : The user successfully landed on the C0 summary page with below option-:
+1. C0 Summary
+2. Target
+3. MTD
+4. This Week
+5. Yesterday",,27-03-2024 15:00:45,27-03-2024 15:00:48,3.416s,PASSED
+"Bool_Offline = waitForElementPresent(findTestObject(""LockScreen/NewPin/Offline Master Sync""), 10)",,,,27-03-2024 15:00:48,27-03-2024 15:00:59,10.215s,PASSED
+if (Bool_Offline == true),,,,27-03-2024 15:00:59,27-03-2024 15:00:59,0.002s,PASSED
+"tap(findTestObject(""Lost and Non Lost Functionality/C0 Three Dots""), 5)",,,,27-03-2024 15:00:59,27-03-2024 15:01:07,8.752s,PASSED
+"Bool_Offline = waitForElementPresent(findTestObject(""Lost and Non Lost Functionality/Opportunity Details""), 10)",,,,27-03-2024 15:01:07,27-03-2024 15:01:08,0.283s,PASSED
+"tap(findTestObject(""Lost and Non Lost Functionality/Opportunity Details""), 0)",,,,27-03-2024 15:01:08,27-03-2024 15:01:09,0.901s,PASSED
+"waitForElementPresent(findTestObject(""Lost and Non Lost Functionality/Schedule a follow up""), 5)",,,,27-03-2024 15:01:09,27-03-2024 15:01:14,5.243s,PASSED
+"bool_CreateC1 = verifyElementExist(findTestObject(""Lost and Non Lost Functionality/CREATE C1""), 0)",,,,27-03-2024 15:01:14,27-03-2024 15:01:48,33.865s,FAILED
+,,,,,,,
+Test Cases/TC/TC_10 - Follow up Update schedule,,,,27-03-2024 15:01:48,27-03-2024 15:03:15,1m - 27.564s,FAILED
+"callTestCase(findTestCase(""CommenWorkflows/Login""), [""Str_URL"":""C:\Users\sushil.gaikwad\git\EguruSmart1\Application\app-release (4).apk"", ""Str_Username"":""DUSER145"", ""Str_Password"":""Soct#2023"", ... ], STOP_ON_FAILURE)",,,,27-03-2024 15:01:48,27-03-2024 15:02:32,43.445s,PASSED
+"verifyElementExist(findTestObject(""TataMotars/HomeButton""), 10)",,,,27-03-2024 15:02:32,27-03-2024 15:02:32,0.349s,PASSED
+"Bool_Offline = waitForElementPresent(findTestObject(""LockScreen/NewPin/Offline Master Sync""), 5)",,,,27-03-2024 15:02:32,27-03-2024 15:02:37,5.167s,PASSED
+if (Bool_Offline == true),,,,27-03-2024 15:02:37,27-03-2024 15:02:37,0.001s,PASSED
+"tap(findTestObject(""Home/Calendar""), 0)",,,,27-03-2024 15:02:37,27-03-2024 15:02:40,2.490s,PASSED
+"bool_UpdateBtn = verifyElementExist(findTestObject(""ScheduleFollowUp/UpdateButton""), 0)",,,,27-03-2024 15:02:40,27-03-2024 15:03:15,35.631s,FAILED

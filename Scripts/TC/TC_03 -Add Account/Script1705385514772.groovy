@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import java.util.concurrent.ThreadLocalRandom as ThreadLocalRandom
 
-WebUI.callTestCase(findTestCase('CommenWorkflows/Login'), [('Str_URL') : 'C:\\Users\\sushil.gaikwad\\Katalon Studio\\tatamotarsdemoNew\\Application\\app-release (4).apk'
+WebUI.callTestCase(findTestCase('CommenWorkflows/Login'), [('Str_URL') : 'C:\\Users\\sushil.gaikwad\\git\\EguruSmart1\\Application\\app-release (4).apk'
         , ('Str_Username') : 'DUSER145', ('Str_Password') : 'Soct#2023', ('AppPath') : 'bs://7ff0c9286ad199a5f95aa5eb8ca9619f5ca87b39'], 
     FailureHandling.STOP_ON_FAILURE)
 
@@ -109,9 +109,11 @@ Mobile.tap(findTestObject('NewObject/DropDownSearchedDistrict'), 0, FailureHandl
 
 Mobile.tap(findTestObject('NewObject/DropDownTaluka'), 0, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('NewObject/DroDownSearchedTaluka'), 0, FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('NewObject/DroDownSearchedTaluka'), 2, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Primery Details/Address Details/NextButton'), 0)
+Mobile.scrollToText('Next', FailureHandling.CONTINUE_ON_FAILURE)
+
+Mobile.tap(findTestObject('Primery Details/Address Details/NextButton'), 3)
 
 Mobile.verifyElementExist(findTestObject('Menu/Opportunities'), 30)
 
