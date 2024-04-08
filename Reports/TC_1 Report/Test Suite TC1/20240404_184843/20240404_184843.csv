@@ -1,0 +1,165 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite TC1,,,,04-04-2024 18:48:54,04-04-2024 18:52:42,3m - 48.101s,PASSED
+,,,,,,,
+Test Cases/TC/TC_01 - To verify that opty creation for the new customer,,,,04-04-2024 18:48:54,04-04-2024 18:52:42,3m - 47.781s,PASSED
+"callTestCase(findTestCase(""CommenWorkflows/Login""), [""Str_URL"":""C:\Users\sushil.gaikwad\git\EguruSmart1\Application\app-release (3).apk"", ""Str_Username"":""DUSER145"", ""Str_Password"":""Soct#2023"", ... ], STOP_ON_FAILURE)",,,,04-04-2024 18:48:56,04-04-2024 18:49:46,49.662s,PASSED
+"Bool_Offline = waitForElementPresent(findTestObject(""LockScreen/NewPin/Offline Master Sync""), 5)",,,,04-04-2024 18:49:46,04-04-2024 18:49:51,5.118s,PASSED
+if (Bool_Offline == true),,,,04-04-2024 18:49:51,04-04-2024 18:49:51,0.002s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,04-04-2024 18:49:51,04-04-2024 18:49:53,2.023s,PASSED
+"verifyElementExist(findTestObject(""TataMotars/HomeButton""), 10)",,,,04-04-2024 18:49:53,04-04-2024 18:49:53,0.277s,PASSED
+"tap(findTestObject(""TataMotars/PluseButton""), 0)",,,,04-04-2024 18:49:53,04-04-2024 18:49:55,1.572s,PASSED
+"bool_Opportunity = verifyElementExist(findTestObject(""TataMotars/Pluse Button/OpportunityButton""), 0)",,,,04-04-2024 18:49:55,04-04-2024 18:49:55,0.230s,PASSED
+"bool_Account = verifyElementExist(findTestObject(""TataMotars/Pluse Button/Account""), 0)",,,,04-04-2024 18:49:55,04-04-2024 18:49:55,0.224s,PASSED
+"bool_Customer = verifyElementExist(findTestObject(""TataMotars/Pluse Button/Customer""), 0)",,,,04-04-2024 18:49:55,04-04-2024 18:49:56,0.223s,PASSED
+"bool_Influencer = verifyElementExist(findTestObject(""TataMotars/Pluse Button/Influencer""), 0)",,,,04-04-2024 18:49:56,04-04-2024 18:49:56,0.221s,PASSED
+"bool_FollowUp = verifyElementExist(findTestObject(""TataMotars/Pluse Button/Follow Up""), 0)",,,,04-04-2024 18:49:56,04-04-2024 18:49:56,0.219s,PASSED
+bool_Opportunity && bool_Account && bool_Customer && bool_Influencer && bool_FollowUp == false,,,,04-04-2024 18:49:56,04-04-2024 18:49:56,0.004s,PASSED
+takeScreenshot(),,"STEP-01 : Click on + icon
+
+Expected_Result : The pop up should appear and below 4 option should be listed
+1. Opportunity
+2. Customer
+3. Account
+4. Influencer",,04-04-2024 18:49:56,04-04-2024 18:49:57,1.265s,PASSED
+"tap(findTestObject(""TataMotars/Pluse Button/OpportunityButton""), 3)",,,,04-04-2024 18:49:57,04-04-2024 18:49:58,0.283s,PASSED
+"bool_AddContact = verifyElementExist(findTestObject(""Add Contact/AddContact""), 30)",,,,04-04-2024 18:49:58,04-04-2024 18:49:59,0.856s,PASSED
+"bool_SearchAddContact = verifyElementExist(findTestObject(""Add Contact/Search - Add Contact""), 30)",,,,04-04-2024 18:49:59,04-04-2024 18:49:59,0.715s,PASSED
+bool_AddContact && bool_SearchAddContact == true,,,,04-04-2024 18:49:59,04-04-2024 18:49:59,0.002s,PASSED
+takeScreenshot(),,"STEP-02 : The user successfully  landed on the Add Opportunity screen with the below options-:
+1. Add Contact
+2. Search bar for existing contact search",,04-04-2024 18:49:59,04-04-2024 18:50:01,1.399s,PASSED
+randomName = generateRandomName(),,,,04-04-2024 18:50:01,04-04-2024 18:50:01,0.001s,PASSED
+chars = (A..Z) + (a..z),,,,04-04-2024 18:50:01,04-04-2024 18:50:01,0.028s,PASSED
+name =  }).join(),,,,04-04-2024 18:50:01,04-04-2024 18:50:01,0.054s,PASSED
+return name,,,,04-04-2024 18:50:01,04-04-2024 18:50:01,0.001s,PASSED
+println(Random 5-character name: $randomName),,,,04-04-2024 18:50:01,04-04-2024 18:50:01,0.116s,PASSED
+minRange = 1,,,,04-04-2024 18:50:01,04-04-2024 18:50:01,0.004s,PASSED
+maxRange = 1000,,,,04-04-2024 18:50:01,04-04-2024 18:50:01,0.001s,PASSED
+"randomInt = current().nextInt(minRange, maxRange + 1)",,,,04-04-2024 18:50:01,04-04-2024 18:50:01,0.067s,PASSED
+Result = $randomName $randomInt,,,,04-04-2024 18:50:01,04-04-2024 18:50:01,0.002s,PASSED
+"tap(findTestObject(""Add Contact/Search - Add Contact""), 0, STOP_ON_FAILURE)",,,,04-04-2024 18:50:01,04-04-2024 18:50:02,0.878s,PASSED
+"setText(findTestObject(""TataMotars/SearchBox""), Result, 0)",,,,04-04-2024 18:50:02,04-04-2024 18:50:04,1.726s,PASSED
+hideKeyboard(),,,,04-04-2024 18:50:04,04-04-2024 18:50:06,1.993s,PASSED
+"str_getNewContact = getAttribute(findTestObject(""TataMotars/SearchBox""), ""name"", 0)",,,,04-04-2024 18:50:06,04-04-2024 18:50:06,0.785s,PASSED
+Result == str_getNewContact,,,,04-04-2024 18:50:06,04-04-2024 18:50:06,0.002s,PASSED
+takeScreenshot(),,STEP-03 : The user successfully enters the name and respective name should be visible,,04-04-2024 18:50:06,04-04-2024 18:50:08,1.265s,PASSED
+"tap(findTestObject(""Add Contact/AddNewContactButton""), 0)",,,,04-04-2024 18:50:08,04-04-2024 18:50:08,0.349s,PASSED
+"setText(findTestObject(""Primery Details/FirstName""), str_FirstName, 0)",,,,04-04-2024 18:50:08,04-04-2024 18:50:10,2.249s,PASSED
+hideKeyboard(),,,,04-04-2024 18:50:10,04-04-2024 18:50:12,1.937s,PASSED
+"setText(findTestObject(""Primery Details/LastName""), str_LastName, 0)",,,,04-04-2024 18:50:12,04-04-2024 18:50:14,1.819s,PASSED
+hideKeyboard(),,,,04-04-2024 18:50:14,04-04-2024 18:50:16,1.898s,PASSED
+"tap(findTestObject(""Primery Details/MobileNumber""), 0)",,,,04-04-2024 18:50:16,04-04-2024 18:50:17,0.824s,PASSED
+"setText(findTestObject(""Primery Details/MobileNumber""), str_MobileNumber + randomInt, 0)",,,,04-04-2024 18:50:17,04-04-2024 18:50:19,1.998s,PASSED
+hideKeyboard(),,,,04-04-2024 18:50:19,04-04-2024 18:50:22,3.775s,PASSED
+takeScreenshot(),,,,04-04-2024 18:50:22,04-04-2024 18:50:23,0.950s,PASSED
+"tap(findTestObject(""Create New Opportunity/Customer Type""), 0)",,,,04-04-2024 18:50:23,04-04-2024 18:50:24,0.785s,PASSED
+"sendKeys(findTestObject(""Create New Opportunity/Type_CustomerType""), str_CustomerType, STOP_ON_FAILURE)",,,,04-04-2024 18:50:24,04-04-2024 18:50:26,1.614s,PASSED
+hideKeyboard(),,,,04-04-2024 18:50:26,04-04-2024 18:50:28,2.009s,PASSED
+"Bool_Customer = waitForElementPresent(findTestObject(""Create New Opportunity/Click_Customer""), 5)",,,,04-04-2024 18:50:28,04-04-2024 18:50:28,0.267s,PASSED
+if (Bool_Customer == true),,,,04-04-2024 18:50:28,04-04-2024 18:50:29,0.844s,PASSED
+"checkElement(findTestObject(""Primery Details/Influencer Checkbox""), 0)",,,,04-04-2024 18:50:29,04-04-2024 18:50:30,1.007s,PASSED
+hideKeyboard(),,,,04-04-2024 18:50:30,04-04-2024 18:50:31,1.029s,PASSED
+"tap(findTestObject(""Create New Opportunity/Additional information""), 0)",,,,04-04-2024 18:50:31,04-04-2024 18:50:32,0.853s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,04-04-2024 18:50:32,04-04-2024 18:50:35,3.017s,PASSED
+"tap(findTestObject(""Primery Details/Enter InfluencerType""), 0)",,,,04-04-2024 18:50:35,04-04-2024 18:50:36,1.454s,PASSED
+"setText(findTestObject(""Create New Opportunity/Type Influencer""), str_InfluencerType, 0)",,,,04-04-2024 18:50:36,04-04-2024 18:50:38,1.676s,PASSED
+hideKeyboard(),,,,04-04-2024 18:50:38,04-04-2024 18:50:40,2.088s,PASSED
+"tap(findTestObject(""Primery Details/Address Details/NextButton""), 0)",,,,04-04-2024 18:50:40,04-04-2024 18:50:40,0.354s,PASSED
+"bool_Pincode = waitForElementPresent(findTestObject(""Primery Details/Address Details/Pincode""), 5)",,,,04-04-2024 18:50:40,04-04-2024 18:50:44,3.318s,PASSED
+if (bool_Pincode == true),,,,04-04-2024 18:50:44,04-04-2024 18:50:55,11.165s,PASSED
+takeScreenshot(),,"STEP-04 : Enter all the details and select check box of also an influencer and click on Next
+Expected_Result : The popup successfully appears to select the contact",,04-04-2024 18:50:55,04-04-2024 18:50:56,0.953s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,04-04-2024 18:50:56,04-04-2024 18:50:58,2.015s,PASSED
+"verifyElementExist(findTestObject(""Vehicle information/Vehicle information""), 30)",,,,04-04-2024 18:50:58,04-04-2024 18:51:03,5.320s,PASSED
+takeScreenshot(),,"STEP-06 : Click on Proceed
+
+Expected_Result : The user clicks on proceed and successfully land on the vehicle information page",,04-04-2024 18:51:03,04-04-2024 18:51:04,1.048s,PASSED
+"tap(findTestObject(""Vehicle information/SelectProductLine""), 0)",,,,04-04-2024 18:51:04,04-04-2024 18:51:06,1.776s,PASSED
+"setText(findTestObject(""Vehicle information/SelectProductLine""), str_ProductLine, 0)",,,,04-04-2024 18:51:06,04-04-2024 18:51:08,1.913s,PASSED
+"tap(findTestObject(""Vehicle information/ClickSelectedProduct""), 0)",,,,04-04-2024 18:51:08,04-04-2024 18:51:09,0.861s,PASSED
+hideKeyboard(),,,,04-04-2024 18:51:09,04-04-2024 18:51:11,2.436s,PASSED
+takeScreenshot(),,,,04-04-2024 18:51:11,04-04-2024 18:51:13,1.355s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,04-04-2024 18:51:13,04-04-2024 18:51:18,5.013s,PASSED
+"tap(findTestObject(""Vehicle information/SelectModel""), 0)",,,,04-04-2024 18:51:18,04-04-2024 18:51:19,0.992s,PASSED
+"setText(findTestObject(""Vehicle information/SelectModel""), str_Model, 0)",,,,04-04-2024 18:51:19,04-04-2024 18:51:20,1.841s,PASSED
+"tap(findTestObject(""Vehicle information/TapModel""), 0)",,,,04-04-2024 18:51:20,04-04-2024 18:51:22,1.304s,PASSED
+takeScreenshot(),,"STEP-07 : Select the Product line and model
+
+Expected_Result : The user should be able to select the product line and model option
+
+Actual_Result : The user selects the product line option and model option",,04-04-2024 18:51:22,04-04-2024 18:51:23,1.139s,PASSED
+"tap(findTestObject(""Vehicle information/NextButton""), 0)",,,,04-04-2024 18:51:23,04-04-2024 18:51:24,1.193s,PASSED
+"verifyElementVisible(findTestObject(""Create New Opportunity/ClickVehicleApplication""), 0)",,,,04-04-2024 18:51:24,04-04-2024 18:51:25,0.698s,PASSED
+"tap(findTestObject(""Create New Opportunity/ClickVehicleApplication""), 0)",,,,04-04-2024 18:51:25,04-04-2024 18:51:25,0.700s,PASSED
+"setText(findTestObject(""Create New Opportunity/ClickVehicleApplication""), str_VehicleApplication, 0)",,"STEP-08 : Select the vehicle application and body type
+
+Expected_Result : The user should be land on the vehicle application and body type and should land on the select quantity
+
+Actual_Result : The user landed on the vehicle application and body type and  landed on the select quantity",,04-04-2024 18:51:25,04-04-2024 18:51:27,1.692s,PASSED
+"tap(findTestObject(""Create New Opportunity/SelectVehicleApplication""), 0)",,,,04-04-2024 18:51:27,04-04-2024 18:51:29,1.397s,PASSED
+hideKeyboard(),,,,04-04-2024 18:51:29,04-04-2024 18:51:31,2.190s,PASSED
+"checkElement(findTestObject(""Create New Opportunity/BodyType""), 0)",,,,04-04-2024 18:51:31,04-04-2024 18:51:32,0.987s,PASSED
+"tap(findTestObject(""Create New Opportunity/BodyType""), 0)",,,,04-04-2024 18:51:32,04-04-2024 18:51:33,1.555s,PASSED
+"setText(findTestObject(""Create New Opportunity/BodyType""), str_BodyType, 0)",,,,04-04-2024 18:51:33,04-04-2024 18:51:34,0.763s,PASSED
+"tap(findTestObject(""Create New Opportunity/SelectBodyType""), 0)",,,,04-04-2024 18:51:34,04-04-2024 18:51:35,1.419s,PASSED
+"tap(findTestObject(""Vehicle information/NextButton""), 0)",,,,04-04-2024 18:51:35,04-04-2024 18:51:36,0.317s,PASSED
+takeScreenshot(),,"STEP-08 : Select the vehicle application and body type
+
+Expected_Result : The user should be land on the vehicle application and body type and should land on the select quantity
+
+Actual_Result : The user landed on the vehicle application and body type and  landed on the select quantity",,04-04-2024 18:51:36,04-04-2024 18:51:37,0.980s,PASSED
+"tap(findTestObject(""Additional Info/Quantity""), 0)",,,,04-04-2024 18:51:37,04-04-2024 18:51:38,1.020s,PASSED
+"setText(findTestObject(""Additional Info/Quantity""), ""1"", 0)",,,,04-04-2024 18:51:38,04-04-2024 18:51:40,1.916s,PASSED
+"tap(findTestObject(""Vehicle information/NextButton""), 0)",,,,04-04-2024 18:51:40,04-04-2024 18:51:41,1.568s,PASSED
+takeScreenshot(),,,,04-04-2024 18:51:41,04-04-2024 18:51:42,0.915s,PASSED
+"tap(findTestObject(""Additional Info/AprilMonth""), 0)",,Tap on March,,04-04-2024 18:51:42,04-04-2024 18:51:43,0.790s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,04-04-2024 18:51:43,04-04-2024 18:51:46,3.018s,PASSED
+takeScreenshot(),,"STEP-09 : Enter the quantity and click on Next
+
+Expected_Result : The user should be able to add the quantity and by clicking on Next the user should land on the select purchase month screen
+
+Actual_Result : The user added the quantity and by clicking on Next the user  landed on the select purchase month screen",,04-04-2024 18:51:46,04-04-2024 18:51:47,0.910s,PASSED
+"tap(findTestObject(""Vehicle information/NextButton""), 0)",,,,04-04-2024 18:51:47,04-04-2024 18:51:48,0.817s,PASSED
+"verifyElementVisible(findTestObject(""Additional Info/SourceOfContact_Text""), 0)",,,,04-04-2024 18:51:48,04-04-2024 18:51:48,0.261s,PASSED
+"tap(findTestObject(""Additional Info/Enter SourceOfContact""), 0)",,,,04-04-2024 18:51:48,04-04-2024 18:51:49,0.920s,PASSED
+"setText(findTestObject(""Additional Info/Enter SourceOfContact""), str_SourceOfContact, 0)",,,,04-04-2024 18:51:49,04-04-2024 18:51:51,1.902s,PASSED
+"tap(findTestObject(""Additional Info/Searched SourceOfContact""), 0)",,,,04-04-2024 18:51:51,04-04-2024 18:51:52,1.393s,PASSED
+"tap(findTestObject(""Vehicle information/NextButton""), 0)",,,,04-04-2024 18:51:52,04-04-2024 18:51:53,1.171s,PASSED
+"verifyElementVisible(findTestObject(""Additional Info/CustomerInterestedInExchange""), 0)",,,,04-04-2024 18:51:53,04-04-2024 18:51:54,0.282s,PASSED
+takeScreenshot(),,"STEP-10 : Select the source of contact
+
+Expected_Result : The user should be able to select the contact and should landed on the customer interest option
+
+Actual_Result : The user selects the contact and landed on the customer interest page",,04-04-2024 18:51:54,04-04-2024 18:51:55,0.923s,PASSED
+"tap(findTestObject(""Additional Info/Yes RadioButton""), 0)",,,,04-04-2024 18:51:55,04-04-2024 18:51:55,0.833s,PASSED
+"bool_ExchangeQuantity = verifyElementExist(findTestObject(""Additional Info/SetQuantity""), 0)",,,,04-04-2024 18:51:55,04-04-2024 18:51:56,0.667s,PASSED
+"bool_Make = verifyElementExist(findTestObject(""Additional Info/ClickMake""), 0)",,,,04-04-2024 18:51:56,04-04-2024 18:51:57,0.648s,PASSED
+bool_ExchangeQuantity && bool_Make == true,,,,04-04-2024 18:51:57,04-04-2024 18:51:57,0.001s,PASSED
+takeScreenshot(),,"STEP-11 : Select the customer interest option
+
+Expected_Result : The user should able to select the customer interest option and the exchange type option should be visible to the user
+
+Actual_Result : The user selects the customer interest option and on the exchange type screen should appear",,04-04-2024 18:51:57,04-04-2024 18:51:58,0.917s,PASSED
+"tap(findTestObject(""Additional Info/SetQuantity""), 0)",,,,04-04-2024 18:51:58,04-04-2024 18:51:58,0.704s,PASSED
+"setText(findTestObject(""Additional Info/SetQuantity""), str_ExchangeQuantity, 0)",,,,04-04-2024 18:51:58,04-04-2024 18:52:00,1.637s,PASSED
+hideKeyboard(),,,,04-04-2024 18:52:00,04-04-2024 18:52:04,3.686s,PASSED
+"tap(findTestObject(""Additional Info/ClickMake""), 0)",,,,04-04-2024 18:52:04,04-04-2024 18:52:04,0.739s,PASSED
+"setText(findTestObject(""Additional Info/SetMake""), str_Make, 0)",,,,04-04-2024 18:52:04,04-04-2024 18:52:06,1.641s,PASSED
+hideKeyboard(),,,,04-04-2024 18:52:06,04-04-2024 18:52:08,1.967s,PASSED
+"tap(findTestObject(""Additional Info/SelectMake""), 0)",,,,04-04-2024 18:52:08,04-04-2024 18:52:08,0.305s,PASSED
+"tap(findTestObject(""Vehicle information/NextButton""), 0)",,,,04-04-2024 18:52:08,04-04-2024 18:52:10,1.343s,PASSED
+"verifyElementVisible(findTestObject(""Additional Info/ReviewOpty Text""), 0)",,,,04-04-2024 18:52:10,04-04-2024 18:52:10,0.278s,PASSED
+takeScreenshot(),,"STEP-12 : Enter the quantity and Make and click on Next
+
+Expected_Result : The user should be land on the review opty screen
+
+Actual_Result : The user landed on the review opty screen",,04-04-2024 18:52:10,04-04-2024 18:52:11,0.967s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,04-04-2024 18:52:11,04-04-2024 18:52:14,3.012s,PASSED
+"tap(findTestObject(""Add Account/SubmitButton""), 0)",,,,04-04-2024 18:52:14,04-04-2024 18:52:19,5.506s,PASSED
+"verifyElementVisible(findTestObject(""Add Account/1 Opportunity successfully created popup""), 60)",,,,04-04-2024 18:52:19,04-04-2024 18:52:39,19.868s,PASSED
+takeScreenshot(),,"STEP-13 : Click on Submit
+
+Expected_Result : The user should be land on successful screen
+
+Actual_Result : The user landed on the successful screen",,04-04-2024 18:52:39,04-04-2024 18:52:40,0.991s,PASSED
+closeApplication(),,,,04-04-2024 18:52:40,04-04-2024 18:52:42,1.434s,PASSED

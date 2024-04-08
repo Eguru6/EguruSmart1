@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_06 - To verify that user can mark as Non Lost or not</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9734a80c-fa80-464a-92e5-715ed4d75680</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1ad95eee-4d21-415c-9c05-ea999e4053fb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>81c0b42d-8f0c-4e9b-a794-a0ee4d808dee</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'NonLT C-Service/Spares Issues'</defaultValue>
+      <description></description>
+      <id>1ad95eee-4d21-415c-9c05-ea999e4053fb</id>
+      <masked>false</masked>
+      <name>str_NonLTCReasonForLoss</name>
+   </variable>
+   <variable>
+      <defaultValue>'To Create lost view in lost case'</defaultValue>
+      <description></description>
+      <id>81c0b42d-8f0c-4e9b-a794-a0ee4d808dee</id>
+      <masked>false</masked>
+      <name>str_Comment</name>
+   </variable>
+</TestCaseEntity>

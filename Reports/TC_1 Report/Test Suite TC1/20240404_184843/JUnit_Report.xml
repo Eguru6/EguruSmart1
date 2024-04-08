@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite TC1" time="228.101" tests="1" failures="0" errors="0">
+   <testsuite name="Test Suite TC1" tests="1" failures="0" errors="0" time="228.101" skipped="0" timestamp="04-04-2024T18:48:54" hostname="Sushil.Gaikwad - DS025.step.com" id="Test Suites/Test Suite TC1">
+      <properties>
+         <property name="deviceName" value="samsung SM-A032F (Android 13)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\sushil.gaikwad\\git\\EguruSmart1\\Reports\\20240404_184843\\Test Suite TC1\\20240404_184843"/>
+         <property name="logFiles" value="C:\\Users\\sushil.gaikwad\\git\\EguruSmart1\\Reports\\20240404_184843\\Test Suite TC1\\20240404_184843\\appium.log, C:\\Users\\sushil.gaikwad\\git\\EguruSmart1\\Reports\\20240404_184843\\Test Suite TC1\\20240404_184843\\appium_error.log, C:\\Users\\sushil.gaikwad\\git\\EguruSmart1\\Reports\\20240404_184843\\Test Suite TC1\\20240404_184843\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\sushil.gaikwad\\git\\EguruSmart1\\Reports\\20240404_184843\\Test Suite TC1\\20240404_184843\\1712236796645.png, C:\\Users\\sushil.gaikwad\\git\\EguruSmart1\\Reports\\20240404_184843\\Test Suite TC1\\20240404_184843\\1712236799741.png, C:\\Users\\sushil.gaikwad\\git\\EguruSmart1\\Reports\\20240404_184843\\Test Suite TC1\\20240404_184843\\1712236806804.png, C:\\Users\\sushil.gaikwad\\git\\EguruSmart1\\Reports\\20240404_184843\\Test Suite TC1\\20240404_184843\\1712236822922.png, C:\\Users\\sushil.gaikwad\\git\\EguruSmart1\\Reports\\20240404_184843\\Test Suite TC1\\20240404_184843\\1712236855355.png, C:\\Users\\sushil.gaikwad\\git\\EguruSmart1\\Reports\\20240404_184843\\Test Suite TC1\\20240404_184843\\1712236863645.png, C:\\Users\\sushil.gaikwad\\git\\EguruSmart1\\Reports\\20240404_184843\\Test Suite TC1\\20240404_184843\\1712236871680.png, C:\\Users\\sushil.gaikwad\\git\\EguruSmart1\\Reports\\20240404_184843\\Test Suite TC1\\20240404_184843\\1712236882186.png, C:\\Users\\sushil.gaikwad\\git\\EguruSmart1\\Reports\\20240404_184843\\Test Suite TC1\\20240404_184843\\1712236896240.png, C:\\Users\\sushil.gaikwad\\git\\EguruSmart1\\Reports\\20240404_184843\\Test Suite TC1\\20240404_184843\\1712236901725.png, C:\\Users\\sushil.gaikwad\\git\\EguruSmart1\\Reports\\20240404_184843\\Test Suite TC1\\20240404_184843\\1712236906448.png, C:\\Users\\sushil.gaikwad\\git\\EguruSmart1\\Reports\\20240404_184843\\Test Suite TC1\\20240404_184843\\1712236914105.png, C:\\Users\\sushil.gaikwad\\git\\EguruSmart1\\Reports\\20240404_184843\\Test Suite TC1\\20240404_184843\\1712236917178.png, C:\\Users\\sushil.gaikwad\\git\\EguruSmart1\\Reports\\20240404_184843\\Test Suite TC1\\20240404_184843\\1712236930396.png, C:\\Users\\sushil.gaikwad\\git\\EguruSmart1\\Reports\\20240404_184843\\Test Suite TC1\\20240404_184843\\1712236959750.png"/>
+         <property name="hostName" value="Sushil.Gaikwad - DS025.step.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="9.3.2.212"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="SM-A032F"/>
+         <property name="hostAddress" value="192.168.187.127"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="R9ZT10H9Y2L"/>
+         <property name="deviceName" value="samsung SM-A032F (Android 13)"/>
+         <property name="deviceOSVersion" value="13"/>
+      </properties>
+      <testcase name="Test Cases/TC/TC_01 - To verify that opty creation for the new customer" time="227.781" classname="Test Cases/TC/TC_01 - To verify that opty creation for the new customer" status="PASSED">
+         <system-out><![CDATA[04-04-2024T18:48:54 - [TEST_CASE][PASSED] - Test Cases/TC/TC_01 - To verify that opty creation for the new customer: Test Cases/TC/TC_01 - To verify that opty creation for the new customer
+
+04-04-2024T18:48:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CommenWorkflows/Login"), ["Str_URL":"C:\Users\sushil.gaikwad\git\EguruSmart1\Application\app-release (3).apk", "Str_Username":"DUSER145", "Str_Password":"Soct#2023", ... ], STOP_ON_FAILURE): Call Test Case 'Test Cases/CommenWorkflows/Login' successfully
+
+04-04-2024T18:48:57 - [TEST_CASE][PASSED] - Test Cases/CommenWorkflows/Login: Test Cases/CommenWorkflows/Login
+
+04-04-2024T18:48:57 - [TEST_STEP][PASSED] - startApplication(Str_URL, false): Started app at: 'C:\Users\sushil.gaikwad\git\EguruSmart1\Application\app-release (3).apk'
+
+04-04-2024T18:48:58 - [MESSAGE][INFO] - User set preference: ['deviceId', 'R9ZT10H9Y2L']
+
+04-04-2024T18:48:58 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+04-04-2024T18:49:03 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+04-04-2024T18:49:03 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\sushil.gaikwad\AppData\Roaming\npm\node_modules\appium\build\lib\main.js
+
+04-04-2024T18:49:03 - [MESSAGE][INFO] - appium outlog: C:\Users\sushil.gaikwad\git\EguruSmart1\Reports\20240404_184843\Test Suite TC1\20240404_184843\appium.log
+
+04-04-2024T18:49:03 - [MESSAGE][INFO] - appium errlog: C:\Users\sushil.gaikwad\git\EguruSmart1\Reports\20240404_184843\Test Suite TC1\20240404_184843\appium_error.log
+
+04-04-2024T18:49:05 - [MESSAGE][INFO] - Appium server started on port 61,660
+
+04-04-2024T18:49:23 - [MESSAGE][PASSED] - Started app at: 'C:\Users\sushil.gaikwad\git\EguruSmart1\Application\app-release (3).apk'
+
+04-04-2024T18:49:23 - [TEST_STEP][PASSED] - Bool_Username = waitForElementPresent(findTestObject("LockScreen/UsernaneText"), 10): Object Object Repository/LockScreen/UsernaneText not found
+
+04-04-2024T18:49:34 - [MESSAGE][WARNING] - Object Object Repository/LockScreen/UsernaneText not found
+
+04-04-2024T18:49:34 - [TEST_STEP][PASSED] - if (Bool_Username == true): null
+
+04-04-2024T18:49:34 - [TEST_STEP][PASSED] - else: Tapped on element 'Object Repository/LockScreen/LoginButton'
+
+04-04-2024T18:49:34 - [TEST_STEP][PASSED] - tap(findTestObject("LockScreen/Tap1"), 0): Tapped on element 'Object Repository/LockScreen/Tap1'
+
+04-04-2024T18:49:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:49:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LockScreen/Tap1'
+
+04-04-2024T18:49:38 - [TEST_STEP][PASSED] - setText(findTestObject("LockScreen/Text1"), "1", 0): Text '1' has been set to element 'Object Repository/LockScreen/Text1'
+
+04-04-2024T18:49:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:49:40 - [MESSAGE][PASSED] - Text '1' has been set to element 'Object Repository/LockScreen/Text1'
+
+04-04-2024T18:49:40 - [TEST_STEP][PASSED] - setText(findTestObject("LockScreen/Text2"), "2", 0): Text '2' has been set to element 'Object Repository/LockScreen/Text2'
+
+04-04-2024T18:49:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:49:41 - [MESSAGE][PASSED] - Text '2' has been set to element 'Object Repository/LockScreen/Text2'
+
+04-04-2024T18:49:41 - [TEST_STEP][PASSED] - setText(findTestObject("LockScreen/Text3"), "3", 0): Text '3' has been set to element 'Object Repository/LockScreen/Text3'
+
+04-04-2024T18:49:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:49:42 - [MESSAGE][PASSED] - Text '3' has been set to element 'Object Repository/LockScreen/Text3'
+
+04-04-2024T18:49:42 - [TEST_STEP][PASSED] - setText(findTestObject("LockScreen/Text4"), "4", 0): Text '4' has been set to element 'Object Repository/LockScreen/Text4'
+
+04-04-2024T18:49:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:49:44 - [MESSAGE][PASSED] - Text '4' has been set to element 'Object Repository/LockScreen/Text4'
+
+04-04-2024T18:49:44 - [TEST_STEP][PASSED] - tap(findTestObject("LockScreen/LoginButton"), 0): Tapped on element 'Object Repository/LockScreen/LoginButton'
+
+04-04-2024T18:49:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:49:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LockScreen/LoginButton'
+
+04-04-2024T18:49:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommenWorkflows/Login' successfully
+
+04-04-2024T18:49:46 - [TEST_STEP][PASSED] - Bool_Offline = waitForElementPresent(findTestObject("LockScreen/NewPin/Offline Master Sync"), 5): Object Object Repository/LockScreen/NewPin/Offline Master Sync not found
+
+04-04-2024T18:49:51 - [MESSAGE][WARNING] - Object Object Repository/LockScreen/NewPin/Offline Master Sync not found
+
+04-04-2024T18:49:51 - [TEST_STEP][PASSED] - if (Bool_Offline == true): null
+
+04-04-2024T18:49:51 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+04-04-2024T18:49:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-04-2024T18:49:53 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("TataMotars/HomeButton"), 10): Element 'Object Repository/TataMotars/HomeButton' is exist
+
+04-04-2024T18:49:53 - [MESSAGE][PASSED] - Element 'Object Repository/TataMotars/HomeButton' is exist
+
+04-04-2024T18:49:53 - [TEST_STEP][PASSED] - tap(findTestObject("TataMotars/PluseButton"), 0): Tapped on element 'Object Repository/TataMotars/PluseButton'
+
+04-04-2024T18:49:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:49:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TataMotars/PluseButton'
+
+04-04-2024T18:49:55 - [TEST_STEP][PASSED] - bool_Opportunity = verifyElementExist(findTestObject("TataMotars/Pluse Button/OpportunityButton"), 0): Element 'Object Repository/TataMotars/Pluse Button/OpportunityButton' is exist
+
+04-04-2024T18:49:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:49:55 - [MESSAGE][PASSED] - Element 'Object Repository/TataMotars/Pluse Button/OpportunityButton' is exist
+
+04-04-2024T18:49:55 - [TEST_STEP][PASSED] - bool_Account = verifyElementExist(findTestObject("TataMotars/Pluse Button/Account"), 0): Element 'Object Repository/TataMotars/Pluse Button/Account' is exist
+
+04-04-2024T18:49:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:49:55 - [MESSAGE][PASSED] - Element 'Object Repository/TataMotars/Pluse Button/Account' is exist
+
+04-04-2024T18:49:55 - [TEST_STEP][PASSED] - bool_Customer = verifyElementExist(findTestObject("TataMotars/Pluse Button/Customer"), 0): Element 'Object Repository/TataMotars/Pluse Button/Customer' is exist
+
+04-04-2024T18:49:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:49:56 - [MESSAGE][PASSED] - Element 'Object Repository/TataMotars/Pluse Button/Customer' is exist
+
+04-04-2024T18:49:56 - [TEST_STEP][PASSED] - bool_Influencer = verifyElementExist(findTestObject("TataMotars/Pluse Button/Influencer"), 0): Element 'Object Repository/TataMotars/Pluse Button/Influencer' is exist
+
+04-04-2024T18:49:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:49:56 - [MESSAGE][PASSED] - Element 'Object Repository/TataMotars/Pluse Button/Influencer' is exist
+
+04-04-2024T18:49:56 - [TEST_STEP][PASSED] - bool_FollowUp = verifyElementExist(findTestObject("TataMotars/Pluse Button/Follow Up"), 0): Element 'Object Repository/TataMotars/Pluse Button/Follow Up' is exist
+
+04-04-2024T18:49:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:49:56 - [MESSAGE][PASSED] - Element 'Object Repository/TataMotars/Pluse Button/Follow Up' is exist
+
+04-04-2024T18:49:56 - [TEST_STEP][PASSED] - bool_Opportunity && bool_Account && bool_Customer && bool_Influencer && bool_FollowUp == false: null
+
+04-04-2024T18:49:56 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+04-04-2024T18:49:57 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\sushil.gaikwad\\git\\EguruSmart1\\Reports\\20240404_184843\\Test Suite TC1\\20240404_184843\\1712236796645.png]]
+
+04-04-2024T18:49:57 - [TEST_STEP][PASSED] - tap(findTestObject("TataMotars/Pluse Button/OpportunityButton"), 3): Tapped on element 'Object Repository/TataMotars/Pluse Button/OpportunityButton'
+
+04-04-2024T18:49:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TataMotars/Pluse Button/OpportunityButton'
+
+04-04-2024T18:49:58 - [TEST_STEP][PASSED] - bool_AddContact = verifyElementExist(findTestObject("Add Contact/AddContact"), 30): Element 'Object Repository/Add Contact/AddContact' is exist
+
+04-04-2024T18:49:59 - [MESSAGE][PASSED] - Element 'Object Repository/Add Contact/AddContact' is exist
+
+04-04-2024T18:49:59 - [TEST_STEP][PASSED] - bool_SearchAddContact = verifyElementExist(findTestObject("Add Contact/Search - Add Contact"), 30): Element 'Object Repository/Add Contact/Search - Add Contact' is exist
+
+04-04-2024T18:49:59 - [MESSAGE][PASSED] - Element 'Object Repository/Add Contact/Search - Add Contact' is exist
+
+04-04-2024T18:49:59 - [TEST_STEP][PASSED] - bool_AddContact && bool_SearchAddContact == true: null
+
+04-04-2024T18:49:59 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+04-04-2024T18:50:01 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\sushil.gaikwad\\git\\EguruSmart1\\Reports\\20240404_184843\\Test Suite TC1\\20240404_184843\\1712236799741.png]]
+
+04-04-2024T18:50:01 - [TEST_STEP][PASSED] - randomName = generateRandomName(): null
+
+04-04-2024T18:50:01 - [TEST_STEP][PASSED] - chars = (A..Z) + (a..z): null
+
+04-04-2024T18:50:01 - [TEST_STEP][PASSED] - name =  }).join(): null
+
+04-04-2024T18:50:01 - [TEST_STEP][PASSED] - return name: null
+
+04-04-2024T18:50:01 - [TEST_STEP][PASSED] - println(Random 5-character name: $randomName): null
+
+04-04-2024T18:50:01 - [TEST_STEP][PASSED] - minRange = 1: null
+
+04-04-2024T18:50:01 - [TEST_STEP][PASSED] - maxRange = 1000: null
+
+04-04-2024T18:50:01 - [TEST_STEP][PASSED] - randomInt = current().nextInt(minRange, maxRange + 1): null
+
+04-04-2024T18:50:01 - [TEST_STEP][PASSED] - Result = $randomName $randomInt: null
+
+04-04-2024T18:50:01 - [TEST_STEP][PASSED] - tap(findTestObject("Add Contact/Search - Add Contact"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/Add Contact/Search - Add Contact'
+
+04-04-2024T18:50:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:50:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Add Contact/Search - Add Contact'
+
+04-04-2024T18:50:02 - [TEST_STEP][PASSED] - setText(findTestObject("TataMotars/SearchBox"), Result, 0): Text 'EOWsz 228' has been set to element 'Object Repository/TataMotars/SearchBox'
+
+04-04-2024T18:50:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:50:04 - [MESSAGE][PASSED] - Text 'EOWsz 228' has been set to element 'Object Repository/TataMotars/SearchBox'
+
+04-04-2024T18:50:04 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+04-04-2024T18:50:06 - [MESSAGE][PASSED] - Keyboard is hidden
+
+04-04-2024T18:50:06 - [TEST_STEP][PASSED] - str_getNewContact = getAttribute(findTestObject("TataMotars/SearchBox"), "name", 0): Element 'Object Repository/TataMotars/SearchBox' has attribute 'name' is ''
+
+04-04-2024T18:50:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:50:06 - [MESSAGE][PASSED] - Element 'Object Repository/TataMotars/SearchBox' has attribute 'name' is ''
+
+04-04-2024T18:50:06 - [TEST_STEP][PASSED] - Result == str_getNewContact: null
+
+04-04-2024T18:50:06 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+04-04-2024T18:50:08 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\sushil.gaikwad\\git\\EguruSmart1\\Reports\\20240404_184843\\Test Suite TC1\\20240404_184843\\1712236806804.png]]
+
+04-04-2024T18:50:08 - [TEST_STEP][PASSED] - tap(findTestObject("Add Contact/AddNewContactButton"), 0): Tapped on element 'Object Repository/Add Contact/AddNewContactButton'
+
+04-04-2024T18:50:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:50:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Add Contact/AddNewContactButton'
+
+04-04-2024T18:50:08 - [TEST_STEP][PASSED] - setText(findTestObject("Primery Details/FirstName"), str_FirstName, 0): Text 'Test' has been set to element 'Object Repository/Primery Details/FirstName'
+
+04-04-2024T18:50:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:50:10 - [MESSAGE][PASSED] - Text 'Test' has been set to element 'Object Repository/Primery Details/FirstName'
+
+04-04-2024T18:50:10 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+04-04-2024T18:50:12 - [MESSAGE][PASSED] - Keyboard is hidden
+
+04-04-2024T18:50:12 - [TEST_STEP][PASSED] - setText(findTestObject("Primery Details/LastName"), str_LastName, 0): Text 'step' has been set to element 'Object Repository/Primery Details/LastName'
+
+04-04-2024T18:50:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:50:14 - [MESSAGE][PASSED] - Text 'step' has been set to element 'Object Repository/Primery Details/LastName'
+
+04-04-2024T18:50:14 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+04-04-2024T18:50:16 - [MESSAGE][PASSED] - Keyboard is hidden
+
+04-04-2024T18:50:16 - [TEST_STEP][PASSED] - tap(findTestObject("Primery Details/MobileNumber"), 0): Tapped on element 'Object Repository/Primery Details/MobileNumber'
+
+04-04-2024T18:50:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:50:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Primery Details/MobileNumber'
+
+04-04-2024T18:50:17 - [TEST_STEP][PASSED] - setText(findTestObject("Primery Details/MobileNumber"), str_MobileNumber + randomInt, 0): Text '9988667228' has been set to element 'Object Repository/Primery Details/MobileNumber'
+
+04-04-2024T18:50:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:50:19 - [MESSAGE][PASSED] - Text '9988667228' has been set to element 'Object Repository/Primery Details/MobileNumber'
+
+04-04-2024T18:50:19 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+04-04-2024T18:50:22 - [MESSAGE][PASSED] - Keyboard is hidden
+
+04-04-2024T18:50:22 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+04-04-2024T18:50:23 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\sushil.gaikwad\\git\\EguruSmart1\\Reports\\20240404_184843\\Test Suite TC1\\20240404_184843\\1712236822922.png]]
+
+04-04-2024T18:50:23 - [TEST_STEP][PASSED] - tap(findTestObject("Create New Opportunity/Customer Type"), 0): Tapped on element 'Object Repository/Create New Opportunity/Customer Type'
+
+04-04-2024T18:50:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:50:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Create New Opportunity/Customer Type'
+
+04-04-2024T18:50:24 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Create New Opportunity/Type_CustomerType"), str_CustomerType, STOP_ON_FAILURE): Send keys 'C4T Customer' on test object 'Object Repository/Create New Opportunity/Type_CustomerType' successfully.
+
+04-04-2024T18:50:26 - [MESSAGE][PASSED] - Send keys 'C4T Customer' on test object 'Object Repository/Create New Opportunity/Type_CustomerType' successfully.
+
+04-04-2024T18:50:26 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+04-04-2024T18:50:28 - [MESSAGE][PASSED] - Keyboard is hidden
+
+04-04-2024T18:50:28 - [TEST_STEP][PASSED] - Bool_Customer = waitForElementPresent(findTestObject("Create New Opportunity/Click_Customer"), 5): Element 'Object Repository/Create New Opportunity/Click_Customer' is present
+
+04-04-2024T18:50:28 - [MESSAGE][PASSED] - Element 'Object Repository/Create New Opportunity/Click_Customer' is present
+
+04-04-2024T18:50:28 - [TEST_STEP][PASSED] - if (Bool_Customer == true): Tapped on element 'Object Repository/Create New Opportunity/Click_Customer'
+
+04-04-2024T18:50:28 - [TEST_STEP][PASSED] - tap(findTestObject("Create New Opportunity/Click_Customer"), 0): Tapped on element 'Object Repository/Create New Opportunity/Click_Customer'
+
+04-04-2024T18:50:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:50:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Create New Opportunity/Click_Customer'
+
+04-04-2024T18:50:29 - [TEST_STEP][PASSED] - checkElement(findTestObject("Primery Details/Influencer Checkbox"), 0): Element 'Object Repository/Primery Details/Influencer Checkbox' is checked
+
+04-04-2024T18:50:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:50:30 - [MESSAGE][PASSED] - Element 'Object Repository/Primery Details/Influencer Checkbox' is checked
+
+04-04-2024T18:50:30 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+04-04-2024T18:50:31 - [MESSAGE][PASSED] - Keyboard is hidden
+
+04-04-2024T18:50:31 - [TEST_STEP][PASSED] - tap(findTestObject("Create New Opportunity/Additional information"), 0): Tapped on element 'Object Repository/Create New Opportunity/Additional information'
+
+04-04-2024T18:50:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:50:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Create New Opportunity/Additional information'
+
+04-04-2024T18:50:32 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+04-04-2024T18:50:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+04-04-2024T18:50:35 - [TEST_STEP][PASSED] - tap(findTestObject("Primery Details/Enter InfluencerType"), 0): Tapped on element 'Object Repository/Primery Details/Enter InfluencerType'
+
+04-04-2024T18:50:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:50:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Primery Details/Enter InfluencerType'
+
+04-04-2024T18:50:36 - [TEST_STEP][PASSED] - setText(findTestObject("Create New Opportunity/Type Influencer"), str_InfluencerType, 0): Text 'Advertisement' has been set to element 'Object Repository/Create New Opportunity/Type Influencer'
+
+04-04-2024T18:50:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:50:38 - [MESSAGE][PASSED] - Text 'Advertisement' has been set to element 'Object Repository/Create New Opportunity/Type Influencer'
+
+04-04-2024T18:50:38 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+04-04-2024T18:50:40 - [MESSAGE][PASSED] - Keyboard is hidden
+
+04-04-2024T18:50:40 - [TEST_STEP][PASSED] - tap(findTestObject("Primery Details/Address Details/NextButton"), 0): Tapped on element 'Object Repository/Primery Details/Address Details/NextButton'
+
+04-04-2024T18:50:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:50:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Primery Details/Address Details/NextButton'
+
+04-04-2024T18:50:40 - [TEST_STEP][PASSED] - bool_Pincode = waitForElementPresent(findTestObject("Primery Details/Address Details/Pincode"), 5): Element 'Object Repository/Primery Details/Address Details/Pincode' is present
+
+04-04-2024T18:50:44 - [MESSAGE][PASSED] - Element 'Object Repository/Primery Details/Address Details/Pincode' is present
+
+04-04-2024T18:50:44 - [TEST_STEP][PASSED] - if (bool_Pincode == true): Tapped on element 'Object Repository/Primery Details/Address Details/NextButton'
+
+04-04-2024T18:50:44 - [TEST_STEP][PASSED] - tap(findTestObject("Primery Details/Address Details/Pincode"), 0): Tapped on element 'Object Repository/Primery Details/Address Details/Pincode'
+
+04-04-2024T18:50:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:50:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Primery Details/Address Details/Pincode'
+
+04-04-2024T18:50:44 - [TEST_STEP][PASSED] - setText(findTestObject("Primery Details/Address Details/Pincode"), str_Pincode, 0): Text '410210' has been set to element 'Object Repository/Primery Details/Address Details/Pincode'
+
+04-04-2024T18:50:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:50:46 - [MESSAGE][PASSED] - Text '410210' has been set to element 'Object Repository/Primery Details/Address Details/Pincode'
+
+04-04-2024T18:50:46 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+04-04-2024T18:50:48 - [MESSAGE][PASSED] - Keyboard is hidden
+
+04-04-2024T18:50:48 - [TEST_STEP][PASSED] - Bool_Pin = waitForElementPresent(findTestObject("NewObject/Searched PinCodeTC3"), 2): Element 'Object Repository/NewObject/Searched PinCodeTC3' is present
+
+04-04-2024T18:50:48 - [MESSAGE][PASSED] - Element 'Object Repository/NewObject/Searched PinCodeTC3' is present
+
+04-04-2024T18:50:48 - [TEST_STEP][PASSED] - if (Bool_Pin == true): Tapped on element 'Object Repository/NewObject/Searched PinCodeTC3'
+
+04-04-2024T18:50:48 - [TEST_STEP][PASSED] - tap(findTestObject("NewObject/Searched PinCodeTC3"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/NewObject/Searched PinCodeTC3'
+
+04-04-2024T18:50:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:50:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/NewObject/Searched PinCodeTC3'
+
+04-04-2024T18:50:49 - [TEST_STEP][PASSED] - tap(findTestObject("NewObject/DropDownDistrict"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/NewObject/DropDownDistrict'
+
+04-04-2024T18:50:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:50:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/NewObject/DropDownDistrict'
+
+04-04-2024T18:50:51 - [TEST_STEP][PASSED] - tap(findTestObject("NewObject/DropDownSearchedDistrict"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/NewObject/DropDownSearchedDistrict'
+
+04-04-2024T18:50:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:50:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/NewObject/DropDownSearchedDistrict'
+
+04-04-2024T18:50:51 - [TEST_STEP][PASSED] - tap(findTestObject("NewObject/DropDownTaluka"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/NewObject/DropDownTaluka'
+
+04-04-2024T18:50:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:50:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/NewObject/DropDownTaluka'
+
+04-04-2024T18:50:53 - [TEST_STEP][PASSED] - tap(findTestObject("NewObject/DroDownSearchedTaluka"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/NewObject/DroDownSearchedTaluka'
+
+04-04-2024T18:50:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:50:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/NewObject/DroDownSearchedTaluka'
+
+04-04-2024T18:50:55 - [TEST_STEP][PASSED] - tap(findTestObject("Primery Details/Address Details/NextButton"), 0): Tapped on element 'Object Repository/Primery Details/Address Details/NextButton'
+
+04-04-2024T18:50:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:50:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Primery Details/Address Details/NextButton'
+
+04-04-2024T18:50:55 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+04-04-2024T18:50:56 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\sushil.gaikwad\\git\\EguruSmart1\\Reports\\20240404_184843\\Test Suite TC1\\20240404_184843\\1712236855355.png]]
+
+04-04-2024T18:50:56 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+04-04-2024T18:50:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-04-2024T18:50:58 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Vehicle information/Vehicle information"), 30): Element 'Object Repository/Vehicle information/Vehicle information' is exist
+
+04-04-2024T18:51:03 - [MESSAGE][PASSED] - Element 'Object Repository/Vehicle information/Vehicle information' is exist
+
+04-04-2024T18:51:03 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+04-04-2024T18:51:04 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\sushil.gaikwad\\git\\EguruSmart1\\Reports\\20240404_184843\\Test Suite TC1\\20240404_184843\\1712236863645.png]]
+
+04-04-2024T18:51:04 - [TEST_STEP][PASSED] - tap(findTestObject("Vehicle information/SelectProductLine"), 0): Tapped on element 'Object Repository/Vehicle information/SelectProductLine'
+
+04-04-2024T18:51:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:51:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Vehicle information/SelectProductLine'
+
+04-04-2024T18:51:06 - [TEST_STEP][PASSED] - setText(findTestObject("Vehicle information/SelectProductLine"), str_ProductLine, 0): Text '1009g LPT' has been set to element 'Object Repository/Vehicle information/SelectProductLine'
+
+04-04-2024T18:51:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:51:08 - [MESSAGE][PASSED] - Text '1009g LPT' has been set to element 'Object Repository/Vehicle information/SelectProductLine'
+
+04-04-2024T18:51:08 - [TEST_STEP][PASSED] - tap(findTestObject("Vehicle information/ClickSelectedProduct"), 0): Tapped on element 'Object Repository/Vehicle information/ClickSelectedProduct'
+
+04-04-2024T18:51:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:51:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Vehicle information/ClickSelectedProduct'
+
+04-04-2024T18:51:09 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+04-04-2024T18:51:11 - [MESSAGE][PASSED] - Keyboard is hidden
+
+04-04-2024T18:51:11 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+04-04-2024T18:51:13 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\sushil.gaikwad\\git\\EguruSmart1\\Reports\\20240404_184843\\Test Suite TC1\\20240404_184843\\1712236871680.png]]
+
+04-04-2024T18:51:13 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+04-04-2024T18:51:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+04-04-2024T18:51:18 - [TEST_STEP][PASSED] - tap(findTestObject("Vehicle information/SelectModel"), 0): Tapped on element 'Object Repository/Vehicle information/SelectModel'
+
+04-04-2024T18:51:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:51:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Vehicle information/SelectModel'
+
+04-04-2024T18:51:19 - [TEST_STEP][PASSED] - setText(findTestObject("Vehicle information/SelectModel"), str_Model, 0): Text '1109g LPT DCR49HSD 85B6M5 XD' has been set to element 'Object Repository/Vehicle information/SelectModel'
+
+04-04-2024T18:51:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:51:20 - [MESSAGE][PASSED] - Text '1109g LPT DCR49HSD 85B6M5 XD' has been set to element 'Object Repository/Vehicle information/SelectModel'
+
+04-04-2024T18:51:20 - [TEST_STEP][PASSED] - tap(findTestObject("Vehicle information/TapModel"), 0): Tapped on element 'Object Repository/Vehicle information/TapModel'
+
+04-04-2024T18:51:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:51:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Vehicle information/TapModel'
+
+04-04-2024T18:51:22 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+04-04-2024T18:51:23 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\sushil.gaikwad\\git\\EguruSmart1\\Reports\\20240404_184843\\Test Suite TC1\\20240404_184843\\1712236882186.png]]
+
+04-04-2024T18:51:23 - [TEST_STEP][PASSED] - tap(findTestObject("Vehicle information/NextButton"), 0): Tapped on element 'Object Repository/Vehicle information/NextButton'
+
+04-04-2024T18:51:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:51:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Vehicle information/NextButton'
+
+04-04-2024T18:51:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Create New Opportunity/ClickVehicleApplication"), 0): Element 'Object Repository/Create New Opportunity/ClickVehicleApplication' is visible
+
+04-04-2024T18:51:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:51:25 - [MESSAGE][PASSED] - Element 'Object Repository/Create New Opportunity/ClickVehicleApplication' is visible
+
+04-04-2024T18:51:25 - [TEST_STEP][PASSED] - tap(findTestObject("Create New Opportunity/ClickVehicleApplication"), 0): Tapped on element 'Object Repository/Create New Opportunity/ClickVehicleApplication'
+
+04-04-2024T18:51:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:51:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Create New Opportunity/ClickVehicleApplication'
+
+04-04-2024T18:51:25 - [TEST_STEP][PASSED] - setText(findTestObject("Create New Opportunity/ClickVehicleApplication"), str_VehicleApplication, 0): Text 'Agri Products' has been set to element 'Object Repository/Create New Opportunity/ClickVehicleApplication'
+
+04-04-2024T18:51:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:51:27 - [MESSAGE][PASSED] - Text 'Agri Products' has been set to element 'Object Repository/Create New Opportunity/ClickVehicleApplication'
+
+04-04-2024T18:51:27 - [TEST_STEP][PASSED] - tap(findTestObject("Create New Opportunity/SelectVehicleApplication"), 0): Tapped on element 'Object Repository/Create New Opportunity/SelectVehicleApplication'
+
+04-04-2024T18:51:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:51:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Create New Opportunity/SelectVehicleApplication'
+
+04-04-2024T18:51:29 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+04-04-2024T18:51:31 - [MESSAGE][PASSED] - Keyboard is hidden
+
+04-04-2024T18:51:31 - [TEST_STEP][PASSED] - checkElement(findTestObject("Create New Opportunity/BodyType"), 0): Element 'Object Repository/Create New Opportunity/BodyType' is checked
+
+04-04-2024T18:51:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:51:32 - [MESSAGE][PASSED] - Element 'Object Repository/Create New Opportunity/BodyType' is checked
+
+04-04-2024T18:51:32 - [TEST_STEP][PASSED] - tap(findTestObject("Create New Opportunity/BodyType"), 0): Tapped on element 'Object Repository/Create New Opportunity/BodyType'
+
+04-04-2024T18:51:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:51:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Create New Opportunity/BodyType'
+
+04-04-2024T18:51:33 - [TEST_STEP][PASSED] - setText(findTestObject("Create New Opportunity/BodyType"), str_BodyType, 0): Text 'Container' has been set to element 'Object Repository/Create New Opportunity/BodyType'
+
+04-04-2024T18:51:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:51:34 - [MESSAGE][PASSED] - Text 'Container' has been set to element 'Object Repository/Create New Opportunity/BodyType'
+
+04-04-2024T18:51:34 - [TEST_STEP][PASSED] - tap(findTestObject("Create New Opportunity/SelectBodyType"), 0): Tapped on element 'Object Repository/Create New Opportunity/SelectBodyType'
+
+04-04-2024T18:51:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:51:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Create New Opportunity/SelectBodyType'
+
+04-04-2024T18:51:35 - [TEST_STEP][PASSED] - tap(findTestObject("Vehicle information/NextButton"), 0): Tapped on element 'Object Repository/Vehicle information/NextButton'
+
+04-04-2024T18:51:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:51:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Vehicle information/NextButton'
+
+04-04-2024T18:51:36 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+04-04-2024T18:51:37 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\sushil.gaikwad\\git\\EguruSmart1\\Reports\\20240404_184843\\Test Suite TC1\\20240404_184843\\1712236896240.png]]
+
+04-04-2024T18:51:37 - [TEST_STEP][PASSED] - tap(findTestObject("Additional Info/Quantity"), 0): Tapped on element 'Object Repository/Additional Info/Quantity'
+
+04-04-2024T18:51:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:51:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Additional Info/Quantity'
+
+04-04-2024T18:51:38 - [TEST_STEP][PASSED] - setText(findTestObject("Additional Info/Quantity"), "1", 0): Text '1' has been set to element 'Object Repository/Additional Info/Quantity'
+
+04-04-2024T18:51:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:51:40 - [MESSAGE][PASSED] - Text '1' has been set to element 'Object Repository/Additional Info/Quantity'
+
+04-04-2024T18:51:40 - [TEST_STEP][PASSED] - tap(findTestObject("Vehicle information/NextButton"), 0): Tapped on element 'Object Repository/Vehicle information/NextButton'
+
+04-04-2024T18:51:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:51:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Vehicle information/NextButton'
+
+04-04-2024T18:51:41 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+04-04-2024T18:51:42 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\sushil.gaikwad\\git\\EguruSmart1\\Reports\\20240404_184843\\Test Suite TC1\\20240404_184843\\1712236901725.png]]
+
+04-04-2024T18:51:42 - [TEST_STEP][PASSED] - tap(findTestObject("Additional Info/AprilMonth"), 0): Tapped on element 'Object Repository/Additional Info/AprilMonth'
+
+04-04-2024T18:51:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:51:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Additional Info/AprilMonth'
+
+04-04-2024T18:51:43 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+04-04-2024T18:51:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+04-04-2024T18:51:46 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+04-04-2024T18:51:47 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\sushil.gaikwad\\git\\EguruSmart1\\Reports\\20240404_184843\\Test Suite TC1\\20240404_184843\\1712236906448.png]]
+
+04-04-2024T18:51:47 - [TEST_STEP][PASSED] - tap(findTestObject("Vehicle information/NextButton"), 0): Tapped on element 'Object Repository/Vehicle information/NextButton'
+
+04-04-2024T18:51:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:51:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Vehicle information/NextButton'
+
+04-04-2024T18:51:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Additional Info/SourceOfContact_Text"), 0): Element 'Object Repository/Additional Info/SourceOfContact_Text' is visible
+
+04-04-2024T18:51:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:51:48 - [MESSAGE][PASSED] - Element 'Object Repository/Additional Info/SourceOfContact_Text' is visible
+
+04-04-2024T18:51:48 - [TEST_STEP][PASSED] - tap(findTestObject("Additional Info/Enter SourceOfContact"), 0): Tapped on element 'Object Repository/Additional Info/Enter SourceOfContact'
+
+04-04-2024T18:51:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:51:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Additional Info/Enter SourceOfContact'
+
+04-04-2024T18:51:49 - [TEST_STEP][PASSED] - setText(findTestObject("Additional Info/Enter SourceOfContact"), str_SourceOfContact, 0): Text 'Dealer Cold Calling' has been set to element 'Object Repository/Additional Info/Enter SourceOfContact'
+
+04-04-2024T18:51:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:51:51 - [MESSAGE][PASSED] - Text 'Dealer Cold Calling' has been set to element 'Object Repository/Additional Info/Enter SourceOfContact'
+
+04-04-2024T18:51:51 - [TEST_STEP][PASSED] - tap(findTestObject("Additional Info/Searched SourceOfContact"), 0): Tapped on element 'Object Repository/Additional Info/Searched SourceOfContact'
+
+04-04-2024T18:51:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:51:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Additional Info/Searched SourceOfContact'
+
+04-04-2024T18:51:52 - [TEST_STEP][PASSED] - tap(findTestObject("Vehicle information/NextButton"), 0): Tapped on element 'Object Repository/Vehicle information/NextButton'
+
+04-04-2024T18:51:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:51:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Vehicle information/NextButton'
+
+04-04-2024T18:51:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Additional Info/CustomerInterestedInExchange"), 0): Element 'Object Repository/Additional Info/CustomerInterestedInExchange' is visible
+
+04-04-2024T18:51:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:51:54 - [MESSAGE][PASSED] - Element 'Object Repository/Additional Info/CustomerInterestedInExchange' is visible
+
+04-04-2024T18:51:54 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+04-04-2024T18:51:55 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\sushil.gaikwad\\git\\EguruSmart1\\Reports\\20240404_184843\\Test Suite TC1\\20240404_184843\\1712236914105.png]]
+
+04-04-2024T18:51:55 - [TEST_STEP][PASSED] - tap(findTestObject("Additional Info/Yes RadioButton"), 0): Tapped on element 'Object Repository/Additional Info/Yes RadioButton'
+
+04-04-2024T18:51:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:51:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Additional Info/Yes RadioButton'
+
+04-04-2024T18:51:55 - [TEST_STEP][PASSED] - bool_ExchangeQuantity = verifyElementExist(findTestObject("Additional Info/SetQuantity"), 0): Element 'Object Repository/Additional Info/SetQuantity' is exist
+
+04-04-2024T18:51:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:51:56 - [MESSAGE][PASSED] - Element 'Object Repository/Additional Info/SetQuantity' is exist
+
+04-04-2024T18:51:56 - [TEST_STEP][PASSED] - bool_Make = verifyElementExist(findTestObject("Additional Info/ClickMake"), 0): Element 'Object Repository/Additional Info/ClickMake' is exist
+
+04-04-2024T18:51:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:51:57 - [MESSAGE][PASSED] - Element 'Object Repository/Additional Info/ClickMake' is exist
+
+04-04-2024T18:51:57 - [TEST_STEP][PASSED] - bool_ExchangeQuantity && bool_Make == true: null
+
+04-04-2024T18:51:57 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+04-04-2024T18:51:58 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\sushil.gaikwad\\git\\EguruSmart1\\Reports\\20240404_184843\\Test Suite TC1\\20240404_184843\\1712236917178.png]]
+
+04-04-2024T18:51:58 - [TEST_STEP][PASSED] - tap(findTestObject("Additional Info/SetQuantity"), 0): Tapped on element 'Object Repository/Additional Info/SetQuantity'
+
+04-04-2024T18:51:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:51:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Additional Info/SetQuantity'
+
+04-04-2024T18:51:58 - [TEST_STEP][PASSED] - setText(findTestObject("Additional Info/SetQuantity"), str_ExchangeQuantity, 0): Text '2' has been set to element 'Object Repository/Additional Info/SetQuantity'
+
+04-04-2024T18:51:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:52:00 - [MESSAGE][PASSED] - Text '2' has been set to element 'Object Repository/Additional Info/SetQuantity'
+
+04-04-2024T18:52:00 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+04-04-2024T18:52:04 - [MESSAGE][PASSED] - Keyboard is hidden
+
+04-04-2024T18:52:04 - [TEST_STEP][PASSED] - tap(findTestObject("Additional Info/ClickMake"), 0): Tapped on element 'Object Repository/Additional Info/ClickMake'
+
+04-04-2024T18:52:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:52:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Additional Info/ClickMake'
+
+04-04-2024T18:52:04 - [TEST_STEP][PASSED] - setText(findTestObject("Additional Info/SetMake"), str_Make, 0): Text 'TATA' has been set to element 'Object Repository/Additional Info/SetMake'
+
+04-04-2024T18:52:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:52:06 - [MESSAGE][PASSED] - Text 'TATA' has been set to element 'Object Repository/Additional Info/SetMake'
+
+04-04-2024T18:52:06 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+04-04-2024T18:52:08 - [MESSAGE][PASSED] - Keyboard is hidden
+
+04-04-2024T18:52:08 - [TEST_STEP][PASSED] - tap(findTestObject("Additional Info/SelectMake"), 0): Tapped on element 'Object Repository/Additional Info/SelectMake'
+
+04-04-2024T18:52:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:52:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Additional Info/SelectMake'
+
+04-04-2024T18:52:08 - [TEST_STEP][PASSED] - tap(findTestObject("Vehicle information/NextButton"), 0): Tapped on element 'Object Repository/Vehicle information/NextButton'
+
+04-04-2024T18:52:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:52:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Vehicle information/NextButton'
+
+04-04-2024T18:52:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Additional Info/ReviewOpty Text"), 0): Element 'Object Repository/Additional Info/ReviewOpty Text' is visible
+
+04-04-2024T18:52:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:52:10 - [MESSAGE][PASSED] - Element 'Object Repository/Additional Info/ReviewOpty Text' is visible
+
+04-04-2024T18:52:10 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+04-04-2024T18:52:11 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\sushil.gaikwad\\git\\EguruSmart1\\Reports\\20240404_184843\\Test Suite TC1\\20240404_184843\\1712236930396.png]]
+
+04-04-2024T18:52:11 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+04-04-2024T18:52:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+04-04-2024T18:52:14 - [TEST_STEP][PASSED] - tap(findTestObject("Add Account/SubmitButton"), 0): Tapped on element 'Object Repository/Add Account/SubmitButton'
+
+04-04-2024T18:52:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2024T18:52:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Add Account/SubmitButton'
+
+04-04-2024T18:52:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Add Account/1 Opportunity successfully created popup"), 60): Element 'Object Repository/Add Account/1 Opportunity successfully created popup' is visible
+
+04-04-2024T18:52:39 - [MESSAGE][PASSED] - Element 'Object Repository/Add Account/1 Opportunity successfully created popup' is visible
+
+04-04-2024T18:52:39 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+04-04-2024T18:52:40 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\sushil.gaikwad\\git\\EguruSmart1\\Reports\\20240404_184843\\Test Suite TC1\\20240404_184843\\1712236959750.png]]
+
+04-04-2024T18:52:40 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+04-04-2024T18:52:42 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[04-04-2024T18:48:54 - [TEST_SUITE][PASSED] - Test Suite TC1: Test Cases/TC/TC_01 - To verify that opty creation for the new customer]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
